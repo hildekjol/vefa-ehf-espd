@@ -1,0 +1,11 @@
+= EHF ESPD
+v0.7.0
+Agency of Public Management and eGovernment
+:doctype: book
+:icons: font
+:toc: left
+:toclevels: 2
+:source-highlighter: coderay
+:source-language: xml
+:sectanchors:
+:sectnums:
