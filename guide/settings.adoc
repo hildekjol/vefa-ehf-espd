@@ -24,3 +24,4 @@
 :link-forsyning: https://lovdata.no/dokument/SF/forskrift/2016-08-12-975/[forsyningsforskriften]
 :link-anskaffelse: https://lovdata.no/dokument/LTI/forskrift/2016-08-12-974/[anskaffelsesforskriften]
 :link-grow: https://ec.europa.eu/info/departments/internal-market-industry-entrepreneurship-and-smes_en[DG GROW]
+:policy8: https://joinup.ec.europa.eu/svn/peppol/TransportInfrastructure/PEPPOL_Policy%20for%20use%20of%20identifiers-300.pdf[PEPPOL Policy for identifiers, policy 8]
