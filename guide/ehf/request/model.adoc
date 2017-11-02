@@ -1,0 +1,10 @@
+
+= ESPD Request data model
+
+
+Below is an overview of the ESPD Request data model, showing the business information content and cardinality.
+
+
+Test inline
+
+image::shared/images/espd-request.png[]

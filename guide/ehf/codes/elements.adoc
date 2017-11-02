@@ -1,0 +1,81 @@
+[[element-codes]]
+= Code lists for coded elements
+
+
+== Country code
+
+[cols="1,4"]
+|===
+h| Qualifier
+| `ISO3166-1:Alpha2` (listID)
+h| Document location
+| `cac:Country/cbc:IdentificationCode`
+h| Source codelist
+| link:http://www.iso.org/iso/home/standards/country_codes.htm[ISO 3166-1]
+|===
+
+== UBL Version identifier
+
+[cols="1,4"]
+|===
+h| Qualifier
+| `OASIS-UBL-TC` (schemeAgencyID)
+h| Document location
+| `cbc:UBLVersionID`
+h| Source codelist
+| Default value = '2.1'
+|===
+
+== Version identifier
+
+[cols="1,4"]
+|===
+h| Qualifier
+| _None_
+h| Document location
+| `cbc:VersionID`
+h| Source codelist
+| Default value = '2016.04.2'
+|===
+
+== Criterion identifier
+
+[cols="1,4"]
+|===
+h| Qualifier
+| _None_
+h| Document location
+| `ccv:Criterion/cbc:ID`
+h| Source codelist
+|  UUIDs provided by DG Growth (CriteriaTaxonomy) using UUID version 4. +
+#Hvordan skal vi benytte denne?#
+
+|===
+
+== Requirement group identifier
+
+[cols="1,4"]
+|===
+h| Qualifier
+| _None_
+h| Document location
+| `ccv:Criterion/ccv:RequirementGroup/cbc:ID`
+h| Source codelist
+|  UUIDs provided by DG Growth (CriteriaTaxonomy) using UUID version 4. +
+#Hvordan skal vi benytte denne?#
+
+|===
+
+== Requirement identifier
+
+[cols="1,4"]
+|===
+h| Qualifier
+| _None_
+h| Document location
+| `ccv:Criterion/ccv:RequirementGroup/ccv:Requirement/cbc:ID[1]`
+h| Source codelist
+|  UUIDs provided by DG Growth (CriteriaTaxonomy) using UUID version 4. +
+#Hvordan skal vi benytte denne?#
+
+|===

@@ -1,0 +1,17 @@
+
+= Business rules
+
+In order to facilitate interoperability in cross border trade, sets of business rules should been defined.
+The business rules are sets of rules that clarify the content of instances by stating mandatory fields, fixed values (like code lists), dependency between fields in the same object and dependency between different objects.
+
+Each rule has an error level that can be stated as:
+warning:: offering recommendations to improve the quality of the instance or regain full validity
+fatal:: the rule point to a major issue of consistency or data correctness.
+
+The tables below collects a set of business rules coming affecting the creation of instances. The terms used in the business rules refer to the corresponding schema elements. MUST rules correspond to an error level that can be stated as fatal, while SHOULD rules correspond to an error level that can be stated as warning.
+
+:leveloffset: +1
+
+include::business-rules.adoc[]
+
+:leveloffset: -1

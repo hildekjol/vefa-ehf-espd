@@ -1,0 +1,97 @@
+
+= Business rules for ESPD Request
+
+#Foreløpig tabell, bør hentes fra Schematron når disse er klare#
+
+
+[cols="1s,1,10", options="header"]
+|===
+| Rule ID
+| Flag
+| Description
+
+| BR-1
+|Fatal
+|An ESPD. Customization Identifier MUST have a list identifier attribute "CustomizationID" +
+#Why?#
+
+|BR-2
+|Fatal
+|An ESPD. UBL Version IdentifierMUST use the value "2.1"and the schemeAgencyID "OASIS-UBL-TC"
+
+|BR-3
+|Fatal
+|An ESPD. Profile Identifier MUST use the value "56" for VCD and the schemeAgencyID "CEN-BII" +
+#Change to correct PEPPOL ProfileID#
+
+|BR-4
+|Fatal
+|An ESPD. Version Identifier MUST use the value "2016.04.2" for this version.
+
+|BR-5
+|Warning
+|An ESPD. Identifier SHOULD use the value "EU-COM-GROW" for the schemeAgencyID attribute. +
+#Remove?#
+
+|BR-8
+|Fatal
+|A Criterion. Identifier MUST use the Element UUIDs for the criteria defined in the CriteriaTaxonomy
+
+|BR-9
+|Fatal
+|A Requirement Group. Identifier MUST use the Element UUIDs for the criteria defined in the CriteriaTaxonomy
+
+|BR-13
+|Warning
+|A Party. Endpoint Identifier of Service Provider SHOULD have a scheme identifier attribute "eSENS Party Identifier Scheme" +
+#change to match PEPPOL Policy for identifiers?#
+
+|BR-14
+|Warning
+|A Party. Endpoint Identifier of Contracting Authority SHOULD have a scheme identifier attribute "eSENS Party Identifier Scheme" +
+#change to match PEPPOL Policy for identifiers?#
+
+|BR-17
+|Warning
+|A Party. Identification of Contracting Authority SHOULD have a scheme identifier attribute. +
+#change to match PEPPOL Policy for identifiers and make fatal?#
+
+
+|BR-18
+|Warning
+|A Party. Identification of Service Provider SHOULD have a scheme identifier attribute. +
+#change to match PEPPOL Policy for identifiers and make fatal?#
+
+|BR-20
+|Fatal
+|A Country. Identification Code MUST have a list identifier attribute "ISO3166-1:Alpha2".
+
+|BR-21
+|Fatal
+|The Procurement Project Lot. Identifier MUST use the value "0" to indicate that this procurement project has no lots.
+
+|BR-23
+|Fatal
+|A Document Reference. Identifier of Contract Notice MUST be specified using the follow scheme defined by the Publications Office: [][][][]/S [][][]-[][][][][][] (e.g. 2015/S 252-461137).
+
+|BR-25
+|Fatal
+|The Response data type attribute of Requirement. Details MUST have a list identifier attribute "ResponseDataType"
+
+|BR-26
+|Fatal
+|A Criterion. Type Code MUST use the list identifier attribute "CriteriaTypeCode"
+
+|BR-27
+|Fatal
+|A Legislation. Jurisdiction Level Code MUST use the list identifier attribute "CriterionJurisdictionLevel"
+
+|BR-28
+|Warning
+|The LangID attribute of Legislation.Details SHOULD be defined in the attribute "LanguageID" using listID "LanguageCodeEU"
+
+|BR-29
+|Warning
+|The languageID attribute of Document Reference. Document Type Code SHOULD be defined in the attribute "LanguageID" using listID "LanguageCodeEU"
+
+|===

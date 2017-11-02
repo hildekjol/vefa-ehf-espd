@@ -1,0 +1,10 @@
+
+= The ESPD Exchange Data Model
+
+:leveloffset: +1
+
+include::schemas.adoc[]
+include::namespaces.adoc[]
+include::datamodels.adoc[]
+
+:leveloffset: -1

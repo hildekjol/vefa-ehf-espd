@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<espd:ESPDRequest
+    xmlns:espd="urn:grow:names:specification:ubl:schema:xsd:ESPDRequest-1"
+    xmlns:espd-cac="urn:grow:names:specification:ubl:schema:xsd:ESPD-CommonAggregateComponents-1"
+    xmlns:espd-cbc="urn:grow:names:specification:ubl:schema:xsd:ESPD-CommonBasicComponents-1"
+    xmlns:ccv="urn:isa:names:specification:ubl:schema:xsd:CCV-CommonAggregateComponents-1"
+    xmlns:ccv-cbc="urn:isa:names:specification:ubl:schema:xsd:CCV-CommonBasicComponents-1"
+    xmlns:cev-cbc="urn:isa:names:specification:ubl:schema:xsd:CEV-CommonBasicComponents-1"
+    xmlns:cev="urn:isa:names:specification:ubl:schema:xsd:CEV-CommonAggregateComponents-1" 
+    xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+    xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+    xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+    <cbc:UBLVersionID schemeAgencyID="OASIS-UBL-TC">2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>custID</cbc:CustomizationID>
+    <cbc:ProfileID schemeAgencyID="CEN-BII">41</cbc:ProfileID>
+    <cbc:ProfileExecutionID>profileExecution</cbc:ProfileExecutionID>  
+    <cbc:ID schemeAgencyID="value-to-be-checked">id123</cbc:ID>
+    <cbc:CopyIndicator>false</cbc:CopyIndicator>
+    <cbc:VersionID schemeAgencyID="OASIS-UBL-TC">2016.04.2</cbc:VersionID>
+    <cbc:IssueDate>2017-11-02</cbc:IssueDate>
+    <cbc:IssueTime>10:00:00</cbc:IssueTime>
+    <cbc:ContractFolderID>provided by the CO</cbc:ContractFolderID>
+    <!-- tag::co[] -->
+    <cac:ContractingParty>
+        <cac:Party>
+            <cbc:WebsiteURI>www.foo.bar</cbc:WebsiteURI>
+            <cbc:EndpointID schemeID="NO:ORGNR">987654321</cbc:EndpointID>
+            <cac:PartyIdentification>
+                <cbc:ID>123456</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyName>
+                <cbc:Name>Name of CO</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:Postbox>Box 14</cbc:Postbox>
+                <cbc:StreetName>Storgata 12</cbc:StreetName>
+                <cbc:CityName>OSLO</cbc:CityName>
+                <cbc:PostalZone>0150</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>NO</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:Contact>
+                <cbc:Name>Ole Olesen</cbc:Name>
+                <cbc:Telephone>22222222</cbc:Telephone>
+                <cbc:ElectronicMail>ole.olesen@co.no</cbc:ElectronicMail>
+            </cac:Contact>
+        </cac:Party>
+    </cac:ContractingParty>
+    <!-- end::co[] -->
+    <cac:ProcurementProjectLot>
+        <cbc:ID>1</cbc:ID>
+    </cac:ProcurementProjectLot>
+    <ccv:Criterion>
+        <cbc:ID>test</cbc:ID>
+        <ccv:RequirementGroup>
+            <cbc:ID>123</cbc:ID>
+            <ccv:Requirement>
+                <cbc:ID>23542</cbc:ID>
+            </ccv:Requirement>
+        </ccv:RequirementGroup>
+    </ccv:Criterion>
+    
+</espd:ESPDRequest>

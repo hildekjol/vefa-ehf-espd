@@ -1,0 +1,36 @@
+[[id_schemes]]
+= Code lists for identifiers
+
+.Code lists used to constrain values of schemeIDs for identifiers
+[cols="2,3,3a", options="header"]
+|====
+|Business Term
+|Applicable XPath
+|Code list (link or subset values)
+
+| Electronic address identifier (Endpoint)
+| cbc:EndpointID[@schemeID]
+| {policy8}
+
+| Party identifier
+| cac:PartyIdentification/cbc:ID[@schemeID]
+| {policy8}
+
+|====
+
+.Code lists used to constrain values of schemeAgencyIDs for identifiers
+[cols="2,3,3a", options="header"]
+|====
+|Business Term
+|Applicable XPath
+|Default value
+
+| Version identifier
+| cbc:VersionID/@schemeAgencyID
+| OASIS-UBL-TC
+
+| Document identifier
+| cbc:ID/@schemeAgencyID
+| EU-COM-GROW
+
+|====
