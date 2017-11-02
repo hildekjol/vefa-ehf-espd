@@ -20,7 +20,7 @@
     <cbc:IssueDate>2017-11-02</cbc:IssueDate>
     <cbc:IssueTime>10:00:00</cbc:IssueTime>
     <cbc:ContractFolderID>provided by the CO</cbc:ContractFolderID>
-    <!-- tag::co[] -->
+    <!-- tag::ca[] -->
     <cac:ContractingParty>
         <cac:Party>
             <cbc:WebsiteURI>www.foo.bar</cbc:WebsiteURI>
@@ -47,7 +47,7 @@
             </cac:Contact>
         </cac:Party>
     </cac:ContractingParty>
-    <!-- end::co[] -->
+    <!-- end::ca[] -->
     <cac:ProcurementProjectLot>
         <cbc:ID>1</cbc:ID>
     </cac:ProcurementProjectLot>

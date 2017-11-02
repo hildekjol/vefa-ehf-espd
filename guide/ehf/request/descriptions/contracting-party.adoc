@@ -1,11 +1,9 @@
 
 = Contracting body
 
-#Referere til anskaffelsesforskriften og forsyningsforskriften i stedet for direktivet?#
-
 .Definition
 ****
-The contracting authority or contracting entity who is buying supplies, services or public works using a tendering procedure as described in the applicable directive (Directives 2014/24/EU, 2014/25/EU).
+The contracting authority or contracting entity who is buying supplies, services or public works using a tendering procedure as described in the {link-anskaffelse} and {link-forsyning}.
 ****
 
 The contracting body must be identified, hence information about the party is required, such as party name, identification, endpoint id, and country.
@@ -18,6 +16,6 @@ The XSD Schema however imports the entire aggregate element, but only the elemen
 .Example of contracting body
 [source, xml, indent=0]
 ----
-include::../../shared/files/snippet1.xml[tags=co]
+include::../../shared/files/snippet1.xml[tags=ca]
 ----
 |

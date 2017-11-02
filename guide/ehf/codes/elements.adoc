@@ -73,7 +73,7 @@ h| Source codelist
 h| Qualifier
 | _None_
 h| Document location
-| `ccv:Criterion/ccv:RequirementGroup/ccv:Requirement/cbc:ID[1]`
+| `ccv:Criterion/ccv:RequirementGroup/ccv:Requirement/cbc:ID`
 h| Source codelist
 |  UUIDs provided by DG Growth (CriteriaTaxonomy) using UUID version 4. +
 #Hvordan skal vi benytte denne?#
