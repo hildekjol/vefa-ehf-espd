@@ -16,6 +16,10 @@
 | cac:PartyIdentification/cbc:ID[@schemeID]
 | {policy8}
 
+| Language identifier
+|@langID
+|link:https://github.com/ESPD/ESPD-EDM/blob/1.0.2/docs/src/main/asciidoc/code_lists/gc/LanguageCodeEU-CodeList.gc[LanguageCodeEU]
+
 |====
 
 .Code lists used to constrain values of schemeAgencyIDs for identifiers

@@ -1,6 +1,0 @@
-
-= Objectives and target audience
-
-The European Commission (COM) has defined a Data Model and XML vocabularies to express the two ESPD transactions that can be used by any systems that will use and/or exchange ESPD documents with other systems or in need to render its content into other formats or process them otherwise.
-
-This document explains and illustrates how to implement XML documents based on the Data Model and XSD Schema from the European Commission, as well as any specific requirements for use in the Norwegian marked (EHF specific rules and restrictions)

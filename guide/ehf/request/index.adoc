@@ -5,6 +5,7 @@
 :leveloffset: +1
 
 include::model.adoc[]
-include::descriptions/index.adoc[]
+include::root-elements.adoc[]
+
 
 :leveloffset: -1

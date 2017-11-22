@@ -1,12 +1,9 @@
 
 = Introduction
 
-
 :leveloffset: +1
 
 include::context.adoc[]
-
-include::document-objectives.adoc[]
 
 include::scope.adoc[]
 

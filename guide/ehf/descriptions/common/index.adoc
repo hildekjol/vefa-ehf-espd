@@ -1,0 +1,10 @@
+
+= Description of joint information blocks
+
+This chapter describes selected blocks of information that is used in both the ESPD Request and Response transaction, providing valid snippets of xml code.
+
+:leveloffset: +1
+
+include::contracting-party.adoc[]
+
+:leveloffset: -1
