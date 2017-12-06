@@ -30,17 +30,17 @@ this attribute to specify whether the elements within the group must be shown or
 
 |cbc:Name
 |A short and descriptive name for a group of requirements
-|OPTIONAL (0..1)#Not used in eSens#
+|OPTIONAL (0..1)
 |Comment: The ESPD Service does not use this property
 
 |cbc:Description
 |An extended description of the group of requirements
-|OPTIONAL (0..1)#Not used in eSens#
+|OPTIONAL (0..1)
 |Comment: The ESPD Service does not use this property
 
 |cbc:TypeCode
 |Code to specify the type of the group
-|OPTIONAL (0..1)#Not used in eSens#
+|OPTIONAL (0..1)
 |Comment: The ESPD Service does not use this property
 
 
