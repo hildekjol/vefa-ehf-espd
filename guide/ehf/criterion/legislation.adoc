@@ -10,7 +10,7 @@ The specific piece(s) of Legislation(s) where the criterion is defined or mentio
 |langID
 |Language of the textual data provided for this reference to a legislation
 |OPTIONAL (0..1)
-|Comment: If not specified defaults to en (English)#norsk?#
+|Comment: If not specified defaults to en (English)
 |===
 
 .Elements ccv:LegislationReference
@@ -30,17 +30,17 @@ LegislationTitle
 |ccv-cbc:
 JurisdictionLevelCode
 |Jurisdictional level of a particular Legislation
-|MANDATORY (0..1) #mandatory or optional?Optional in eSens and 2.0#
+|MANDATORY (0..1)
 |Rule: Compulsory use of the code list link:./code_lists/pdf/CriterionJurisdictionLevel.pdf[CriterionJurisdictionLevel]
 
 |ccv-cbc:Article
 |Textual description of the article of the Legislation; e.g. ''Article 61''
-|MANDATORY (1..1)#Optional in eSens and 2.0#
+|MANDATORY (1..1)
 |Comment: Other articles where the Criterion is referred to SHOULD also be provided
 
 |ccv-cbc:URIID
 |URI that points at the text of a particular Legislation
-|MANDATORY (1..1) #Optional in eSens and 2.0#
+|MANDATORY (1..1) 
 |Comment: In the case of European legislation, the URL MUST point at the multilingual
 EUR-LEX web-page; e.g. http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024[Directive 2014/24/EU]
 
