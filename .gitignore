@@ -4,3 +4,4 @@ target
 *.iml
 *.db
 .~*
+/guide/edm/images

@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <buildConfigurations xmlns="http://difi.no/xsd/vefa/validator/1.0" capabilities="espd">
 
-	<!-- <package>ESPD Request 1.0</package> -->
+	<package>EHF ESPD 1.0</package>
 
 	<testfolder>example</testfolder>
-
-	<configuration>
-		<identifier>espd-schematron-1.0</identifier>
-		<title>EHF ESPD Schematron</title>
-		<file source="sch/EHF-ESPD.sch" path="xsl/EHF-ESPD.xsl" />
-	</configuration>
 
 	<!-- Request -->
 	<configuration>
@@ -18,37 +12,32 @@
 		<file
 			source="xsd/maindoc/ESPDRequest-1.0.xsd"
 			path="xsd/maindoc/ESPDRequest-1.0.xsd" />
-		<!-- <file source="sch/02-ESPD-CL-attrb-rules.sch" path="xsl/espd-request/02-ESPD-CL-attrb-rules.xsl" /> -->
-		<!-- <file source="sch/03-ESPD-ID-attrb-rules.sch" path="xsl/espd-request/03-ESPD-ID-attrb-rules.xsl" /> -->
-		<!-- <file source="sch/04-ESPD-Common-BR-rules.sch" path="xsl/espd-request/04-ESPD-Common-BR-rules.xsl" /> -->
 	</configuration>
 	<configuration>
 		<identifier>ehf-espd-request-1.0</identifier>
 		<title>EHF ESPD Request 1.0</title>
-		<declaration type="xml.espd">urn:grow:names:specification:ubl:schema:xsd:ESPDRequest-1::ESPDRequest::1</declaration>
+		<declaration type="xml.espd">urn:grow:names:specification:ubl:schema:xsd:ESPDRequest-1::ESPDRequest::1.0.2</declaration>
 		<inherit>espd-request-1.0-xsd</inherit>
-		<inherit>espd-schematron-1.0</inherit>
+		<file source="sch/EHF-ESPD-REQUEST.sch" path="xsl/EHF-ESPD-REQUEST.xsl" />
 	</configuration>
 
+	<!-- Response -->
 	<configuration>
 		<identifier>espd-response-1.0-xsd</identifier>
 		<title>ESPD Response 1.0.2 XSD</title>
 		<file
 			source="xsd/maindoc/ESPDResponse-1.0.xsd"
 			path="xsd/maindoc/ESPDResponse-1.0.xsd" />
-		<!-- <file source="sch/02-ESPD-CL-attrb-rules.sch" path="xsl/espd-response/02-ESPD-CL-attrb-rules.xsl" /> -->
-		<!-- <file source="sch/03-ESPD-ID-attrb-rules.sch" path="xsl/espd-response/03-ESPD-ID-attrb-rules.xsl" /> -->
-		<!-- <file source="sch/04-ESPD-Common-BR-rules.sch" path="xsl/espd-response/04-ESPD-Common-BR-rules.xsl" /> -->
-		<!-- <file source="sch/05-ESPD-Spec-BR-rules.sch" path="xsl/espd-response/05-ESPD-Spec-BR-rules.xsl" /> -->
 	</configuration>
 	<configuration>
 		<identifier>ehf-espd-response-1.0</identifier>
 		<title>EHF-ESPD Response 1.0</title>
-		<declaration type="xml.espd">urn:grow:names:specification:ubl:schema:xsd:ESPDResponse-1::ESPDResponse::1</declaration>
+		<declaration type="xml.espd">urn:grow:names:specification:ubl:schema:xsd:ESPDResponse-1::ESPDResponse::1.0.2</declaration>
 		<inherit>espd-response-1.0-xsd</inherit>
-		<inherit>espd-schematron-1.0</inherit>
+		<file source="sch/EHF-ESPD-RESPONSE.sch" path="xsl/EHF-ESPD-RESPONSE.xsl" />
 	</configuration>
 
+	<!-- Includes -->
 	<include
 		source="xsd/common/CCTS_CCT_SchemaModule-2.1.xsd"
 		path="xsd/common/CCTS_CCT_SchemaModule-2.1.xsd" />

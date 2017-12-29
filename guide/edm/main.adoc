@@ -1,5 +1,5 @@
 :imagesdir: ./images
-:imagesdir: ../../espd-edm/docs/src/main/asciidoc/images
+// :imagesdir: ../../espd-edm/docs/src/main/asciidoc/images
 :toc: left
 :icons: font
 :sectanchors: true

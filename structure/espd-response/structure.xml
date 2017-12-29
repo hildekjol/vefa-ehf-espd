@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Structure xmlns="urn:fdc:difi.no:2017:vefa:structure-1">
+
+    <Term/>
+    <Name>EHF ESPD Response</Name>
+
+    <Reference type="sch:prefix">EHF-ESPD</Reference>
+
+    <Namespace prefix="cac">urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</Namespace>
+    <Namespace prefix="cbc">urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2</Namespace>
+    <Namespace prefix="ccv-cbc">urn:isa:names:specification:ubl:schema:xsd:CCV-CommonBasicComponents-1</Namespace>
+    <Namespace prefix="cev-cbc">urn:isa:names:specification:ubl:schema:xsd:CEV-CommonBasicComponents-1</Namespace>
+    <Namespace prefix="cev">urn:isa:names:specification:ubl:schema:xsd:CEV-CommonAggregateComponents-1</Namespace>
+    <Namespace prefix="ext">urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2</Namespace>
+    <Namespace prefix="ccv">urn:isa:names:specification:ubl:schema:xsd:CCV-CommonAggregateComponents-1</Namespace>
+    <Namespace prefix="espd-res">urn:grow:names:specification:ubl:schema:xsd:ESPDResponse-1</Namespace>
+
+    <Document>
+        <Term>espd-res:ESPDResponse</Term>
+        <Name>EHF ESPD Response document</Name>
+
+    </Document>
+
+</Structure>

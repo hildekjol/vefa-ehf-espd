@@ -26,6 +26,7 @@
     <ns prefix="ccv" uri="urn:isa:names:specification:ubl:schema:xsd:CCV-CommonAggregateComponents-1"/>
     <ns prefix="espd-cac" uri="urn:grow:names:specification:ubl:schema:xsd:ESPD-CommonAggregateComponents-1"/>>
 
-    <include href="parts/syntax.xml"/>
+    <!-- <include href="parts/syntax.xml"/> -->
+    <include href="../../target/generated/EHF-ESPD-REQUEST-BASIC.sch"/>
 
 </schema>
