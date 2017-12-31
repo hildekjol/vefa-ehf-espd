@@ -2,7 +2,7 @@
 <Structure xmlns="urn:fdc:difi.no:2017:vefa:structure-1">
 
     <Term/>
-    <Name>EHF ESPD Response</Name>
+    <Name>EHF ESPD 1.0 Response</Name>
 
     <Reference type="sch:prefix">EHF-ESPD</Reference>
 
@@ -13,10 +13,10 @@
     <Namespace prefix="cev">urn:isa:names:specification:ubl:schema:xsd:CEV-CommonAggregateComponents-1</Namespace>
     <Namespace prefix="ext">urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2</Namespace>
     <Namespace prefix="ccv">urn:isa:names:specification:ubl:schema:xsd:CCV-CommonAggregateComponents-1</Namespace>
-    <Namespace prefix="espd-res">urn:grow:names:specification:ubl:schema:xsd:ESPDResponse-1</Namespace>
+    <Namespace prefix="espd">urn:grow:names:specification:ubl:schema:xsd:ESPDResponse-1</Namespace>
 
     <Document>
-        <Term>espd-res:ESPDResponse</Term>
+        <Term>espd:ESPDResponse</Term>
         <Name>EHF ESPD Response document</Name>
 
     </Document>

@@ -53,7 +53,7 @@
 			<xsd:element ref="cbc:PreviousVersionID" minOccurs="0"/>
 			<xsd:element ref="cbc:IssueDate" minOccurs="1"/>
 			<xsd:element ref="cbc:IssueTime" minOccurs="0"/>
-			<xsd:element ref="cbc:ContractFolderID" minOccurs="1"/>
+			<xsd:element ref="cbc:ContractFolderID" minOccurs="1"/> <!-- Different from EDM document -->
 			<xsd:element ref="espd-cbc:EconomicOperatorGroupName" minOccurs="0"/>
 			<xsd:element ref="cac:ContractingParty" minOccurs="1"/>
 			<xsd:element ref="espd-cac:EconomicOperatorParty" minOccurs="1"/>
