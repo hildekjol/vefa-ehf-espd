@@ -4,7 +4,7 @@
     <Term/>
     <Name>EHF ESPD 1.0 Response</Name>
 
-    <Reference type="sch:prefix">EHF-ESPD</Reference>
+    <Reference type="sch:prefix">EHF-ESPD-RES</Reference>
 
     <Namespace prefix="cac">urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</Namespace>
     <Namespace prefix="cbc">urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2</Namespace>
@@ -18,6 +18,760 @@
     <Document>
         <Term>espd:ESPDResponse</Term>
         <Name>EHF ESPD Response document</Name>
+
+        <!-- Element ext:UBLExtensions not in use. -->
+
+        <Element>
+            <Term>cbc:UBLVersionID</Term>
+            <Name>UBL Version identifier</Name>
+
+            <Attribute>
+                <Term>schemeAgencyID</Term>
+                <Value type="FIXED">OASIS-UBL-TC</Value>
+            </Attribute>
+
+            <Value type="FIXED">2.1</Value>
+        </Element>
+
+        <Element>
+            <Term>cbc:CustomizationID</Term>
+            <Name>Specification identification</Name>
+
+            <Attribute>
+                <Term>schemeName</Term>
+                <Value type="FIXED">CustomizationID</Value>
+            </Attribute>
+
+            <Attribute>
+                <Term>schemeAgencyID</Term>
+                <Value type="FIXED">BII</Value>
+            </Attribute>
+
+            <Attribute>
+                <Term>schemeVersionID</Term>
+                <Value type="FIXED">3.0</Value>
+            </Attribute>
+
+            <Value type="FIXED">urn:www.cenbii.eu:transaction:biitrns070:ver3.0:extended:urn:fdc:difi.no:2017:ehf:spec:1.0</Value>
+        </Element>
+
+        <!-- Element ProfileID not in use. -->
+
+        <!-- Element cbc:ProfileExecutionID not in use. -->
+
+        <Element>
+            <Term>cbc:ID</Term>
+
+            <Attribute>
+                <Term>schemeID</Term>
+                <Value type="FIXED">ISO/IEC 9834-8:2008 - 4UUID</Value>
+            </Attribute>
+
+            <Attribute>
+                <Term>schemeAgencyID</Term>
+                <Value type="FIXED">EU-COM-GROW</Value>
+            </Attribute>
+
+            <Attribute>
+                <Term>schemeAgencyName</Term>
+                <Value type="FIXED">DG GROW (European Commission)</Value>
+            </Attribute>
+
+            <Attribute>
+                <Term>schemeVersionID</Term>
+                <Value type="FIXED">1.1</Value>
+            </Attribute>
+
+            <Value type="EXAMPLE">8a6e9c28-628d-4e64-8a1a-367c8973ff2a</Value>
+        </Element>
+
+        <Element cardinality="0..1">
+            <Term>cbc:CopyIndicator</Term>
+            <Value type="EXAMPLE">false</Value>
+        </Element>
+
+        <Element cardinality="0..1">
+            <Term>cbc:UUID</Term>
+            <Value type="EXAMPLE">a5ca8760-37dc-4cbb-bf61-e66f903e42f5</Value>
+        </Element>
+
+        <Element>
+            <Term>cbc:VersionID</Term>
+            <Name>ESPD version</Name>
+
+            <Attribute>
+                <Term>schemeAgencyID</Term>
+                <Value type="FIXED">EU-COM-GROW</Value>
+            </Attribute>
+
+            <Value type="FIXED">1.0.2</Value>
+        </Element>
+
+        <!-- Element cbc:PreviousVersionID not in use. -->
+
+        <Element>
+            <Term>cbc:IssueDate</Term>
+            <Name>Issue date</Name>
+            <Value type="EXAMPLE">2017-12-26</Value>
+        </Element>
+
+        <Element cardinality="0..1">
+            <Term>cbc:IssueTime</Term>
+            <Name>Issue time</Name>
+            <Value type="EXAMPLE">08:16:09</Value>
+        </Element>
+
+        <Element>
+            <Term>cbc:ContractFolderID</Term>
+
+            <Attribute>
+                <Term>schemeAgencyID</Term>
+                <Value type="FIXED">TeD</Value>
+            </Attribute>
+        </Element>
+
+        <Element>
+            <Term>espd-cbc:EconomicOperatorGroupName</Term>
+        </Element>
+
+        <Element>
+            <Term>cac:ContractingParty</Term>
+            <Name>Contracting Body</Name>
+
+            <Element>
+                <Term>cac:Party</Term>
+                <Name>Party information</Name>
+
+                <Element cardinality="0..1">
+                    <Term>cbc:WebsiteURI</Term>
+                    <Name>Contracting body website</Name>
+                    <Value type="EXAMPLE">https://www.difi.no/</Value>
+                </Element>
+
+                <Element cardinality="0..1">
+                    <Term>cbc:EndpointID</Term>
+                    <Name>Contracting body electronic address identifier</Name>
+
+                    <Attribute>
+                        <Term>schemeID</Term>
+                        <Name>Identifier qualifier</Name>
+                        <Value type="EXAMPLE">NO:ORGNR</Value>
+                    </Attribute>
+
+                    <Value type="EXAMPLE">991825827</Value>
+                </Element>
+
+                <Element>
+                    <Term>cac:PartyIdentification</Term>
+                    <Name>Party body identifier</Name>
+
+                    <Element>
+                        <Term>cbc:ID</Term>
+                        <Name>Organization number</Name>
+
+                        <Attribute>
+                            <Term>schemeID</Term>
+                            <Name>Identifier qualifier</Name>
+                            <Value type="FIXED">NO:ORGNR</Value>
+                        </Attribute>
+
+                        <Value type="EXAMPLE">991825827</Value>
+                    </Element>
+                </Element>
+
+                <Element>
+                    <Term>cac:PartyName</Term>
+                    <Name>Contracting body name</Name>
+
+                    <Element>
+                        <Term>cbc:Name</Term>
+                        <Name>Name</Name>
+                        <Value type="EXAMPLE">Difi</Value>
+                    </Element>
+                </Element>
+
+                <Element>
+                    <Term>cac:PostalAddress</Term>
+                    <Name>Postal Address</Name>
+
+                    <Element cardinality="0..1">
+                        <Term>cbc:Postbox</Term>
+                        <Name>Postbox</Name>
+                    </Element>
+
+                    <Element cardinality="0..1">
+                        <Term>cbc:StreetName</Term>
+                        <Name>Address line</Name>
+                    </Element>
+
+                    <Element cardinality="0..1">
+                        <Term>cbc:CityName</Term>
+                        <Name>City</Name>
+                    </Element>
+
+                    <Element cardinality="0..1">
+                        <Term>cbc:PostalZone</Term>
+                        <Name>Post code</Name>
+                    </Element>
+
+                    <Element>
+                        <Term>cac:Country</Term>
+                        <Name>Country</Name>
+
+                        <Element>
+                            <Term>cbc:IdentificationCode</Term>
+                            <Name>Country code</Name>
+
+                            <Attribute>
+                                <Term>listID</Term>
+                                <Name>List identifier</Name>
+                                <Value type="FIXED">CountryCodeIdentifier</Value>
+                            </Attribute>
+
+                            <Attribute>
+                                <Term>listAgencyID</Term>
+                                <Name>Maintainer of list</Name>
+                                <Value type="FIXED">EU-COM-GROW</Value>
+                            </Attribute>
+
+                            <Attribute>
+                                <Term>listName</Term>
+                                <Name>List name</Name>
+                                <Value type="FIXED">CountryCodeIdentifier</Value>
+                            </Attribute>
+
+                            <Attribute>
+                                <Term>listVersionID</Term>
+                                <Name>List version</Name>
+                                <Value type="FIXED">1.0.2</Value>
+                            </Attribute>
+
+                            <Value type="FIXED">NO</Value>
+                        </Element>
+                    </Element>
+                </Element>
+
+                <Element cardinality="0..1">
+                    <Term>cac:Contact</Term>
+                    <Name>Contacting details</Name>
+
+                    <Element cardinality="0..1">
+                        <Term>cbc:Name</Term>
+                        <Name>Contact point</Name>
+                        <Value type="EXAMPLE">Ola Normann</Value>
+                    </Element>
+
+                    <Element cardinality="0..1">
+                        <Term>cbc:Telephone</Term>
+                        <Name>Contact telephone number</Name>
+                        <Value type="EXAMPLE">+4722774630</Value>
+                    </Element>
+
+                    <Element cardinality="0..1">
+                        <Term>cbc:Telefax</Term>
+                        <Name>Contact fax number</Name>
+                        <Value type="EXAMPLE">+4722774631</Value>
+                    </Element>
+
+                    <Element cardinality="0..1">
+                        <Term>cbc:ElectronicMail</Term>
+                        <Name>Contact email address</Name>
+                        <Value type="EXAMPLE">anskaffelser@example.kommune.no</Value>
+                    </Element>
+                </Element>
+            </Element>
+        </Element>
+
+        <Element>
+            <Term>espd-cac:EconomicOperatorParty</Term>
+
+            <Element>
+                <Term>espd-cbc:SMEIndicator</Term>
+                <Value type="EXAMPLE">false</Value>
+            </Element>
+
+            <Element cardinality="0..n">
+                <Term>espd-cac:RepresentativeNaturalPerson</Term>
+            </Element>
+            
+            <Element>
+                <Term>cac:Party</Term>
+                
+                <Element>
+                    <Term>cbc:EndpointID</Term>
+                    
+                    <Attribute>
+                        <Term>schemeID</Term>
+                        <Value type="EXAMPLE">NO:ORGNR</Value>
+                    </Attribute>
+
+                    <Value type="EXAMPLE">987654325</Value>
+                </Element>
+                
+                <Element>
+                    <Term>cac:PartyIdentification</Term>
+
+                    <Element>
+                        <Term>cbc:ID</Term>
+                    </Element>
+                </Element>
+                
+                <Element>
+                    <Term>cac:PartyName</Term>
+                    
+                    <Element>
+                        <Term>cbc:Name</Term>
+                    </Element>
+                </Element>
+
+                <Element>
+                    <Term>cac:PostalAddress</Term>
+
+                    <Element cardinality="0..1">
+                        <Term>cbc:Postbox</Term>
+                    </Element>
+
+                    <Element cardinality="0..1">
+                        <Term>cbc:StreetName</Term>
+                    </Element>
+                    
+                    <Element>
+                        <Term>cbc:CityName</Term>
+                    </Element>
+                    
+                    <Element>
+                        <Term>cac:Country</Term>
+                        
+                        <Element>
+                            <Term>cbc:IdentificationCode</Term>
+
+                            <Attribute>
+                                <Term>listID</Term>
+                                <Value type="FIXED">CountryCodeIdentifier</Value>
+                            </Attribute>
+
+                            <Attribute>
+                                <Term>listAgencyID</Term>
+                                <Value type="FIXED">EU-COM-GROW</Value>
+                            </Attribute>
+                            
+                            <Attribute>
+                                <Term>listName</Term>
+                                <Value type="FIXED">CountryCodeIdentifier</Value>
+                            </Attribute>
+                            
+                            <Attribute>
+                                <Term>listVersionID</Term>
+                                <Value type="FIXED">1.0.2</Value>
+                            </Attribute>
+
+                            <Value type="FIXED">NO</Value>
+                        </Element>
+                    </Element>
+                </Element>
+
+                <Element cardinality="0..1">
+                    <Term>cac:Contact</Term>
+                    <Name>Contacting details</Name>
+
+                    <Element cardinality="0..1">
+                        <Term>cbc:Name</Term>
+                        <Name>Contact point</Name>
+                        <Value type="EXAMPLE">Ola Normann</Value>
+                    </Element>
+
+                    <Element cardinality="0..1">
+                        <Term>cbc:Telephone</Term>
+                        <Name>Contact telephone number</Name>
+                        <Value type="EXAMPLE">+4722774630</Value>
+                    </Element>
+
+                    <Element cardinality="0..1">
+                        <Term>cbc:Telefax</Term>
+                        <Name>Contact fax number</Name>
+                        <Value type="EXAMPLE">+4722774631</Value>
+                    </Element>
+
+                    <Element cardinality="0..1">
+                        <Term>cbc:ElectronicMail</Term>
+                        <Name>Contact email address</Name>
+                        <Value type="EXAMPLE">anskaffelser@example.kommune.no</Value>
+                    </Element>
+                </Element>
+            </Element>
+        </Element>
+
+        <Element cardinality="1..n">
+            <Term>cac:ProcurementProjectLot</Term>
+
+            <Element>
+                <Term>cbc:ID</Term>
+
+                <Attribute>
+                    <Term>schemeAgencyID</Term>
+                    <Value type="FIXED">EU-COM-GROW</Value>
+                </Attribute>
+
+                <Value type="EXAMPLE">0</Value>
+            </Element>
+        </Element>
+
+        <Element>
+            <Term>ccv:Criterion</Term>
+
+            <Element>
+                <Term>cbc:ID</Term>
+
+                <Attribute>
+                    <Term>schemeID</Term>
+                    <Value type="FIXED">CriteriaID</Value>
+                </Attribute>
+
+                <Attribute>
+                    <Term>schemeAgencyID</Term>
+                    <Value type="FIXED">EU-COM-GROW</Value>
+                </Attribute>
+
+                <Attribute>
+                    <Term>schemeVersionID</Term>
+                    <Value type="FIXED">1.0</Value>
+                </Attribute>
+
+                <Value type="EXAMPLE">005eb9ed-1347-4ca3-bb29-9bc0db64e1ab</Value>
+            </Element>
+
+            <Element>
+                <Term>cbc:TypeCode</Term>
+
+                <Attribute>
+                    <Term>listID</Term>
+                    <Value type="FIXED">CriteriaTypeCode</Value>
+                </Attribute>
+
+                <Attribute>
+                    <Term>listAgencyID</Term>
+                    <Value type="FIXED">EU-COM-GROW</Value>
+                </Attribute>
+
+                <Attribute>
+                    <Term>listVersionID</Term>
+                    <Value type="FIXED">1.0.2</Value>
+                </Attribute>
+
+                <Value type="EXAMPLE">CRITERION.EXCLUSION.CONVICTIONS.PARTICIPATION_IN_CRIMINAL_ORGANISATION</Value>
+            </Element>
+
+            <Element>
+                <Term>cbc:Name</Term>
+                <Value type="EXAMPLE">Participation in a criminal organisation</Value>
+            </Element>
+
+            <Element>
+                <Term>cbc:Description</Term>
+                <Value type="EXAMPLE">Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for participation in a criminal organisation, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Article 2 of Council Framework Decision 2008/841/JHA of 24 October 2008 on the fight against organised crime (OJ L 300, 11.11.2008, p. 42).</Value>
+            </Element>
+
+            <Element cardinality="0..1">
+                <Term>ccv:LegislationReference</Term>
+
+                <Element>
+                    <Term>ccv-cbc:Title</Term>
+                    <Value type="EXAMPLE">DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Value>
+                </Element>
+
+                <Element>
+                    <Term>cbc:Description</Term>
+                    <Value type="EXAMPLE">Directive 2014/24/EU</Value>
+                </Element>
+
+                <Element>
+                    <Term>ccv-cbc:JurisdictionLevelCode</Term>
+
+                    <Attribute>
+                        <Term>listID</Term>
+                        <Value type="FIXED">CriterionJurisdictionLevel</Value>
+                    </Attribute>
+
+                    <Attribute>
+                        <Term>listAgencyID</Term>
+                        <Value type="FIXED">EU-COM-GROW</Value>
+                    </Attribute>
+
+                    <Attribute>
+                        <Term>listVersionID</Term>
+                        <Value type="FIXED">1.0.2</Value>
+                    </Attribute>
+
+                    <Value type="EXAMPLE">EU_DIRECTIVE</Value>
+                </Element>
+
+                <Element>
+                    <Term>ccv-cbc:Article</Term>
+                    <Value type="EXAMPLE">57(1)</Value>
+                </Element>
+
+                <Element>
+                    <Term>cbc:URI</Term>
+                    <Value type="EXAMPLE">http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</Value>
+                </Element>
+            </Element>
+
+            <Element>
+                <Term>ccv:RequirementGroup</Term>
+
+                <Reference type="sch:context">AS_ROOT</Reference>
+
+                <Attribute usage="Dependent">
+                    <Term>pi</Term>
+                    <Value type="EXAMPLE">GROUP_FULFILLED.ON_TRUE</Value>
+                </Attribute>
+
+                <Element>
+                    <Term>cbc:ID</Term>
+
+                    <Attribute>
+                        <Term>schemeAgencyID</Term>
+                        <Value type="FIXED">EU-COM-GROW</Value>
+                    </Attribute>
+
+                    <Attribute>
+                        <Term>schemeVersionID</Term>
+                        <Value type="FIXED">1.0</Value>
+                    </Attribute>
+
+                    <Value type="EXAMPLE">7c637c0c-7703-4389-ba52-02997a055bd7</Value>
+                </Element>
+
+                <Element cardinality="1..n">
+                    <Term>ccv:Requirement</Term>
+
+                    <Reference type="sch:context">AS_ROOT</Reference>
+
+                    <Attribute>
+                        <Term>responseDataType</Term>
+                        <Value type="EXAMPLE">INDICATOR</Value>
+                    </Attribute>
+
+                    <Element>
+                        <Term>cbc:ID</Term>
+
+                        <Attribute>
+                            <Term>schemeID</Term>
+                            <Value type="FIXED">CriterionRelatedIDs</Value>
+                        </Attribute>
+
+                        <Attribute>
+                            <Term>schemeAgencyID</Term>
+                            <Value type="FIXED">EU-COM-GROW</Value>
+                        </Attribute>
+
+                        <Attribute>
+                            <Term>schemeVersionID</Term>
+                            <Value type="FIXED">1.0</Value>
+                        </Attribute>
+
+                        <Value type="EXAMPLE">974c8196-9d1c-419c-9ca9-45bb9f5fd59a</Value>
+                    </Element>
+
+                    <Element>
+                        <Term>cbc:Description</Term>
+                        <Value type="EXAMPLE">Your answer?</Value>
+                    </Element>
+                    
+                    <Element>
+                        <Term>ccv:Response</Term>
+                        
+                        <Element cardinality="0..1">
+                            <Term>cbc:ID</Term>
+                        </Element>
+                        
+                        <Element cardinality="0..1">
+                            <Term>ccv-cbc:Indicator</Term>
+                            <Value type="EXAMPLE">true</Value>
+                        </Element>
+                        
+                        <Element cardinality="0..1">
+                            <Term>cbc:Description</Term>
+                        </Element>
+
+                        <Element cardinality="0..1">
+                            <Term>cbc:Amount</Term>
+
+                            <Attribute usage="Dependent">
+                                <Term>currencyID</Term>
+                                <Value type="EXAMPLE">NOK</Value>
+                            </Attribute>
+
+                            <Value type="EXAMPLE">150000.00</Value>
+                        </Element>
+
+                        <Element cardinality="0..1">
+                            <Term>ccv-cbc:Code</Term>
+                        </Element>
+
+                        <Element cardinality="0..1">
+                            <Term>cbc:Date</Term>
+                            <Value type="EXAMPLE">2018-01-01</Value>
+                        </Element>
+
+                        <Element cardinality="0..1">
+                            <Term>cbc:Percent</Term>
+                            <Value type="EXAMPLE">20</Value>
+                        </Element>
+
+                        <Element cardinality="0..1">
+                            <Term>cbc:Quantity</Term>
+                            <Value type="EXAMPLE">12.50</Value>
+                        </Element>
+
+                        <Element cardinality="0..1">
+                            <Term>cac:Period</Term>
+
+                            <Element cardinality="0..1">
+                                <Term>cbc:StartDate</Term>
+                            </Element>
+
+                            <Element cardinality="0..1">
+                                <Term>cbc:EndDate</Term>
+                            </Element>
+                        </Element>
+
+                        <Element cardinality="0..n">
+                            <Term>cev-cac:Evidence</Term>
+
+                            <Element>
+                                <Term>cev-cbc:EvidenceName</Term>
+                            </Element>
+
+                            <Element>
+                                <Term>cev-cbc:EmbeddedEvidenceIndicator</Term>
+                                <Value type="FIXED">false</Value>
+                            </Element>
+
+                            <Element cardinality="0..1">
+                                <Term>cev-cac:EvidenceIssuerParty</Term>
+
+                                <Element>
+                                    <Term>cac:PartyName</Term>
+
+                                    <Element>
+                                        <Term>cbc:Name</Term>
+                                    </Element>
+                                </Element>
+                            </Element>
+
+                            <Element>
+                                <Term>cev-cac:EvidenceDocumentReference</Term>
+
+                                <Element>
+                                    <Term>cbc:ID</Term>
+                                </Element>
+                                
+                                <Element>
+                                    <Term>cac:Attachment</Term>
+
+                                    <!--
+                                    <Element cardinality="0..1">
+                                        <Term>cbc:EmbeddedDocumentBinaryObject</Term>
+
+                                        <Attribute>
+                                            <Term>mimeCode</Term>
+                                            <Value type="EXAMPLE">application/pdf</Value>
+                                        </Attribute>
+                                    </Element>
+                                    -->
+
+                                    <Element>
+                                        <Term>cac:ExternalReference</Term>
+                                        
+                                        <Element>
+                                            <Term>cbc:URI</Term>
+                                            <Value type="EXAMPLE">http://www.eurodb.be/scriptsPublic/arianeweb.dll/e/m_mkt_rech</Value>
+                                        </Element>
+                                    </Element>
+                                </Element>
+                            </Element>
+                        </Element>
+
+                        <Element cardinality="0..n">
+                            <Term>ccv:RelatedParty</Term>
+                        </Element>
+                    </Element>
+                </Element>
+
+                <Element cardinality="0..n">
+                    <Term>ccv:RequirementGroup</Term>
+                </Element>
+            </Element>
+        </Element>
+
+        <!-- Element cac:ServiceProviderParty not in use. -->
+
+        <!-- Element cac:Signature not in use. -->
+
+        <Element cardinality="1..n">
+            <Term>cac:AdditionalDocumentReference</Term>
+
+            <Element>
+                <Term>cbc:ID</Term>
+
+                <Attribute>
+                    <Term>schemeID</Term>
+                    <Value type="FIXED">COM-GROW-TEMPORARY-ID</Value>
+                </Attribute>
+
+                <Attribute>
+                    <Term>schemeAgencyID</Term>
+                    <Value type="FIXED">EU-COM-GROW</Value>
+                </Attribute>
+
+                <Attribute>
+                    <Term>schemeAgencyName</Term>
+                    <Value type="FIXED">DG GROW (European Commission)</Value>
+                </Attribute>
+
+                <Attribute>
+                    <Term>schemeVersionID</Term>
+                    <Value type="FIXED">1.1</Value>
+                </Attribute>
+
+                <Value type="EXAMPLE">0000/S 000-000000</Value>
+            </Element>
+
+            <Element>
+                <Term>cbc:DocumentTypeCode</Term>
+
+                <Attribute>
+                    <Term>listID</Term>
+                    <Value type="FIXED">ReferencesTypeCodes</Value>
+                </Attribute>
+
+                <Attribute>
+                    <Term>listAgencyID</Term>
+                    <Value type="FIXED">EU-COM-GROW</Value>
+                </Attribute>
+
+                <Attribute>
+                    <Term>listVersionID</Term>
+                    <Value type="FIXED">1.0</Value>
+                </Attribute>
+
+                <Value type="EXAMPLE">TED_CN</Value>
+            </Element>
+
+            <Element>
+                <Term>cac:Attachment</Term>
+
+                <Element>
+                    <Term>cac:ExternalReference</Term>
+
+                    <Element>
+                        <Term>cbc:Description</Term>
+                        <Value type="EXAMPLE">-</Value>
+                    </Element>
+                </Element>
+            </Element>
+        </Element>
 
     </Document>
 

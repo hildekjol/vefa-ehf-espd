@@ -8,7 +8,7 @@
 	<!-- Request -->
 	<configuration>
 		<identifier>espd-request-1.0-xsd</identifier>
-		<title>ESPD Request 1.0.2 XSD</title>
+		<title>EHF ESPD Request 1.0.2 XSD</title>
 		<file
 			source="xsd/maindoc/ESPDRequest-1.0.xsd"
 			path="xsd/maindoc/ESPDRequest-1.0.xsd" />
@@ -31,7 +31,7 @@
 	</configuration>
 	<configuration>
 		<identifier>ehf-espd-response-1.0</identifier>
-		<title>EHF-ESPD Response 1.0</title>
+		<title>EHF ESPD Response 1.0</title>
 		<declaration type="xml.espd">urn:grow:names:specification:ubl:schema:xsd:ESPDResponse-1::ESPDResponse::1.0.2</declaration>
 		<inherit>espd-response-1.0-xsd</inherit>
 		<file source="sch/EHF-ESPD-RESPONSE.sch" path="xsl/EHF-ESPD-RESPONSE.xsl" />

@@ -4,7 +4,7 @@
     <Term/>
     <Name>EHF ESPD 1.0 Request</Name>
 
-    <Reference type="sch:prefix">EHF-ESPD</Reference>
+    <Reference type="sch:prefix">EHF-ESPD-REQ</Reference>
 
     <Namespace prefix="cac">urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</Namespace>
     <Namespace prefix="cbc">urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2</Namespace>
@@ -242,7 +242,7 @@
                                 <Value type="FIXED">1.0.2</Value>
                             </Attribute>
 
-                            <Value type="EXAMPLE">NO</Value>
+                            <Value type="FIXED">NO</Value>
                         </Element>
                     </Element>
                 </Element>
@@ -348,7 +348,7 @@
                 <Value type="EXAMPLE">Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for participation in a criminal organisation, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Article 2 of Council Framework Decision 2008/841/JHA of 24 October 2008 on the fight against organised crime (OJ L 300, 11.11.2008, p. 42).</Value>
             </Element>
 
-            <Element>
+            <Element cardinality="0..1">
                 <Term>ccv:LegislationReference</Term>
                 
                 <Element>
@@ -466,7 +466,7 @@
 
         <!-- Element cac:Signature not in use. -->
         
-        <Element>
+        <Element cardinality="1..n">
             <Term>cac:AdditionalDocumentReference</Term>
             
             <Element>
@@ -489,7 +489,7 @@
 
                 <Attribute>
                     <Term>schemeVersionID</Term>
-                    <Value type="FIXED">1.1 </Value>
+                    <Value type="FIXED">1.1</Value>
                 </Attribute>
 
                 <Value type="EXAMPLE">0000/S 000-000000</Value>
@@ -513,7 +513,7 @@
                     <Value type="FIXED">1.0</Value>
                 </Attribute>
 
-                <Value type="FIXED">TED_CN</Value>
+                <Value type="EXAMPLE">TED_CN</Value>
             </Element>
 
             <Element>
