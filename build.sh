@@ -1,5 +1,7 @@
 #!/bin/sh
 
+FOLDER=$(dirname $(readlink -f "$0"))
+
 info() {
     echo "\n  *** $1 ***\n"
 }
@@ -8,13 +10,13 @@ info() {
 if [ -d target ]; then rm -rf target; fi
 
 info "Generate structure"
-sh tools/travis/structure.sh
+sh $FOLDER/tools/travis/structure.sh
 
 info "Generate validation artifacts"
-sh tools/travis/rules.sh
+sh $FOLDER/tools/travis/rules.sh
 
 info "Generate documentation"
-sh tools/travis/guides.sh
+sh $FOLDER/tools/travis/guides.sh
 
 info "Fix ownership"
-docker run --rm -it -v $(pwd):/src alpine:3.6 chown -R $(id -g $USER).$(id -g $USER) /src/target
+docker run --rm -i -v $FOLDER:/src alpine:3.6 chown -R $(id -g $USER).$(id -g $USER) /src/target

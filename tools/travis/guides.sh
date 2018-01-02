@@ -1,5 +1,7 @@
 #!/bin/sh
 
+FOLDER=$(dirname $(readlink -f "$0"))/../..
+
 # Generate Asciidoctor artifacts
 
-docker run --rm -it -v $(pwd):/documents -v $(pwd)/target:/target difi/asciidoctor
+docker run --rm -i -v $FOLDER:/documents -v $FOLDER/target:/target difi/asciidoctor
