@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Project xmlns="urn:fdc:difi.no:2017:vefa:structure:Project-1">
 
     <Name>EHF ESPD 1.0</Name>
@@ -10,5 +11,21 @@
 
     <Resource type="native:Schematron" title="Common rules" identifier="common">rules/sch/parts/common.sch</Resource>
     <Resource type="native:Schematron" title="Empty elements" identifier="empty-elements">rules/sch/parts/empty-elements.sch</Resource>
+
+    <Resource type="CodeList-1">codelist/ActivityTypeCode.xml</Resource>
+    <Resource type="CodeList-1">codelist/DocRefContentType.xml</Resource>
+    <Resource type="CodeList-1">codelist/AmountTypeCodes.xml</Resource>
+    <Resource type="CodeList-1">codelist/ContractType.xml</Resource>
+    <Resource type="CodeList-1">codelist/CountryCodeIdentifier.xml</Resource>
+    <Resource type="CodeList-1">codelist/CriterionJurisdictionLevel.xml</Resource>
+    <Resource type="CodeList-1">codelist/CriteriaTypeCode.xml</Resource>
+    <Resource type="CodeList-1">codelist/CurrencyCode.xml</Resource>
+    <Resource type="CodeList-1">codelist/LanguageCodeEU.xml</Resource>
+    <Resource type="CodeList-1">codelist/PeriodMeasureTypeCodes.xml</Resource>
+    <Resource type="CodeList-1">codelist/ProcedureType.xml</Resource>
+    <Resource type="CodeList-1">codelist/ProfileExecutionID.xml</Resource>
+    <Resource type="CodeList-1">codelist/ResponseDataType.xml</Resource>
+    <Resource type="CodeList-1">codelist/TechnicalCapabilityTypeCode.xml</Resource>
+    <Resource type="CodeList-1">codelist/TendererRole.xml</Resource>
 
 </Project>
