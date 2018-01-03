@@ -20,6 +20,7 @@
     <Resource type="CodeList-1">codelist/CriterionJurisdictionLevel.xml</Resource>
     <Resource type="CodeList-1">codelist/CriteriaTypeCode.xml</Resource>
     <Resource type="CodeList-1">codelist/CurrencyCode.xml</Resource>
+    <Resource type="CodeList-1">codelist/ICD.xml</Resource>
     <Resource type="CodeList-1">codelist/LanguageCodeEU.xml</Resource>
     <Resource type="CodeList-1">codelist/PeriodMeasureTypeCodes.xml</Resource>
     <Resource type="CodeList-1">codelist/ProcedureType.xml</Resource>

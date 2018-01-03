@@ -168,6 +168,7 @@
                     <Attribute>
                         <Term>schemeID</Term>
                         <Name>Identifier qualifier</Name>
+                        <Reference type="CODE_LIST">ICD</Reference>
                         <Value type="EXAMPLE">NO:ORGNR</Value>
                     </Attribute>
 
@@ -185,6 +186,7 @@
                         <Attribute>
                             <Term>schemeID</Term>
                             <Name>Identifier qualifier</Name>
+                            <Reference type="CODE_LIST">ICD</Reference>
                             <Value type="FIXED">NO:ORGNR</Value>
                         </Attribute>
                         
@@ -222,7 +224,7 @@
                             <Attribute>
                                 <Term>listID</Term>
                                 <Name>List identifier</Name>
-                                
+
                                 <Value type="FIXED">CountryCodeIdentifier</Value>
                             </Attribute>
                             

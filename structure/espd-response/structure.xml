@@ -173,6 +173,7 @@
                     <Attribute>
                         <Term>schemeID</Term>
                         <Name>Identifier qualifier</Name>
+                        <Reference type="CODE_LIST">ICD</Reference>
                         <Value type="EXAMPLE">NO:ORGNR</Value>
                     </Attribute>
 
@@ -190,6 +191,7 @@
                         <Attribute>
                             <Term>schemeID</Term>
                             <Name>Identifier qualifier</Name>
+                            <Reference type="CODE_LIST">ICD</Reference>
                             <Value type="FIXED">NO:ORGNR</Value>
                         </Attribute>
 
@@ -287,6 +289,7 @@
 
                     <Attribute>
                         <Term>schemeID</Term>
+                        <Reference type="CODE_LIST">ICD</Reference>
                         <Value type="EXAMPLE">NO:ORGNR</Value>
                     </Attribute>
 
