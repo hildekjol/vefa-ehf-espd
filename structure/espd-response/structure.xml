@@ -4,7 +4,8 @@
     <Term/>
     <Name>EHF ESPD 1.0 Response</Name>
 
-    <Reference type="sch:prefix">EHF-ESPD-RES</Reference>
+    <Property key="sch:prefix">EHF-ESPD-RES</Property>
+    <Property key="sch:identifier">response-basic</Property>
 
     <Namespace prefix="cac">urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</Namespace>
     <Namespace prefix="cbc">urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2</Namespace>
@@ -519,7 +520,7 @@
             <Element>
                 <Term>ccv:RequirementGroup</Term>
 
-                <Reference type="sch:context">AS_ROOT</Reference>
+                <Property key="sch:context">AS_ROOT</Property>
 
                 <Attribute usage="Dependent">
                     <Term>pi</Term>
@@ -545,7 +546,7 @@
                 <Element cardinality="1..n">
                     <Term>ccv:Requirement</Term>
 
-                    <Reference type="sch:context">AS_ROOT</Reference>
+                    <Property key="sch:context">AS_ROOT</Property>
 
                     <Attribute>
                         <Term>responseDataType</Term>

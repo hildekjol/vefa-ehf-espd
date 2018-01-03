@@ -1,0 +1,14 @@
+<Project xmlns="urn:fdc:difi.no:2017:vefa:structure:Project-1">
+
+    <Name>EHF ESPD 1.0</Name>
+
+    <Documentation path="ehf/">EHF ESPD (European Single Procurement document)</Documentation>
+    <Documentation path="edm/">ESPD Response XML Instantiation Guide</Documentation>
+
+    <Resource type="Structure-1" title="ESPD Request" identifier="request">structure/espd-request/structure.xml</Resource>
+    <Resource type="Structure-1" title="ESPD Response" identifier="response">structure/espd-response/structure.xml</Resource>
+
+    <Resource type="native:Schematron" title="Common rules" identifier="common">rules/sch/parts/common.sch</Resource>
+    <Resource type="native:Schematron" title="Empty elements" identifier="empty-elements">rules/sch/parts/empty-elements.sch</Resource>
+
+</Project>

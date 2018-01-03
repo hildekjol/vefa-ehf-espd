@@ -11,17 +11,17 @@
     <xsl:strip-space elements="*"/>
 
     <xsl:param name="pattern_only" select="'false'"/>
-    <xsl:param name="prefix" select="if (/s:Structure/s:Reference[@type = 'sch:prefix']) then /s:Structure/s:Reference[@type = 'sch:prefix']/text() else 'STRUCTURE'"/>
+    <xsl:param name="prefix" select="if (/s:Structure/s:Property[@key = 'sch:prefix']) then /s:Structure/s:Property[@key = 'sch:prefix']/text() else 'STRUCTURE'"/>
 
     <xsl:function name="u:path" as="xs:string">
         <xsl:param name="e"/>
 
         <xsl:choose>
-            <xsl:when test="$e/s:Reference[@type = 'sch:context' and text() = 'AS_ROOT']">
+            <xsl:when test="$e/s:Property[@key = 'sch:context' and text() = 'AS_ROOT']">
                 <xsl:value-of select="normalize-space($e/s:Term/text())"/>
             </xsl:when>
-            <xsl:when test="$e/s:Reference[@type = 'sch:context']">
-                <xsl:value-of select="normalize-space($e/s:Reference[@type = 'sch:context']/text())"/>
+            <xsl:when test="$e/s:Property[@key = 'sch:context']">
+                <xsl:value-of select="normalize-space($e/s:Property[@key = 'sch:context']/text())"/>
             </xsl:when>
             <xsl:when test="$e/local-name() = 'Document'">
                 <xsl:value-of select="normalize-space($e/s:Term/text())"/>
