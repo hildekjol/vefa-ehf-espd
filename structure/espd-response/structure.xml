@@ -130,7 +130,7 @@
         <Element cardinality="0..1">
             <Term>cbc:IssueTime</Term>
             <Name>Issue time</Name>
-            <Description>The time, assigned by the sender, at which this document was issued.</Description>
+            <Description>The time, assigned by the sender, at which this document was issued. Format "hh:mm:ss", no timezone information allowed</Description>
             <Value type="EXAMPLE">08:16:09</Value>
         </Element>
 
@@ -148,6 +148,9 @@
 
         <Element>
             <Term>espd-cbc:EconomicOperatorGroupName</Term>
+            <Name>Consortium group name</Name>
+            <Description>The name of the Consortium or group to which the Economic Operator belongs for a specific procurement project</Description>
+            <Value type="EXAMPLE">ACME Global Consortium</Value>
         </Element>
 
         <Element>
@@ -270,7 +273,7 @@
             <Element>
                 <Term>espd-cbc:SMEIndicator</Term>
                 <Name>SME indicator</Name>
-                <Description>ndicates whether the economic operator can be categorized as an SME (true) or not.According to the EC, 
+                <Description>Indicates whether the economic operator can be categorized as an SME (true) or not.According to the EC, 
                     SME are enterprises with less than 250 employees, a turnover less than EUR 50 m and a balance sheet total less than EUR 43 m.</Description>
                 <Value type="EXAMPLE">false</Value>
             </Element>
@@ -653,6 +656,8 @@
 
                     <Element>
                         <Term>cbc:Description</Term>
+                        <Name>Criterion response description</Name>
+                        <Description>A textual description of a criterion response that describes how an economic operators fulfills an specific criterion</Description>
                         <Value type="EXAMPLE">Your answer?</Value>
                     </Element>
 
