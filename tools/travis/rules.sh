@@ -17,7 +17,7 @@ pattern_only=true
 
 docker run --rm -i \
 -v $FOLDER:/src \
--v $FOLDER/target/structure:/target \
+-v $FOLDER/target:/target \
 difi/vefa-structure:0.5
 
 # Validator build

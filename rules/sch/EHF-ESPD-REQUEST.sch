@@ -17,8 +17,7 @@
 
     <include href="parts/empty-elements.sch"/>
     <include href="parts/common.sch"/>
-    <!-- <include href="../../target/generated/EHF-ESPD-REQUEST-BASIC.sch"/> -->
-    <include href="../../target/structure/generated/request-basic.sch"/>
+    <include href="../../target/generated/request-basic.sch"/>
     <include href="../../target/generated/CriteriaTaxonomy.sch"/>
 
 </schema>
