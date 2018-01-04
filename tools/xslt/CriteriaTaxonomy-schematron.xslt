@@ -11,7 +11,7 @@
     <xsl:strip-space elements="*"/>
 
     <xsl:param name="pattern_only" select="'false'"/>
-    <xsl:param name="prefix" select="'EHF-ESPD'"/>
+    <xsl:param name="prefix" select="'EHF-ESPD-CT'"/>
 
     <xsl:function name="u:pid" as="xs:string">
         <xsl:param name="id"/>
@@ -58,7 +58,7 @@
             </xsl:for-each>
 
             <rule context="ccv:Criterion">
-                <assert id="..."
+                <assert id="{concat($prefix, '-C0001')}"
                         test="false()"
                         flag="fatal">Invalid criterion.</assert>
             </rule>
@@ -68,7 +68,7 @@
             </xsl:for-each>
 
             <rule context="ccv:RequirementGroup">
-                <assert id="..."
+                <assert id="{concat($prefix, '-RG0001')}"
                         test="false()"
                         flag="fatal">Invalid requirement group.</assert>
             </rule>
@@ -78,7 +78,7 @@
             </xsl:for-each>
 
             <rule context="ccv:Requirement">
-                <assert id="..."
+                <assert id="{concat($prefix, '-R0001')}"
                         test="false()"
                         flag="fatal">Invalid requirement.</assert>
             </rule>

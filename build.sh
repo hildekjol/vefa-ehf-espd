@@ -9,9 +9,6 @@ info() {
 # Delete old target folder if found.
 if [ -d target ]; then rm -rf target; fi
 
-info "Generate structure"
-sh $FOLDER/tools/travis/structure.sh
-
 info "Generate validation artifacts"
 sh $FOLDER/tools/travis/rules.sh
 
