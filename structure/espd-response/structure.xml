@@ -15,6 +15,9 @@
     <Namespace prefix="ext">urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2</Namespace>
     <Namespace prefix="ccv">urn:isa:names:specification:ubl:schema:xsd:CCV-CommonAggregateComponents-1</Namespace>
     <Namespace prefix="espd">urn:grow:names:specification:ubl:schema:xsd:ESPDResponse-1</Namespace>
+    <Namespace prefix="espd-cac">urn:grow:names:specification:ubl:schema:xsd:ESPD-CommonAggregateComponents-1</Namespace>
+    <Namespace prefix="espd-cbc">urn:grow:names:specification:ubl:schema:xsd:ESPD-CommonBasicComponents-1</Namespace>
+    <Namespace prefix="cev-cac">urn:isa:names:specification:ubl:schema:xsd:CEV-CommonAggregateComponents-1</Namespace>
 
     <Document>
         <Term>espd:ESPDResponse</Term>

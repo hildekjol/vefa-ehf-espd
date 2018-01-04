@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeList xmlns="urn:fdc:difi.no:2017:vefa:structure:CodeList-1">
 
-    <Title>LanguageCodeEU</Title>
+    <Title>ISO 639-1 Language Codes</Title>
     <Identifier>LanguageCodeEU</Identifier>
     <Version>1.0.2</Version>
     <Agency>European Comission</Agency>
+    <Subset>Language codes within European Union</Subset>
 
     <Code>
         <Id>PL</Id>

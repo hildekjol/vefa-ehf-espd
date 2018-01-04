@@ -25,9 +25,9 @@
     <Resource type="CodeList-1">codelist/LanguageCodeEU.xml</Resource>
     <Resource type="CodeList-1">codelist/PeriodMeasureTypeCodes.xml</Resource>
     <Resource type="CodeList-1">codelist/ProcedureType.xml</Resource>
-    <Resource type="CodeList-1">codelist/ProfileExecutionID.xml</Resource>
+    <!-- <Resource type="CodeList-1">codelist/ProfileExecutionID.xml</Resource> -->
     <Resource type="CodeList-1">codelist/ResponseDataType.xml</Resource>
-    <Resource type="CodeList-1">codelist/TechnicalCapabilityTypeCode.xml</Resource>
-    <Resource type="CodeList-1">codelist/TendererRole.xml</Resource>
+    <!-- <Resource type="CodeList-1">codelist/TechnicalCapabilityTypeCode.xml</Resource> -->
+    <!-- <Resource type="CodeList-1">codelist/TendererRole.xml</Resource> -->
 
 </Project>

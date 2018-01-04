@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeList xmlns="urn:fdc:difi.no:2017:vefa:structure:CodeList-1">
 
-    <Title>Participant Identifier Issuing Agencies</Title>
+    <Title>ISO 6523 International Code Designator (ICD)</Title>
     <Identifier>ICD</Identifier>
     <Version>4.0 DRAFT</Version>
     <Agency>OpenPEPPOL</Agency>
+    <Subset>Participant Identifier Issuing Agencies in OpenPEPPOL</Subset>
 
     <Code>
         <Id>GLN</Id>
