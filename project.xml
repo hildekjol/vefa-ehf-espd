@@ -11,6 +11,7 @@
 
     <Resource type="native:Schematron" title="Common rules" identifier="common">rules/sch/parts/common.sch</Resource>
     <Resource type="native:Schematron" title="Empty elements" identifier="empty-elements">rules/sch/parts/empty-elements.sch</Resource>
+    <Resource type="native:Schematron" title="Criteria taxonomy" identifier="criteria-taxonomy">target/generated/CriteriaTaxonomy.sch</Resource>
 
     <Resource type="CodeList-1">codelist/ActivityTypeCode.xml</Resource>
     <Resource type="CodeList-1">codelist/DocRefContentType.xml</Resource>
