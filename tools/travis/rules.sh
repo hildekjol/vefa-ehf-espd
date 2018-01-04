@@ -22,4 +22,7 @@ difi/vefa-structure:0.5
 
 # Validator build
 
-docker run --rm -i -v $FOLDER:/src difi/vefa-validator build -x -t /src -t -target target/validator
+docker run --rm -i \
+-v $FOLDER:/src \
+difi/vefa-validator \
+build -x -t /src -t -target target/validator -n no.difi.ehf.espd
