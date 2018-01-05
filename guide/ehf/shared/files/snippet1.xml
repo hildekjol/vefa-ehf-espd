@@ -41,14 +41,75 @@
     <cac:ProcurementProjectLot>
         <cbc:ID>1</cbc:ID>
     </cac:ProcurementProjectLot>
+    <!-- tag::criterion[] -->
     <ccv:Criterion>
-        <cbc:ID>test</cbc:ID>
-        <ccv:RequirementGroup>
-            <cbc:ID>123</cbc:ID>
-            <ccv:Requirement>
-                <cbc:ID>23542</cbc:ID>
+        <cbc:ID schemeID="CriteriaID" schemeAgencyID="EU-COM-GROW" schemeVersionID="1.0">005eb9ed-1347-4ca3-bb29-9bc0db64e1ab</cbc:ID><!--1-->
+        <cbc:TypeCode listID="CriteriaTypeCode" listAgencyID="EU-COM-GROW" listVersionID="1.0.2">CRITERION.EXCLUSION.CONVICTIONS.PARTICIPATION_IN_CRIMINAL_ORGANISATION</cbc:TypeCode>
+        <cbc:Name>Participation in a criminal organisation</cbc:Name>
+        <cbc:Description>Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for participation in a criminal organisation, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Article 2 of Council Framework Decision 2008/841/JHA of 24 October 2008 on the fight against organised crime (OJ L 300, 11.11.2008, p. 42).</cbc:Description>
+        <ccv:LegislationReference><!--2-->
+            <ccv-cbc:Title>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</ccv-cbc:Title>
+            <cbc:Description>Directive 2014/24/EU</cbc:Description>
+            <ccv-cbc:JurisdictionLevelCode listID="CriterionJurisdictionLevel" listAgencyID="EU-COM-GROW" listVersionID="1.0.2">EU_DIRECTIVE</ccv-cbc:JurisdictionLevelCode>
+            <ccv-cbc:Article>57(1)</ccv-cbc:Article>
+            <cbc:URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</cbc:URI>
+        </ccv:LegislationReference>
+        <ccv:RequirementGroup><!--3-->
+            <cbc:ID schemeAgencyID="EU-COM-GROW" schemeVersionID="1.0">7c637c0c-7703-4389-ba52-02997a055bd7</cbc:ID>
+            <ccv:Requirement responseDataType="INDICATOR"><!--4-->
+                <cbc:ID schemeID="CriterionRelatedIDs" schemeAgencyID="EU-COM-GROW" schemeVersionID="1.0">974c8196-9d1c-419c-9ca9-45bb9f5fd59a</cbc:ID>
+                <cbc:Description>Your answer?</cbc:Description>
             </ccv:Requirement>
+            <ccv:RequirementGroup pi="GROUP_FULFILLED.ON_TRUE">
+                <cbc:ID schemeAgencyID="EU-COM-GROW" schemeVersionID="1.0">f5276600-a2b6-4ff6-a90e-b31fe19dae41</cbc:ID>
+                <ccv:Requirement responseDataType="DATE">
+                    <cbc:ID schemeID="CriterionRelatedIDs" schemeAgencyID="EU-COM-GROW" schemeVersionID="1.0">ecf40999-7b64-4e10-b960-7f8ff8674cf6</cbc:ID>
+                    <cbc:Description>Date of conviction</cbc:Description>
+                </ccv:Requirement>
+                <ccv:Requirement responseDataType="DESCRIPTION">
+                    <cbc:ID schemeID="CriterionRelatedIDs" schemeAgencyID="EU-COM-GROW" schemeVersionID="1.0">7d35fb7c-da5b-4830-b598-4f347a04dceb</cbc:ID>
+                    <cbc:Description>Reason</cbc:Description>
+                </ccv:Requirement>
+                <ccv:Requirement responseDataType="DESCRIPTION">
+                    <cbc:ID schemeID="CriterionRelatedIDs" schemeAgencyID="EU-COM-GROW" schemeVersionID="1.0">c5012430-14da-454c-9d01-34cedc6a7ded</cbc:ID>
+                    <cbc:Description>Who has been convicted</cbc:Description>
+                </ccv:Requirement>
+                <ccv:Requirement responseDataType="PERIOD">
+                    <cbc:ID schemeID="CriterionRelatedIDs" schemeAgencyID="EU-COM-GROW" schemeVersionID="1.0">9ca9096f-edd2-4f19-b6b1-b55c83a2d5c8</cbc:ID>
+                    <cbc:Description>Length of the period of exclusion</cbc:Description>
+                </ccv:Requirement>
+                <ccv:RequirementGroup>
+                    <cbc:ID schemeAgencyID="EU-COM-GROW" schemeVersionID="1.0">5f9f09f7-f701-432c-9fdc-c22c124a74c9</cbc:ID>
+                    <ccv:Requirement responseDataType="INDICATOR">
+                        <cbc:ID schemeID="CriterionRelatedIDs" schemeAgencyID="EU-COM-GROW" schemeVersionID="1.0">20c5361b-7599-4ee6-b030-7f8323174d1e</cbc:ID>
+                        <cbc:Description>Have you taken measures to demonstrate your reliability ("Self-Cleaning")?</cbc:Description>
+                    </ccv:Requirement>
+                    <ccv:RequirementGroup pi="GROUP_FULFILLED.ON_TRUE">
+                        <cbc:ID schemeAgencyID="EU-COM-GROW" schemeVersionID="1.0">74e6c7b4-757b-4b40-ada6-fad6a997c310</cbc:ID>
+                        <ccv:Requirement responseDataType="DESCRIPTION">
+                            <cbc:ID schemeID="CriterionRelatedIDs" schemeAgencyID="EU-COM-GROW" schemeVersionID="1.0">7b07904f-e080-401a-a3a1-9a3efeeda54b</cbc:ID>
+                            <cbc:Description>Please describe them</cbc:Description>
+                        </ccv:Requirement>
+                    </ccv:RequirementGroup>
+                </ccv:RequirementGroup>
+            </ccv:RequirementGroup>
         </ccv:RequirementGroup>
     </ccv:Criterion>
-    
+    <!-- end::criterion[] -->
+    <!-- tag::ted-cn[] -->
+    <cac:AdditionalDocumentReference>
+        <cbc:ID schemeID="COM-GROW-TEMPORARY-ID" schemeAgencyID="EU-COM-GROW" schemeAgencyName="DG GROW (European Commission)" schemeVersionID="1.1">0000/S 000-000000</cbc:ID><!--1-->
+        <cbc:DocumentTypeCode listID="ReferencesTypeCodes" listAgencyID="EU-COM-GROW" listVersionID="1.0">TED_CN</cbc:DocumentTypeCode><!--2-->
+        <cac:Attachment>
+            <cac:ExternalReference>
+                <cbc:FileName>Test EHF ESPD</cbc:FileName><!--3-->
+                <cbc:Description>Testing EHF ESPD documentation</cbc:Description><!--4-->
+            </cac:ExternalReference>
+        </cac:Attachment>
+    </cac:AdditionalDocumentReference>
+    <cac:AdditionalDocumentReference>
+        <cbc:ID schemeAgencyID="EU-COM-GROW" schemeAgencyName="DG GROW (European Commission)" schemeVersionID="1.1">18/00001</cbc:ID><!--5-->
+        <cbc:DocumentTypeCode listID="ReferencesTypeCodes" listAgencyID="EU-COM-GROW" listVersionID="1.0">NGOJ</cbc:DocumentTypeCode>
+    </cac:AdditionalDocumentReference>
+    <!-- end::ted-cn[] -->
 </espd:ESPDRequest>

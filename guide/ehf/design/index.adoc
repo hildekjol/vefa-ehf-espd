@@ -14,6 +14,7 @@ image::shared/images/data_architecture.png[align="center", width="600", height="
 include::schemas.adoc[]
 include::namespaces.adoc[]
 include::datamodels.adoc[]
+include::model.adoc[]
 
 
 :leveloffset: -1

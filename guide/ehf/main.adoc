@@ -21,8 +21,8 @@ v{revision}
 
 include::introduction/index.adoc[]
 include::design/index.adoc[]
-include::request/index.adoc[]
 include::criterion/index.adoc[]
+include::response/index.adoc[]
 include::descriptions/index.adoc[]
 
 

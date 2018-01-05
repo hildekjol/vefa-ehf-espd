@@ -1,0 +1,30 @@
+
+= Additional Document Reference
+
+The ESPD reuses this UBL-2.1 component to allow both the contracting body (in the ESPDRequest) and the economic operator (in the ESPDResponse)
+to include references to documents that they might consider relevant including in the XML instances of both types of documents.
+
+The ESPD uses the following data for referencing additional documents:
+
+	* The document ID;
+	* The issue date and time;
+	* The document type code;
+	* A title for the document; and
+	* A description of its content and/or intended purpose; and
+	* The URL where to access its content.
+
+
+****
+IMPORTANT: All ESPD XML instances MUST always include an Additional Document Reference indicating the TeD reference number of the Contract Notice the ESPD is related to.  This reference number MUST be specified in the field `cbc:ID` of the element cac:AdditionalDocumentReference component, and MUST follow the scheme defined by the Publications Office: [][][][]/S [][][]-[][][][][][] (e.g. 2015/S 252-461137).
+****
+
+.Example of additional document reference used in the ESPDRequest XML document.
+[source, xml, indent=0]
+----
+include::../shared/files/snippet1.xml[tags=ted-cn]
+----
+<1> Unique ID for this document (Must be a special pattern [][][][]/S [][][]-[][][][][][].)
+<2> The code for this type of content
+<3> A title for the document
+<4> A description of the content and intended use of this document
+<5> Doffin referanse

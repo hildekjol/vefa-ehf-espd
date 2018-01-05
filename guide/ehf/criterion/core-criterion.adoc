@@ -1,11 +1,7 @@
 
 
-////
-Additionally to the Exclusion and Selection Criteria, the ESPD EDM treat some data related to the
-Economic Operator also as criteria. This is covered further on under Section "Other Criteria".
-////
 
-= Core Criterion and Core Evidence Data Models and Vocabularies
+= Core Criterion Data Models and Vocabularies
 
 The UML diagram below shows in detail the classes of the Core Criterion used in the ESPDRequest XML document.
 
@@ -18,3 +14,14 @@ The above UML diagram SHOULD be interpreted as follows:
 * One Criterion MAY have sub-Criteria
 * One Criterion MAY be linked to a specific Legislation
 * One Group of Requirements contains one or More Requirements
+
+
+.Example of criterion
+[source, xml, indent=0]
+----
+include::../shared/files/snippet1.xml[tags=criterion]
+----
+<1> UUID from Criteria Taxonomy
+<2> Legislation reference
+<3> Requirement group
+<4> Requirement with expected response type (INDICATOR)
