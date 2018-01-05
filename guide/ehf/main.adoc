@@ -25,6 +25,6 @@ include::codes/index.adoc[]
 include::request/index.adoc[]
 include::criterion/index.adoc[]
 include::descriptions/index.adoc[]
-include::rules/index.adoc[]
+
 
 :leveloffset: -1

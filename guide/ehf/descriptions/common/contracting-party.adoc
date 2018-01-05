@@ -11,7 +11,6 @@ The contracting body must be identified, hence information about the party is re
 The ESPDRequest uses the aggregate element `cac:ContractingParty` to represent information on the contracting body, but uses only a reduced subset of its element.
 The XSD Schema however imports the entire aggregate element, but only the elements shown in the example below, is expected in the ESPD Request
 
-#Check use of attributes and codes#
 
 .Example of contracting body
 [source, xml, indent=0]

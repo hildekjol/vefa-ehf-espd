@@ -10,8 +10,6 @@ establishing the standard form for the European Single Procurement Document. #Ko
 :leveloffset: +1
 
 include::model.adoc[]
-include::elements.adoc[]
-include::legislation.adoc[]
-include::requirement-group.adoc[]
+
 
 :leveloffset: -1
