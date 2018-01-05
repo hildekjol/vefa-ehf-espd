@@ -1,9 +1,11 @@
 #!/bin/sh
 
 FOLDER=$(dirname $(readlink -f "$0"))/../..
+. $FOLDER/tools/script/common.sh
 
-# Generate CriteriaTaxonomy rules for Schematron
+info "Generate Criteria Taxonomy artifacts"
 
+echo " * Generate Schematron"
 docker run --rm -i \
 -v $FOLDER:/src \
 -v $FOLDER/target/generated:/target \
@@ -13,6 +15,7 @@ klakegg/saxon \
 -o:/target/CriteriaTaxonomy.sch \
 pattern_only=true
 
+echo " * Generate snippet file"
 docker run --rm -i \
 -v $FOLDER:/src \
 -v $FOLDER/target/generated:/target \
@@ -21,6 +24,7 @@ klakegg/saxon \
 -xsl:tools/xslt/CriteriaTaxonomy-snippet.xslt \
 -o:/target/CriteriaTaxonomy-snippet.xml
 
+echo " * Generate rule file"
 docker run --rm -i \
 -v $FOLDER:/src \
 -v $FOLDER/target/generated:/target \
@@ -29,25 +33,26 @@ klakegg/saxon \
 -xsl:tools/xslt/CriteriaTaxonomy-structure.xslt \
 -o:/target/CriteriaTaxonomy.xml
 
-docker run --rm -i -v $FOLDER:/src alpine:3.6 sh /src/tools/script/CriteriaTaxonomy-adoc.sh
+echo " * Generate documentation"
+docker run --rm -i \
+-v $FOLDER:/src \
+alpine:3.6 \
+sh /src/tools/script/CriteriaTaxonomy-adoc.sh
 
-# Prepare zip containing XSD files
-
+info "Prepare zip containing XSD files"
 docker run --rm -i \
 -v $FOLDER/espd-edm/exchange-model/src/main/resources/schema:/espd-1.0.2-schema \
 -v $FOLDER/target/generated:/target \
 kramos/alpine-zip \
 -x espd-1.0.2-schema/maindoc/bindings.xjb -r /target/schema.zip /espd-1.0.2-schema
 
-# Run vefa-structure
-
+info "Run vefa-structure"
 docker run --rm -i \
 -v $FOLDER:/src \
 -v $FOLDER/target:/target \
 difi/vefa-structure:0.5
 
-# Validator build
-
+info "Build and verify validation artifacts"
 docker run --rm -i \
 -v $FOLDER:/src \
 difi/vefa-validator \

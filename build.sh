@@ -1,18 +1,14 @@
 #!/bin/sh
 
 FOLDER=$(dirname $(readlink -f "$0"))
+. $FOLDER/tools/script/common.sh
 
-info() {
-    echo "\n  *** $1 ***\n"
-}
+if [ -d target ]; then
+  info "Delete existing target folder"
+  rm -rf target;
+fi
 
-# Delete old target folder if found.
-if [ -d target ]; then rm -rf target; fi
-
-info "Generate validation artifacts"
 sh $FOLDER/tools/travis/rules.sh
-
-info "Generate documentation"
 sh $FOLDER/tools/travis/guides.sh
 
 info "Fix ownership"
