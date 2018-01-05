@@ -6,28 +6,105 @@
     <Documentation path="ehf/">EHF ESPD (European Single Procurement document)</Documentation>
     <Documentation path="edm/">ESPD Response XML Instantiation Guide</Documentation>
 
-    <Resource type="Structure-1" title="ESPD Request" identifier="request">structure/espd-request/structure.xml</Resource>
-    <Resource type="Structure-1" title="ESPD Response" identifier="response">structure/espd-response/structure.xml</Resource>
+    <!-- Data models -->
 
-    <Resource type="native:Schematron" title="Common rules" identifier="common">rules/sch/parts/common.sch</Resource>
-    <Resource type="native:Schematron" title="Empty elements" identifier="empty-elements">rules/sch/parts/empty-elements.sch</Resource>
-    <Resource type="Rule-1">target/generated/CriteriaTaxonomy.xml</Resource>
+    <Resource>
+        <Identifier>request</Identifier>
+        <Type>Structure-1</Type>
+        <Path>structure/espd-request/structure.xml</Path>
+        <Title>ESPD Request</Title>
+    </Resource>
+    <Resource>
+        <Identifier>response</Identifier>
+        <Type>Structure-1</Type>
+        <Path>structure/espd-response/structure.xml</Path>
+        <Title>ESPD Response</Title>
+    </Resource>
 
-    <Resource type="CodeList-1">codelist/ActivityTypeCode.xml</Resource>
-    <Resource type="CodeList-1">codelist/DocRefContentType.xml</Resource>
-    <Resource type="CodeList-1">codelist/AmountTypeCodes.xml</Resource>
-    <Resource type="CodeList-1">codelist/ContractType.xml</Resource>
-    <Resource type="CodeList-1">codelist/CountryCodeIdentifier.xml</Resource>
-    <Resource type="CodeList-1">codelist/CriterionJurisdictionLevel.xml</Resource>
-    <Resource type="CodeList-1">codelist/CriteriaTypeCode.xml</Resource>
-    <Resource type="CodeList-1">codelist/CurrencyCode.xml</Resource>
-    <Resource type="CodeList-1">codelist/ICD.xml</Resource>
-    <Resource type="CodeList-1">codelist/LanguageCodeEU.xml</Resource>
-    <Resource type="CodeList-1">codelist/PeriodMeasureTypeCodes.xml</Resource>
-    <Resource type="CodeList-1">codelist/ProcedureType.xml</Resource>
-    <!-- <Resource type="CodeList-1">codelist/ProfileExecutionID.xml</Resource> -->
-    <Resource type="CodeList-1">codelist/ResponseDataType.xml</Resource>
-    <!-- <Resource type="CodeList-1">codelist/TechnicalCapabilityTypeCode.xml</Resource> -->
-    <!-- <Resource type="CodeList-1">codelist/TendererRole.xml</Resource> -->
+    <!-- Rules -->
+
+    <Resource>
+        <Identifier>common</Identifier>
+        <Type>native:Schematron</Type>
+        <Path>rules/sch/parts/common.sch</Path>
+        <Title>Common rules</Title>
+    </Resource>
+    <Resource>
+        <Identifier>empty-elements</Identifier>
+        <Type>native:Schematron</Type>
+        <Path>rules/sch/parts/empty-elements.sch</Path>
+        <Title>Empty elements</Title>
+    </Resource>
+    <Resource>
+        <Type>Rule-1</Type>
+        <Path>target/generated/CriteriaTaxonomy.xml</Path>
+    </Resource>
+
+    <!-- Code lists -->
+
+    <Resource>
+        <Type>CodeList-1</Type>
+        <Path>codelist/ActivityTypeCode.xml</Path>
+    </Resource>
+    <Resource>
+        <Type>CodeList-1</Type>
+        <Path>codelist/DocRefContentType.xml</Path>
+    </Resource>
+    <Resource>
+        <Type>CodeList-1</Type>
+        <Path>codelist/AmountTypeCodes.xml</Path>
+    </Resource>
+    <Resource>
+        <Type>CodeList-1</Type>
+        <Path>codelist/ContractType.xml</Path>
+    </Resource>
+    <Resource>
+        <Type>CodeList-1</Type>
+        <Path>codelist/CountryCodeIdentifier.xml</Path>
+    </Resource>
+    <Resource>
+        <Type>CodeList-1</Type>
+        <Path>codelist/CriterionJurisdictionLevel.xml</Path>
+    </Resource>
+    <Resource>
+        <Type>CodeList-1</Type>
+        <Path>codelist/CriteriaTypeCode.xml</Path>
+    </Resource>
+    <Resource>
+        <Type>CodeList-1</Type>
+        <Path>codelist/CurrencyCode.xml</Path>
+    </Resource>
+    <Resource>
+        <Type>CodeList-1</Type>
+        <Path>codelist/ICD.xml</Path>
+    </Resource>
+    <Resource>
+        <Type>CodeList-1</Type>
+        <Path>codelist/LanguageCodeEU.xml</Path>
+    </Resource>
+    <Resource>
+        <Type>CodeList-1</Type>
+        <Path>codelist/PeriodMeasureTypeCodes.xml</Path>
+    </Resource>
+    <Resource>
+        <Type>CodeList-1</Type>
+        <Path>codelist/ProcedureType.xml</Path>
+    </Resource>
+    <!-- <Resource>
+        <Type>CodeList-1</Type>
+        <Path>codelist/ProfileExecutionID.xml</Path>
+    </Resource> -->
+    <Resource>
+        <Type>CodeList-1</Type>
+        <Path>codelist/ResponseDataType.xml</Path>
+    </Resource>
+    <!-- <Resource>
+        <Type>CodeList-1</Type>
+        <Path>codelist/TechnicalCapabilityTypeCode.xml</Path>
+    </Resource> -->
+    <!-- <Resource>
+        <Type>CodeList-1</Type>
+        <Path>codelist/TendererRole.xml</Path>
+    </Resource> -->
 
 </Project>
