@@ -31,6 +31,14 @@ klakegg/saxon \
 
 docker run --rm -i -v $FOLDER:/src alpine:3.6 sh /src/tools/script/CriteriaTaxonomy-adoc.sh
 
+# Prepare zip containing XSD files
+
+docker run --rm -i \
+-v $FOLDER/espd-edm/exchange-model/src/main/resources/schema:/espd-1.0.2-schema \
+-v $FOLDER/target/generated:/target \
+kramos/alpine-zip \
+-x espd-1.0.2-schema/maindoc/bindings.xjb -r /target/schema.zip /espd-1.0.2-schema
+
 # Run vefa-structure
 
 docker run --rm -i \

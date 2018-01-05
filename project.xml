@@ -9,13 +9,11 @@
     <!-- Data models -->
 
     <Resource>
-        <Identifier>request</Identifier>
         <Type>Structure-1</Type>
         <Path>structure/espd-request/structure.xml</Path>
         <Title>ESPD Request</Title>
     </Resource>
     <Resource>
-        <Identifier>response</Identifier>
         <Type>Structure-1</Type>
         <Path>structure/espd-response/structure.xml</Path>
         <Title>ESPD Response</Title>
@@ -106,5 +104,47 @@
         <Type>CodeList-1</Type>
         <Path>codelist/TendererRole.xml</Path>
     </Resource> -->
+    
+    <!-- Files -->
+    <Resource>
+        <Type>native:File</Type>
+        <Path>codelist/sources/CriteriaTaxonomy.xlsx</Path>
+        <Title>Criteria taxonomy</Title>
+        <Description>Official criteria taxonomy part of ESPD 1.0.2.</Description>
+        <Property key="download">CriteriaTaxonomy.xlsx</Property>
+    </Resource>
+    <Resource>
+        <Type>native:File</Type>
+        <Path>codelist/sources/ESPD-CodeLists.xls</Path>
+        <Title>Code lists</Title>
+        <Description>Official code lists part of ESPD 1.0.2.</Description>
+        <Property key="download">ESPD-CodeLists.xls</Property>
+    </Resource>
+    <Resource>
+        <Type>native:File</Type>
+        <Path>codelist/CriteriaTaxonomy.xml</Path>
+        <Title>Criteria taxonomy as XML (TODO)</Title>
+        <Description>Criteria taxonomy restructured as XML file including Norwegian translation organized by assigned UUIDs.</Description>
+        <Property key="download">CriteriaTaxonomy.xml</Property>
+    </Resource>
+    <Resource>
+        <Type>native:File</Type>
+        <Path>rules/example/espd-request.xml</Path>
+        <Title>Example file for EHF ESPD 1.0 Request (TODO)</Title>
+        <Property key="download">espd-request.xml</Property>
+    </Resource>
+    <Resource>
+        <Type>native:File</Type>
+        <Path>rules/example/espd-request.xml</Path>
+        <Title>Example file for EHF ESPD 1.0 Response (TODO)</Title>
+        <Property key="download">espd-response.xml</Property>
+        <Property key="filename">espd-response.xml</Property>
+    </Resource>
+    <Resource>
+        <Type>native:File</Type>
+        <Path>target/generated/schema.zip</Path>
+        <Title>XSD Schema for ESPD 1.0.2</Title>
+        <Property key="download">schema.zip</Property>
+    </Resource>
 
 </Project>

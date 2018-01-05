@@ -12,6 +12,7 @@
         <RuleList>
             <Identifier>criteria-taxonomy</Identifier>
             <Name>Criteria Taxonomy</Name>
+            <Description>Automatically generated rules to validate the Criteria Taxonomy to be used in ESPD documents.</Description>
 
             <xsl:apply-templates select="sch:rule/sch:assert"/>
         </RuleList>

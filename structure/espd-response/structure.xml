@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Structure xmlns="urn:fdc:difi.no:2017:vefa:structure-1">
 
-    <Term/>
+    <Term>response</Term>
     <Name>EHF ESPD 1.0 Response</Name>
+    <Description>Document type used by potential contracting parties to document their answers questioned in an ESPD Response.</Description>
 
     <Property key="sch:prefix">EHF-ESPD-RES</Property>
     <Property key="sch:identifier">response-basic</Property>
@@ -29,7 +30,7 @@
         <Element>
             <Term>cbc:UBLVersionID</Term>
             <Name>UBL Version identifier</Name>
-            <Description>Identifies the earliest version of the UBL 2 schema for this document type 
+            <Description>Identifies the earliest version of the UBL 2 schema for this document type
                 that defines all of the elements that might be encountered in the current instance</Description>
 
 
@@ -44,8 +45,8 @@
         <Element>
             <Term>cbc:CustomizationID</Term>
             <Name>Specification identification</Name>
-            <Description>An identification of the specification containing the total set of rules regarding semantic content, 
-                cardinalities and business rules to which the data contained in the instance document conforms. 
+            <Description>An identification of the specification containing the total set of rules regarding semantic content,
+                cardinalities and business rules to which the data contained in the instance document conforms.
                 The identification may include the version of the specification as well as any customizations applied.</Description>
 
             <Attribute>
@@ -140,7 +141,7 @@
         <Element>
             <Term>cbc:ContractFolderID</Term>
             <Name>Reference number</Name>
-            <Description>An identifier that is specified by the buyer and used as a reference number for all documents in the procurement process. 
+            <Description>An identifier that is specified by the buyer and used as a reference number for all documents in the procurement process.
                 It is also known as procurement project identifier, procurement reference number or contract folder identifier.</Description>
 
             <Attribute>
@@ -159,7 +160,7 @@
         <Element>
             <Term>cac:ContractingParty</Term>
             <Name>Contracting Body</Name>
-            <Description>The contracting authority or contracting entity who is buying supplies, services or public works using a tendering procedure as described 
+            <Description>The contracting authority or contracting entity who is buying supplies, services or public works using a tendering procedure as described
                 in the applicable directive (Directives 2014/24/EU, 2014/25/EU).</Description>
 
             <Element>
@@ -270,15 +271,15 @@
         <Element>
             <Term>espd-cac:EconomicOperatorParty</Term>
             <Name>Economic operator</Name>
-            <Description>Any natural or legal person or public entity or group of such persons and/or entities, including any temporary association of undertakings, 
-                which offers the execution of works and/or a work, the supply of products or the provision of services on the market. 
+            <Description>Any natural or legal person or public entity or group of such persons and/or entities, including any temporary association of undertakings,
+                which offers the execution of works and/or a work, the supply of products or the provision of services on the market.
                 Information about the party submitting the qualification. A placeholder for the data related to only one Economic Operator (EO) that tenders solely to a procurement project, to one of the EOs that tender as part of a group (e.g. a Consortium), or to one possible sub-contractor of the EO.
                 Consortia grouping more than one EO need to draft and submit as many ESPDResponses as Economic Operators and sub-contractors participate in the tender.</Description>
 
             <Element>
                 <Term>espd-cbc:SMEIndicator</Term>
                 <Name>SME indicator</Name>
-                <Description>Indicates whether the economic operator can be categorized as an SME (true) or not.According to the EC, 
+                <Description>Indicates whether the economic operator can be categorized as an SME (true) or not.According to the EC,
                     SME are enterprises with less than 250 employees, a turnover less than EUR 50 m and a balance sheet total less than EUR 43 m.</Description>
                 <Value type="EXAMPLE">false</Value>
             </Element>
@@ -333,14 +334,14 @@
                                 <Description>First name of the natural person.</Description>
                                 <Value type="EXAMPLE">Jensen</Value>
                             </Element>
-                            
+
                             <Element cardinality="0..1">
                                 <Term>cbc:BirthDate</Term>
                                 <Name>Representative natural person birth date</Name>
                                 <Description>Birth date of the natural person. Format YYYY-MM-DD</Description>
                                 <Value type="EXAMPLE">1980-01-01</Value>
                             </Element>
-                            
+
                             <Element cardinality="0..1">
                                 <Term>cbc:BirthplaceName</Term>
                                 <Name>Representative natural person birth place</Name>
@@ -585,7 +586,7 @@
             <Element>
                 <Term>cbc:ID</Term>
                 <Name>Lot reference</Name>
-                <Description>A reference to one or more lots the economic operator is applying for. The original lot definition is part of the call for tender document. 
+                <Description>A reference to one or more lots the economic operator is applying for. The original lot definition is part of the call for tender document.
                     The Qualification instance only references the corresponding IDs in order to establish the connection to the call for tender information.
                     The value ´0 MUST be specified to indicate that this procurement project has no lots.</Description>
 
@@ -660,7 +661,7 @@
             <Element>
                 <Term>cbc:Name</Term>
                 <Name>Criterion name</Name>
-                <Description>A short and descriptive name for a criterion. A criterion describes a fact that is used by the contracting body to evaluate and compare 
+                <Description>A short and descriptive name for a criterion. A criterion describes a fact that is used by the contracting body to evaluate and compare
                     tenders by economic operators and which will be used in the award decision or to assess the eligibility of an economic operator. The names can be derived from the code list Criteria Taxonomy</Description>
                 <Value type="EXAMPLE">Participation in a criminal organisation</Value>
             </Element>
@@ -687,7 +688,7 @@
                 <Element>
                     <Term>ccv-cbc:Title</Term>
                     <Name>Legislation title</Name>
-                    <Description>	
+                    <Description>
                         Title of the legislation as published in an official gazette or portal. The complete title of the legislation provided in the original legal text MUST be provided.</Description>
                     <Value type="EXAMPLE">DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Value>
                 </Element>
@@ -879,7 +880,7 @@
                         <Element cardinality="0..1">
                             <Term>cbc:Quantity</Term>
                             <Name>Criterion fulfillment quantity</Name>
-                            <Description>Declared quantity that fullfills the criterion. BEWARE that different types of Quantities can be required (see codelist ResponseDataType), some of them requires a unit code to be specified. 
+                            <Description>Declared quantity that fullfills the criterion. BEWARE that different types of Quantities can be required (see codelist ResponseDataType), some of them requires a unit code to be specified.
                                 Up to three different types of Quantities can be specified: (1) QUANTITY_INTEGER, a number representing a quantity in a specific unit of measure. The unit has to be specified (e.g. number of workers); (2) QUANTITY_YEAR, a non-negative integer (i.e. a natural number) representing a year. The unit has to be specified as YEAR, and (3) QUANTITY, a number representing a generic quantity with no unit specified (e.g. a ratio). Beware that in the case of QUANTITY_INTEGER and QUANTITY_YEAR the attribute unitCode MUST be always specified</Description>
 
                             <Attribute usage="Dependent">
@@ -907,7 +908,7 @@
                         <Element cardinality="0..n">
                             <Term>cev-cac:Evidence</Term>
                             <Name>Evidence</Name>
-                            <Description>One or more references to a source where a documentary proof can be obtained 
+                            <Description>One or more references to a source where a documentary proof can be obtained
                                 to demonstrate that one stated response does actually fulfill the Requirement from a Criterion</Description>
 
 
@@ -992,8 +993,8 @@
             <Element>
                 <Term>cbc:ID</Term>
                 <Name>Document identifier</Name>
-                <Description>All ESPDRequest instances, MUST always include an Additional Document Reference indicating the TeD reference number 
-                    of the Contract Notice the ESPDResponse is related to. This reference number MUST be specified in the field `cbc:ID`of the element cac:AdditionalDocumentReference component, 
+                <Description>All ESPDRequest instances, MUST always include an Additional Document Reference indicating the TeD reference number
+                    of the Contract Notice the ESPDResponse is related to. This reference number MUST be specified in the field `cbc:ID`of the element cac:AdditionalDocumentReference component,
                     and MUST follow the scheme defined by the Publications Office: [][][][]/S [][][]-[][][][][][] (e.g. 2015/S 252-461137).</Description>
 
                 <Attribute>
@@ -1061,8 +1062,8 @@
                     <Element>
                         <Term>cbc:Description</Term>
                         <Name>A description of the content and/or intended purpose of the referenced document</Name>
-                        <Value type="EXAMPLE">The objective of this contract is to set up a virtual European Resource Efficiency Excellence Centre. 
-                            The Centre will provide information and support to European SMEs, business intermediaries, resource efficiencypractitioners and other 
+                        <Value type="EXAMPLE">The objective of this contract is to set up a virtual European Resource Efficiency Excellence Centre.
+                            The Centre will provide information and support to European SMEs, business intermediaries, resource efficiencypractitioners and other
                             interested parties such as regional authorities</Value>
                     </Element>
                 </Element>

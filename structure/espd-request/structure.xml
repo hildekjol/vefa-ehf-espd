@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Structure xmlns="urn:fdc:difi.no:2017:vefa:structure-1">
 
-    <Term/>
+    <Term>request</Term>
     <Name>EHF ESPD 1.0 Request</Name>
+    <Description>Document type used to provide ESPD schema to be filled out by potential contracting parties.</Description>
 
     <Property key="sch:prefix">EHF-ESPD-REQ</Property>
     <Property key="sch:identifier">request-basic</Property>
