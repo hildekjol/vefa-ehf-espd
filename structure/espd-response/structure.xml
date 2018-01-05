@@ -265,9 +265,11 @@
 
             </Element>
         </Element>
+        
 
         <Element>
             <Term>espd-cac:EconomicOperatorParty</Term>
+            <Name>Economic operator</Name>
             <Description>Any natural or legal person or public entity or group of such persons and/or entities, including any temporary association of undertakings, 
                 which offers the execution of works and/or a work, the supply of products or the provision of services on the market. 
                 Information about the party submitting the qualification. A placeholder for the data related to only one Economic Operator (EO) that tenders solely to a procurement project, to one of the EOs that tender as part of a group (e.g. a Consortium), or to one possible sub-contractor of the EO.
@@ -281,9 +283,49 @@
                 <Value type="EXAMPLE">false</Value>
             </Element>
 
-<!--            <Element cardinality="0..n">
+            <Element cardinality="0..n">
                 <Term>espd-cac:RepresentativeNaturalPerson</Term>
-            </Element>-->
+                <Name>Representative Natural person</Name>
+                
+                <Element cardinality="0..1">
+                    <Term>espd-cbc:NaturalPersonRoleCode</Term>
+                    <Name>Role Code</Name> 
+                </Element>
+                
+                <Element cardinality="0..1">
+                    <Term>espd-cbc:NaturalPersonRoleDescription</Term>
+                    <Name>Role description</Name> 
+                    <Description>A short description for the role of the Economic Operator’s representative</Description>
+                </Element>
+                
+                <Element cardinality="0..1">
+                    <Term>espd-cbc:NaturalPersonRegistrationCountryCode</Term>
+                    <Name>Country code</Name> 
+                    <Description>Country of registration of the natural person</Description>
+                </Element>
+                
+                <Element cardinality="0..1">
+                    <Term>cac:PowerOfAttorney</Term>
+                    <Name>Power of attorney</Name> 
+                    <Description>Country of registration of the natural person</Description>
+                    
+                    <Element cardinality="0..1">
+                        <Term>cac:AgentParty</Term>
+                        <Name>Agent party</Name> 
+                        
+                        <Element cardinality="0..1">
+                            <Term>cac:Person</Term>
+                            <Name>Representative Natural person</Name> 
+                            <Description>Information about individuals who in one way or the other represent the economic operator.</Description>
+                        </Element>
+                        
+                    </Element>
+                    
+
+                    
+                </Element>
+                
+            </Element>
 
             <Element>
                 <Term>cac:Party</Term>
