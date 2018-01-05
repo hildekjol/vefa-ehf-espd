@@ -10,12 +10,12 @@
 
     <Resource>
         <Type>Structure-1</Type>
-        <Path>structure/espd-request/structure.xml</Path>
+        <Path>structure/datamodel/espd-request.xml</Path>
         <Title>ESPD Request</Title>
     </Resource>
     <Resource>
         <Type>Structure-1</Type>
-        <Path>structure/espd-response/structure.xml</Path>
+        <Path>structure/datamodel/espd-response.xml</Path>
         <Title>ESPD Response</Title>
     </Resource>
 
@@ -42,87 +42,87 @@
 
     <Resource>
         <Type>CodeList-1</Type>
-        <Path>codelist/ActivityTypeCode.xml</Path>
+        <Path>structure/codelist/ActivityTypeCode.xml</Path>
     </Resource>
     <Resource>
         <Type>CodeList-1</Type>
-        <Path>codelist/DocRefContentType.xml</Path>
+        <Path>structure/codelist/DocRefContentType.xml</Path>
     </Resource>
     <Resource>
         <Type>CodeList-1</Type>
-        <Path>codelist/AmountTypeCodes.xml</Path>
+        <Path>structure/codelist/AmountTypeCodes.xml</Path>
     </Resource>
     <Resource>
         <Type>CodeList-1</Type>
-        <Path>codelist/ContractType.xml</Path>
+        <Path>structure/codelist/ContractType.xml</Path>
     </Resource>
     <Resource>
         <Type>CodeList-1</Type>
-        <Path>codelist/CountryCodeIdentifier.xml</Path>
+        <Path>structure/codelist/CountryCodeIdentifier.xml</Path>
     </Resource>
     <Resource>
         <Type>CodeList-1</Type>
-        <Path>codelist/CriterionJurisdictionLevel.xml</Path>
+        <Path>structure/codelist/CriterionJurisdictionLevel.xml</Path>
     </Resource>
     <Resource>
         <Type>CodeList-1</Type>
-        <Path>codelist/CriteriaTypeCode.xml</Path>
+        <Path>structure/codelist/CriteriaTypeCode.xml</Path>
     </Resource>
     <Resource>
         <Type>CodeList-1</Type>
-        <Path>codelist/CurrencyCode.xml</Path>
+        <Path>structure/codelist/CurrencyCode.xml</Path>
     </Resource>
     <Resource>
         <Type>CodeList-1</Type>
-        <Path>codelist/ICD.xml</Path>
+        <Path>structure/codelist/ICD.xml</Path>
     </Resource>
     <Resource>
         <Type>CodeList-1</Type>
-        <Path>codelist/LanguageCodeEU.xml</Path>
+        <Path>structure/codelist/LanguageCodeEU.xml</Path>
     </Resource>
     <Resource>
         <Type>CodeList-1</Type>
-        <Path>codelist/PeriodMeasureTypeCodes.xml</Path>
+        <Path>structure/codelist/PeriodMeasureTypeCodes.xml</Path>
     </Resource>
     <Resource>
         <Type>CodeList-1</Type>
-        <Path>codelist/ProcedureType.xml</Path>
+        <Path>structure/codelist/ProcedureType.xml</Path>
     </Resource>
     <!-- <Resource>
         <Type>CodeList-1</Type>
-        <Path>codelist/ProfileExecutionID.xml</Path>
+        <Path>structure/codelist/ProfileExecutionID.xml</Path>
     </Resource> -->
     <Resource>
         <Type>CodeList-1</Type>
-        <Path>codelist/ResponseDataType.xml</Path>
+        <Path>structure/codelist/ResponseDataType.xml</Path>
     </Resource>
     <!-- <Resource>
         <Type>CodeList-1</Type>
-        <Path>codelist/TechnicalCapabilityTypeCode.xml</Path>
+        <Path>structure/codelist/TechnicalCapabilityTypeCode.xml</Path>
     </Resource> -->
     <!-- <Resource>
         <Type>CodeList-1</Type>
-        <Path>codelist/TendererRole.xml</Path>
+        <Path>structure/codelist/TendererRole.xml</Path>
     </Resource> -->
-    
+
     <!-- Files -->
     <Resource>
         <Type>native:File</Type>
-        <Path>codelist/sources/CriteriaTaxonomy.xlsx</Path>
+        <Path>structure/codelist/sources/CriteriaTaxonomy.xlsx</Path>
         <Title>Criteria taxonomy</Title>
         <Description>Official criteria taxonomy part of ESPD 1.0.2.</Description>
         <Property key="download">CriteriaTaxonomy.xlsx</Property>
     </Resource>
     <Resource>
         <Type>native:File</Type>
-        <Path>codelist/sources/ESPD-CodeLists.xls</Path>
+        <Path>structure/codelist/sources/ESPD-CodeLists.xls</Path>
         <Title>Code lists</Title>
         <Description>Official code lists part of ESPD 1.0.2.</Description>
         <Property key="download">ESPD-CodeLists.xls</Property>
     </Resource>
     <Resource>
         <Type>native:File</Type>
-        <Path>codelist/CriteriaTaxonomy.xml</Path>
+        <Path>structure/codelist/CriteriaTaxonomy.xml</Path>
         <Title>Criteria taxonomy as XML (TODO)</Title>
         <Description>Criteria taxonomy restructured as XML file including Norwegian translation organized by assigned UUIDs.</Description>
         <Property key="download">CriteriaTaxonomy.xml</Property>
