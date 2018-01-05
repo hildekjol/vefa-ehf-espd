@@ -27,7 +27,8 @@
             <Name>UBL Version identifier</Name>
             <Description>Identifies the earliest version of the UBL 2 schema for this document type 
                 that defines all of the elements that might be encountered in the current instance</Description>
-           
+
+            <Property key="doc">guide/ehf/introduction/context.adoc</Property>
            
             <Attribute>
                 <Term>schemeAgencyID</Term>
