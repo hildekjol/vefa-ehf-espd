@@ -265,7 +265,7 @@
 
             </Element>
         </Element>
-        
+
 
         <Element>
             <Term>espd-cac:EconomicOperatorParty</Term>
@@ -286,45 +286,142 @@
             <Element cardinality="0..n">
                 <Term>espd-cac:RepresentativeNaturalPerson</Term>
                 <Name>Representative Natural person</Name>
-                
+
                 <Element cardinality="0..1">
                     <Term>espd-cbc:NaturalPersonRoleCode</Term>
-                    <Name>Role Code</Name> 
+                    <Name>Role Code</Name>
                 </Element>
-                
+
                 <Element cardinality="0..1">
                     <Term>espd-cbc:NaturalPersonRoleDescription</Term>
-                    <Name>Role description</Name> 
+                    <Name>Role description</Name>
                     <Description>A short description for the role of the Economic Operator’s representative</Description>
                 </Element>
-                
+
                 <Element cardinality="0..1">
                     <Term>espd-cbc:NaturalPersonRegistrationCountryCode</Term>
-                    <Name>Country code</Name> 
+                    <Name>Country code</Name>
                     <Description>Country of registration of the natural person</Description>
+                    <Reference type="CODE_LIST">CountryCodeIdentifier</Reference>
                 </Element>
-                
+
                 <Element cardinality="0..1">
                     <Term>cac:PowerOfAttorney</Term>
-                    <Name>Power of attorney</Name> 
-                    <Description>Country of registration of the natural person</Description>
-                    
+                    <Name>Power of attorney</Name>
+
+
                     <Element cardinality="0..1">
                         <Term>cac:AgentParty</Term>
-                        <Name>Agent party</Name> 
-                        
+                        <Name>Agent party</Name>
+
                         <Element cardinality="0..1">
                             <Term>cac:Person</Term>
-                            <Name>Representative Natural person</Name> 
+                            <Name>Representative Natural person</Name>
                             <Description>Information about individuals who in one way or the other represent the economic operator.</Description>
-                        </Element>
-                        
-                    </Element>
-                    
 
-                    
+
+                            <Element cardinality="0..1">
+                                <Term>cbc:FirstName</Term>
+                                <Name>Representative natural person first name</Name>
+                                <Description>First name of the natural person.</Description>
+                                <Value type="EXAMPLE">Jens</Value>
+                            </Element>
+
+                            <Element cardinality="0..1">
+                                <Term>cbc:FamilyName</Term>
+                                <Name>Representative natural person first name</Name>
+                                <Description>First name of the natural person.</Description>
+                                <Value type="EXAMPLE">Jensen</Value>
+                            </Element>
+
+                            <Element cardinality="0..1">
+                                <Term>cac:Contact</Term>
+                                <Name>Representative natural person contact information</Name>
+                                <Description>Information about contact details for the representative natural person.</Description>
+
+                                <Element cardinality="0..1">
+                                    <Term>cbc:Telephone</Term>
+                                    <Name>Representative natural person telephone</Name>
+                                    <Description>Telephone number to the natural person.</Description>
+                                    <Value type="EXAMPLE">99899900</Value>
+                                </Element>
+                                <Element cardinality="0..1">
+                                    <Term>cbc:ElectronicMail</Term>
+                                    <Name>Representative natural person e-mail address</Name>
+                                    <Description>E-mail address to the natural person.</Description>
+                                    <Value type="EXAMPLE">jens.jensen@test.no</Value>
+                                </Element>
+                            </Element>
+
+
+                            <Element cardinality="0..1">
+                                <Term>cac:ResidenceAddress</Term>
+                                <Name>Representative natural person address information</Name>
+
+
+
+                                <Element cardinality="0..1">
+                                    <Term>cbc:StreetName</Term>
+                                    <Name>Representative natural person street address</Name>
+                                    <Description>Street address to the natural person.</Description>
+                                    <Value type="EXAMPLE">Storgata 1</Value>
+                                </Element>
+
+                                <Element cardinality="0..1">
+                                    <Term>cbc:CityName</Term>
+                                    <Name>Representative natural person city</Name>
+                                    <Description>City of the natural person.</Description>
+                                    <Value type="EXAMPLE">Bergen</Value>
+                                </Element>
+
+                                <Element cardinality="0..1">
+                                    <Term>cbc:PostalZone</Term>
+                                    <Name>Representative natural person postal zone</Name>
+                                    <Description>Postal zone or zip code of the natural person.</Description>
+                                    <Value type="EXAMPLE">5020</Value>
+                                </Element>
+
+                                <Element cardinality="0..1">
+                                    <Term>cac:Country</Term>
+                                    <Name>Representative natural person country</Name>
+                                    <Description>Country of the natural person.</Description>
+
+
+                                    <Element cardinality="0..1">
+                                        <Term>cbc:IdentificationCode</Term>
+                                        <Name>Representative natural person country code</Name>
+                                        <Description>Country code of the natural person.</Description>
+                                        <Reference type="CODE_LIST">CountryCodeIdentifier</Reference>
+
+                                        <Attribute>
+                                            <Term>listID</Term>
+                                            <Value type="FIXED">CountryCodeIdentifier</Value>
+                                        </Attribute>
+
+                                        <Attribute>
+                                            <Term>listAgencyID</Term>
+                                            <Value type="FIXED">EU-COM-GROW</Value>
+                                        </Attribute>
+
+                                        <Attribute>
+                                            <Term>listName</Term>
+                                            <Value type="FIXED">CountryCodeIdentifier</Value>
+                                        </Attribute>
+
+                                        <Attribute>
+                                            <Term>listVersionID</Term>
+                                            <Value type="FIXED">1.0.2</Value>
+                                        </Attribute>
+                                        <Value type="EXAMPLE">NO</Value>
+
+                                    </Element>
+
+
+                                </Element>
+                            </Element>
+                        </Element>
+                    </Element>
                 </Element>
-                
             </Element>
 
             <Element>
@@ -351,15 +448,15 @@
                     <Element>
                         <Term>cbc:ID</Term>
                         <Name>Economic operator identifier</Name>
-                        
+
                         <Attribute>
                             <Term>schemeID</Term>
                             <Description>The schemeID attribute specifies if it is a VAT number or another national number. The possible values are: VAT_Number and National_Number.</Description>
                             <Value type="EXAMPLE">VAT_Number</Value>
                         </Attribute>
-                        
+
                         <Value type="EXAMPLE">987654321</Value>
-                        
+
                     </Element>
                 </Element>
 
@@ -396,7 +493,7 @@
                         <Name>City</Name>
                         <Description>The common name of a city where the address is located.</Description>
                     </Element>
-                    
+
                     <Element>
                         <Term>cbc:PostalZone</Term>
                         <Name>Post code</Name>
@@ -710,7 +807,7 @@
                         <Term>ccv:Response</Term>
                         <Name>Criterion requirement response</Name>
                         <Description>Used by the economic operator to answer a specific Requirement issued by the contracting body.</Description>
-                        
+
                         <Element cardinality="0..1">
                             <Term>cbc:ID</Term>
                             <Name>Criterion response identifier</Name>
@@ -770,13 +867,13 @@
                             <Name>Criterion fulfillment quantity</Name>
                             <Description>Declared quantity that fullfills the criterion. BEWARE that different types of Quantities can be required (see codelist ResponseDataType), some of them requires a unit code to be specified. 
                                 Up to three different types of Quantities can be specified: (1) QUANTITY_INTEGER, a number representing a quantity in a specific unit of measure. The unit has to be specified (e.g. number of workers); (2) QUANTITY_YEAR, a non-negative integer (i.e. a natural number) representing a year. The unit has to be specified as YEAR, and (3) QUANTITY, a number representing a generic quantity with no unit specified (e.g. a ratio). Beware that in the case of QUANTITY_INTEGER and QUANTITY_YEAR the attribute unitCode MUST be always specified</Description>
-                            
+
                             <Attribute usage="Dependent">
                                 <Term>unitCode</Term>
                                 <Name>Unit of measure</Name>
                                 <Value type="EXAMPLE">YEAR</Value>
                             </Attribute>
-                            
+
                             <Value type="EXAMPLE">2016</Value>
                         </Element>
 
@@ -798,7 +895,7 @@
                             <Name>Evidence</Name>
                             <Description>One or more references to a source where a documentary proof can be obtained 
                                 to demonstrate that one stated response does actually fulfill the Requirement from a Criterion</Description>
-                            
+
 
                             <Element>
                                 <Term>cev-cbc:EvidenceName</Term>
