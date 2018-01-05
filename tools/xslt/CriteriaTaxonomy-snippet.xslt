@@ -24,7 +24,7 @@
     </xsl:template>
 
     <xsl:template match="ct:Criterion">
-        <xsl:comment> tag:criteria-<xsl:value-of select="@id"/>[] </xsl:comment>
+        <xsl:comment> tag::criterion-<xsl:value-of select="@id"/>[] </xsl:comment>
         <ccv:Criterion>
             <cbc:ID schemeID="CriteriaID" schemeAgencyID="EU-COM-GROW" schemeVersionID="1.0"><xsl:value-of select="@id"/></cbc:ID>
             <cbc:TypeCode listID="CriteriaTypeCode" listAgencyID="EU-COM-GROW" listVersionID="1.0.2"><xsl:value-of select="ct:Type/text()"/></cbc:TypeCode>
@@ -41,11 +41,11 @@
             </xsl:if>
             <xsl:apply-templates select="ct:RequirementGroupId"/>
         </ccv:Criterion>
-        <xsl:comment> end:criteria-<xsl:value-of select="@id"/>[] </xsl:comment>
+        <xsl:comment> end::criterion-<xsl:value-of select="@id"/>[] </xsl:comment>
     </xsl:template>
 
     <xsl:template match="ct:RequirementGroup">
-        <xsl:comment> tag:requirement-group-<xsl:value-of select="@id"/>[] </xsl:comment>
+        <xsl:comment> tag::requirement-group-<xsl:value-of select="@id"/>[] </xsl:comment>
         <ccv:RequirementGroup>
             <xsl:if test="ct:ProsessingInstruction">
                 <xsl:attribute name="pi" select="ct:ProsessingInstruction/text()"/>
@@ -54,16 +54,16 @@
             <xsl:apply-templates select="ct:RequirementId"/>
             <xsl:apply-templates select="ct:RequirementGroupId"/>
         </ccv:RequirementGroup>
-        <xsl:comment> end:requirement-group-<xsl:value-of select="@id"/>[] </xsl:comment>
+        <xsl:comment> end::requirement-group-<xsl:value-of select="@id"/>[] </xsl:comment>
     </xsl:template>
 
     <xsl:template match="ct:Requirement">
-        <xsl:comment> tag:requirement-<xsl:value-of select="@id"/>[] </xsl:comment>
+        <xsl:comment> tag::requirement-<xsl:value-of select="@id"/>[] </xsl:comment>
         <ccv:Requirement responseDataType="{ct:Response/text()}">
             <cbc:ID schemeID="CriterionRelatedIDs" schemeAgencyID="EU-COM-GROW" schemeVersionID="1.0"><xsl:value-of select="@id"/></cbc:ID>
             <cbc:Description><xsl:value-of select="ct:Description/ct:Source/text()"/></cbc:Description>
         </ccv:Requirement>
-        <xsl:comment> end:requirement-<xsl:value-of select="@id"/>[] </xsl:comment>
+        <xsl:comment> end::requirement-<xsl:value-of select="@id"/>[] </xsl:comment>
     </xsl:template>
 
     <xsl:template match="ct:RequirementGroupId">

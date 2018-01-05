@@ -29,6 +29,8 @@ klakegg/saxon \
 -xsl:tools/xslt/CriteriaTaxonomy-structure.xslt \
 -o:/target/CriteriaTaxonomy.xml
 
+docker run --rm -i -v $FOLDER:/src alpine:3.6 sh /src/tools/script/CriteriaTaxonomy-adoc.sh
+
 # Run vefa-structure
 
 docker run --rm -i \
