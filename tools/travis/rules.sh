@@ -13,6 +13,22 @@ klakegg/saxon \
 -o:/target/CriteriaTaxonomy.sch \
 pattern_only=true
 
+docker run --rm -i \
+-v $FOLDER:/src \
+-v $FOLDER/target/generated:/target \
+klakegg/saxon \
+-s:codelist/CriteriaTaxonomy.xml \
+-xsl:tools/xslt/CriteriaTaxonomy-snippet.xslt \
+-o:/target/CriteriaTaxonomy-snippet.xml
+
+docker run --rm -i \
+-v $FOLDER:/src \
+-v $FOLDER/target/generated:/target \
+klakegg/saxon \
+-s:target/generated/CriteriaTaxonomy.sch \
+-xsl:tools/xslt/CriteriaTaxonomy-structure.xslt \
+-o:/target/CriteriaTaxonomy.xml
+
 # Run vefa-structure
 
 docker run --rm -i \

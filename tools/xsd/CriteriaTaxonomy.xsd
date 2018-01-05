@@ -2,7 +2,7 @@
 <xsd:schema xmlns="urn:fdc:difi.no:2017:vefa:espd:CriteriaTaxonomy-1"
             xmlns:xsd="http://www.w3.org/2001/XMLSchema"
             targetNamespace="urn:fdc:difi.no:2017:vefa:espd:CriteriaTaxonomy-1"
-            elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0">
+            elementFormDefault="qualified" version="1.0">
 
     <xsd:element name="CriteriaTaxonomy" type="CriteriaTaxonomyType"/>
 
