@@ -14,6 +14,6 @@ The ESPDRequest uses the aggregate element `cac:ContractingParty` to represent i
 .Example of contracting body
 [source, xml, indent=0]
 ----
-include::../shared/files/snippet1.xml[tags=ca]
+include::../../ehf/shared/files/snippet1.xml[tags=ca]
 ----
 |
