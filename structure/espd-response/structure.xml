@@ -333,6 +333,20 @@
                                 <Description>First name of the natural person.</Description>
                                 <Value type="EXAMPLE">Jensen</Value>
                             </Element>
+                            
+                            <Element cardinality="0..1">
+                                <Term>cbc:BirthDate</Term>
+                                <Name>Representative natural person birth date</Name>
+                                <Description>Birth date of the natural person. Format YYYY-MM-DD</Description>
+                                <Value type="EXAMPLE">1980-01-01</Value>
+                            </Element>
+                            
+                            <Element cardinality="0..1">
+                                <Term>cbc:BirthplaceName</Term>
+                                <Name>Representative natural person birth place</Name>
+                                <Description>Birth place of the natural person.</Description>
+                                <Value type="EXAMPLE">Oslo</Value>
+                            </Element>
 
                             <Element cardinality="0..1">
                                 <Term>cac:Contact</Term>
