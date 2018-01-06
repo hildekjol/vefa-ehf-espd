@@ -4,4 +4,5 @@ services:
   - docker
 
 script:
-  - sh build.sh
+  - sh tools/bin/pull.sh
+  - sh tools/bin/build.sh

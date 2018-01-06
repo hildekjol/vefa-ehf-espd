@@ -148,14 +148,14 @@
     <Resource>
         <Type>native:File</Type>
         <Path>target/generated/EHF-ESPD-REQUEST.sch</Path>
-        <Title>Schematron for EHF ESPD Request 1.0 (TODO)</Title>
+        <Title>Schematron for EHF ESPD 1.0 Request (TODO)</Title>
         <Description>Schematron file containing rules according to ISO Schematron.</Description>
         <Property key="download">EHF-ESPD-REQUEST.sch</Property>
     </Resource>
     <Resource>
         <Type>native:File</Type>
         <Path>target/generated/EHF-ESPD-RESPONSE.sch</Path>
-        <Title>Schematron for EHF ESPD Response 1.0 (TODO)</Title>
+        <Title>Schematron for EHF ESPD 1.0 Response (TODO)</Title>
         <Description>Schematron file containing rules according to ISO Schematron.</Description>
         <Property key="download">EHF-ESPD-RESPONSE.sch</Property>
     </Resource>
