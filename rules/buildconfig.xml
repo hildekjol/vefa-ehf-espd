@@ -18,7 +18,7 @@
 		<title>EHF ESPD Request 1.0</title>
 		<declaration type="xml.espd">urn:grow:names:specification:ubl:schema:xsd:ESPDRequest-1::ESPDRequest::urn:www.cenbii.eu:transaction:biitrns070:ver3.0:extended:urn:fdc:difi.no:2017:ehf:spec:1.0</declaration>
 		<inherit>espd-request-1.0-xsd</inherit>
-		<file source="sch/EHF-ESPD-REQUEST.sch" path="xsl/EHF-ESPD-REQUEST.xsl" />
+		<file source="sch/EHF-ESPD-REQUEST.sch" path="xsl/EHF-ESPD-REQUEST.xsl" infoUrl="/ehf/guide/espd/1.0/rules/{}/"/>
 	</configuration>
 
 	<!-- Response -->
@@ -34,7 +34,7 @@
 		<title>EHF ESPD Response 1.0</title>
 		<declaration type="xml.espd">urn:grow:names:specification:ubl:schema:xsd:ESPDResponse-1::ESPDResponse::urn:www.cenbii.eu:transaction:biitrns070:ver3.0:extended:urn:fdc:difi.no:2017:ehf:spec:1.0</declaration>
 		<inherit>espd-response-1.0-xsd</inherit>
-		<file source="sch/EHF-ESPD-RESPONSE.sch" path="xsl/EHF-ESPD-RESPONSE.xsl" />
+		<file source="sch/EHF-ESPD-RESPONSE.sch" path="xsl/EHF-ESPD-RESPONSE.xsl" infoUrl="/ehf/guide/espd/1.0/rules/{}/"/>
 	</configuration>
 
 	<!-- Includes -->

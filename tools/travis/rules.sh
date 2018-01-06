@@ -46,6 +46,20 @@ docker run --rm -i \
 kramos/alpine-zip \
 -x espd-1.0.2-schema/maindoc/bindings.xjb -r /target/schema.zip /espd-1.0.2-schema
 
+info "Prepare Schematron"
+
+docker run --rm -i \
+-v $FOLDER:/src \
+-v $FOLDER/target/generated:/target \
+klakegg/schematron \
+prepare rules/sch/EHF-ESPD-REQUEST.sch /target/EHF-ESPD-REQUEST.sch
+
+docker run --rm -i \
+-v $FOLDER:/src \
+-v $FOLDER/target/generated:/target \
+klakegg/schematron \
+prepare rules/sch/EHF-ESPD-RESPONSE.sch /target/EHF-ESPD-RESPONSE.sch
+
 info "Run vefa-structure"
 docker run --rm -i \
 -v $FOLDER:/src \

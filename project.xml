@@ -108,6 +108,18 @@
     <!-- Files -->
     <Resource>
         <Type>native:File</Type>
+        <Path>rules/example/espd-request.xml</Path>
+        <Title>Example file for EHF ESPD 1.0 Request (TODO)</Title>
+        <Property key="download">espd-request.xml</Property>
+    </Resource>
+    <Resource>
+        <Type>native:File</Type>
+        <Path>rules/example/espd-response.xml</Path>
+        <Title>Example file for EHF ESPD 1.0 Response (TODO)</Title>
+        <Property key="download">espd-response.xml</Property>
+    </Resource>
+    <Resource>
+        <Type>native:File</Type>
         <Path>structure/codelist/sources/CriteriaTaxonomy.xlsx</Path>
         <Title>Criteria taxonomy</Title>
         <Description>Official criteria taxonomy part of ESPD 1.0.2.</Description>
@@ -129,22 +141,23 @@
     </Resource>
     <Resource>
         <Type>native:File</Type>
-        <Path>rules/example/espd-request.xml</Path>
-        <Title>Example file for EHF ESPD 1.0 Request (TODO)</Title>
-        <Property key="download">espd-request.xml</Property>
-    </Resource>
-    <Resource>
-        <Type>native:File</Type>
-        <Path>rules/example/espd-request.xml</Path>
-        <Title>Example file for EHF ESPD 1.0 Response (TODO)</Title>
-        <Property key="download">espd-response.xml</Property>
-        <Property key="filename">espd-response.xml</Property>
-    </Resource>
-    <Resource>
-        <Type>native:File</Type>
         <Path>target/generated/schema.zip</Path>
         <Title>XSD Schema for ESPD 1.0.2</Title>
         <Property key="download">schema.zip</Property>
+    </Resource>
+    <Resource>
+        <Type>native:File</Type>
+        <Path>target/generated/EHF-ESPD-REQUEST.sch</Path>
+        <Title>Schematron for EHF ESPD Request 1.0 (TODO)</Title>
+        <Description>Schematron file containing rules according to ISO Schematron.</Description>
+        <Property key="download">EHF-ESPD-REQUEST.sch</Property>
+    </Resource>
+    <Resource>
+        <Type>native:File</Type>
+        <Path>target/generated/EHF-ESPD-RESPONSE.sch</Path>
+        <Title>Schematron for EHF ESPD Response 1.0 (TODO)</Title>
+        <Description>Schematron file containing rules according to ISO Schematron.</Description>
+        <Property key="download">EHF-ESPD-RESPONSE.sch</Property>
     </Resource>
 
 </Project>
