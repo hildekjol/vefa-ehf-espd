@@ -115,6 +115,12 @@
                         test="ccv:LegislationReference"
                         flag="fatal">Element 'LegislationReference' MUST be provided.</assert>
             </xsl:if>
+
+            <xsl:for-each select="ct:RequirementGroupId">
+                <assert id="{concat($prefix, '-C', $position, '2', position())}"
+                        test="{concat('ccv:RequirementGroup[', position() ,'] and normalize-space(ccv:RequirementGroup[', position() , '][current()]/cbc:ID/text()) = ''', normalize-space(text()),'''')}"
+                        flag="fatal">Criterion '<xsl:value-of select="parent::node()/@id" />' MUST have RequirementGroup '<xsl:value-of select="normalize-space(text())" />' as child number <xsl:value-of select="position()"/>.</assert>
+            </xsl:for-each>
         </rule>
 
         <xsl:if test="ct:LegislationTitle">
@@ -171,7 +177,17 @@
                     test="{concat('count(ccv:RequirementGroup) = ', count(ct:RequirementGroupId))}"
                     flag="fatal">Requirement group MUST contain <xsl:value-of select="count(ct:RequirementGroupId)" /> requirement group<xsl:if test="count(ct:RequirementGroupId) != 1">s</xsl:if>.</assert>
 
-            <!-- TODO -->
+            <xsl:for-each select="ct:RequirementId">
+                <assert id="{concat($prefix, '-RG', $position, '1', position())}"
+                        test="{concat('ccv:Requirement[', position() ,'] and normalize-space(ccv:Requirement[', position() , '][current()]/cbc:ID/text()) = ''', normalize-space(text()),'''')}"
+                        flag="fatal">RequirementGroup '<xsl:value-of select="parent::node()/@id" />' MUST have Requirement '<xsl:value-of select="normalize-space(text())" />' as child number <xsl:value-of select="position()"/>.</assert>
+            </xsl:for-each>
+
+            <xsl:for-each select="ct:RequirementGroupId">
+                <assert id="{concat($prefix, '-RG', $position, '2', position())}"
+                        test="{concat('ccv:RequirementGroup[', position() ,'] and normalize-space(ccv:RequirementGroup[', position() , '][current()]/cbc:ID/text()) = ''', normalize-space(text()),'''')}"
+                        flag="fatal">RequirementGroup '<xsl:value-of select="parent::node()/@id" />' MUST have RequirementGroup '<xsl:value-of select="normalize-space(text())" />' as child number <xsl:value-of select="position()"/>.</assert>
+            </xsl:for-each>
 
         </rule>
     </xsl:template>
