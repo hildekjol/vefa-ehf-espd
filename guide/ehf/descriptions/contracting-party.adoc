@@ -16,4 +16,3 @@ The ESPDRequest uses the aggregate element `cac:ContractingParty` to represent i
 ----
 include::../shared/files/snippet1.xml[tags=ca]
 ----
-|
