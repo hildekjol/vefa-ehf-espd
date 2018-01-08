@@ -38,7 +38,7 @@
     </xsl:template>
 
     <xsl:template match="ccv:Criterion">
-        <Criterion id="{cbc:ID/text()}">
+        <Criterion id="{cbc:ID/text()}" required="false">
             <Type><xsl:value-of select="cbc:TypeCode/text()"/></Type>
             <Name>
                 <Source><xsl:value-of select="cbc:Name/text()"/></Source>

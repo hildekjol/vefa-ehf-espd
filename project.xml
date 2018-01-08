@@ -134,16 +134,24 @@
     </Resource>
     <Resource>
         <Type>native:File</Type>
+        <Path>target/generated/schema.zip</Path>
+        <Title>XSD Schema for ESPD 1.0.2</Title>
+        <Description>Official XSD Schema files for ESPD 1.0.2</Description>
+        <Property key="download">schema.zip</Property>
+    </Resource>
+    <Resource>
+        <Type>native:File</Type>
         <Path>structure/codelist/CriteriaTaxonomy.xml</Path>
         <Title>Criteria taxonomy as XML (TODO)</Title>
-        <Description>Criteria taxonomy restructured as XML file including Norwegian translation organized by assigned UUIDs.</Description>
+        <Description>Criteria taxonomy restructured as XML file including Norwegian translation organized by type and assigned UUIDs.</Description>
         <Property key="download">CriteriaTaxonomy.xml</Property>
     </Resource>
     <Resource>
         <Type>native:File</Type>
-        <Path>target/generated/schema.zip</Path>
-        <Title>XSD Schema for ESPD 1.0.2</Title>
-        <Property key="download">schema.zip</Property>
+        <Path>tools/xsd/CriteriaTaxonomy.xsd</Path>
+        <Title>XSD Schema for Criteria taxonomy as XML</Title>
+        <Description>XSD Schema file for Criteria taxonomy file provided by Difi.</Description>
+        <Property key="download">CriteriaTaxonomy.xsd</Property>
     </Resource>
     <Resource>
         <Type>native:File</Type>

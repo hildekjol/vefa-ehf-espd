@@ -30,6 +30,7 @@
             <xsd:element ref="RequirementGroupId" maxOccurs="unbounded"/>
         </xsd:sequence>
         <xsd:attribute name="id" type="xsd:string" use="required"/>
+        <xsd:attribute name="required" type="xsd:string" use="required"/>
     </xsd:complexType>
 
     <xsd:complexType name="RequirementGroupType">

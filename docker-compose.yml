@@ -7,6 +7,13 @@ services:
      - .:/documents
      - ./target:/target
 
+  ct-generate:
+    image: "klakegg/saxon"
+    command: -s:rules/example/espd-request.xml -xsl:tools/xslt/CriteriaTaxonomy-generate.xslt -o:/target/CriteriaTaxonomy-clean.xml
+    volumes:
+     - .:/src
+     - ./target/generated:/target
+
   ct-schematron:
     image: "klakegg/saxon"
     command: -s:structure/codelist/CriteriaTaxonomy.xml -xsl:tools/xslt/CriteriaTaxonomy-schematron.xslt -o:/target/CriteriaTaxonomy.sch pattern_only=true

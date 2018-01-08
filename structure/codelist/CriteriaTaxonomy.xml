@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CriteriaTaxonomy xmlns="urn:fdc:difi.no:2017:vefa:espd:CriteriaTaxonomy-1">
-   <Criterion id="005eb9ed-1347-4ca3-bb29-9bc0db64e1ab">
+   <Criterion id="005eb9ed-1347-4ca3-bb29-9bc0db64e1ab" required="false">
       <Type>CRITERION.EXCLUSION.CONVICTIONS.PARTICIPATION_IN_CRIMINAL_ORGANISATION</Type>
       <Name>
          <Source>Participation in a criminal organisation</Source>
@@ -24,7 +24,7 @@
       <RequirementGroupId>7c637c0c-7703-4389-ba52-02997a055bd7</RequirementGroupId>
       <RequirementGroupId>7458d42a-e581-4640-9283-34ceb3ad4345</RequirementGroupId>
    </Criterion>
-   <Criterion id="c27b7c4e-c837-4529-b867-ed55ce639db5">
+   <Criterion id="c27b7c4e-c837-4529-b867-ed55ce639db5" required="false">
       <Type>CRITERION.EXCLUSION.CONVICTIONS.CORRUPTION</Type>
       <Name>
          <Source>Corruption</Source>
@@ -48,7 +48,7 @@
       <RequirementGroupId>7c637c0c-7703-4389-ba52-02997a055bd7</RequirementGroupId>
       <RequirementGroupId>7458d42a-e581-4640-9283-34ceb3ad4345</RequirementGroupId>
    </Criterion>
-   <Criterion id="297d2323-3ede-424e-94bc-a91561e6f320">
+   <Criterion id="297d2323-3ede-424e-94bc-a91561e6f320" required="false">
       <Type>CRITERION.EXCLUSION.CONVICTIONS.FRAUD</Type>
       <Name>
          <Source>Fraud</Source>
@@ -72,7 +72,7 @@
       <RequirementGroupId>7c637c0c-7703-4389-ba52-02997a055bd7</RequirementGroupId>
       <RequirementGroupId>7458d42a-e581-4640-9283-34ceb3ad4345</RequirementGroupId>
    </Criterion>
-   <Criterion id="d486fb70-86b3-4e75-97f2-0d71b5697c7d">
+   <Criterion id="d486fb70-86b3-4e75-97f2-0d71b5697c7d" required="false">
       <Type>CRITERION.EXCLUSION.CONVICTIONS.TERRORIST_OFFENCES</Type>
       <Name>
          <Source>Terrorist offences or offences linked to terrorist activities</Source>
@@ -96,7 +96,7 @@
       <RequirementGroupId>7c637c0c-7703-4389-ba52-02997a055bd7</RequirementGroupId>
       <RequirementGroupId>7458d42a-e581-4640-9283-34ceb3ad4345</RequirementGroupId>
    </Criterion>
-   <Criterion id="47112079-6fec-47a3-988f-e561668c3aef">
+   <Criterion id="47112079-6fec-47a3-988f-e561668c3aef" required="false">
       <Type>CRITERION.EXCLUSION.CONVICTIONS.MONEY_LAUNDERING</Type>
       <Name>
          <Source>Money laundering or terrorist financing</Source>
@@ -120,7 +120,7 @@
       <RequirementGroupId>7c637c0c-7703-4389-ba52-02997a055bd7</RequirementGroupId>
       <RequirementGroupId>7458d42a-e581-4640-9283-34ceb3ad4345</RequirementGroupId>
    </Criterion>
-   <Criterion id="d789d01a-fe03-4ccd-9898-73f9cfa080d1">
+   <Criterion id="d789d01a-fe03-4ccd-9898-73f9cfa080d1" required="false">
       <Type>CRITERION.EXCLUSION.CONVICTIONS.CHILD_LABOUR-HUMAN_TRAFFICKING</Type>
       <Name>
          <Source>Child labour and other forms of trafficking in human beings</Source>
@@ -144,7 +144,7 @@
       <RequirementGroupId>7c637c0c-7703-4389-ba52-02997a055bd7</RequirementGroupId>
       <RequirementGroupId>7458d42a-e581-4640-9283-34ceb3ad4345</RequirementGroupId>
    </Criterion>
-   <Criterion id="b61bbeb7-690e-4a40-bc68-d6d4ecfaa3d4">
+   <Criterion id="b61bbeb7-690e-4a40-bc68-d6d4ecfaa3d4" required="false">
       <Type>CRITERION.EXCLUSION.CONTRIBUTIONS.PAYMENT_OF_TAXES</Type>
       <Name>
          <Source>Payment of taxes</Source>
@@ -168,7 +168,7 @@
       <RequirementGroupId>098fd3cc-466e-4233-af1a-affe09471bce</RequirementGroupId>
       <RequirementGroupId>7458d42a-e581-4640-9283-34ceb3ad4345</RequirementGroupId>
    </Criterion>
-   <Criterion id="7d85e333-bbab-49c0-be8d-c36d71a72f5e">
+   <Criterion id="7d85e333-bbab-49c0-be8d-c36d71a72f5e" required="false">
       <Type>CRITERION.EXCLUSION.CONTRIBUTIONS.PAYMENT_OF_SOCIAL_SECURITY</Type>
       <Name>
          <Source>Payment of social security contributions</Source>
@@ -192,7 +192,7 @@
       <RequirementGroupId>098fd3cc-466e-4233-af1a-affe09471bce</RequirementGroupId>
       <RequirementGroupId>7458d42a-e581-4640-9283-34ceb3ad4345</RequirementGroupId>
    </Criterion>
-   <Criterion id="a80ddb62-d25b-4e4e-ae22-3968460dc0a9">
+   <Criterion id="a80ddb62-d25b-4e4e-ae22-3968460dc0a9" required="false">
       <Type>CRITERION.EXCLUSION.SOCIAL.ENVIRONMENTAL_LAW</Type>
       <Name>
          <Source>Breaching of obligations in the fields of environmental law</Source>
@@ -215,7 +215,7 @@
       <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
       <RequirementGroupId>976b5acb-c00f-46ca-8f83-5ce6abfdfe43</RequirementGroupId>
    </Criterion>
-   <Criterion id="a261a395-ed17-4939-9c75-b9ff1109ca6e">
+   <Criterion id="a261a395-ed17-4939-9c75-b9ff1109ca6e" required="false">
       <Type>CRITERION.EXCLUSION.SOCIAL.SOCIAL_LAW</Type>
       <Name>
          <Source>Breaching of obligations in the fields of social law</Source>
@@ -238,7 +238,7 @@
       <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
       <RequirementGroupId>976b5acb-c00f-46ca-8f83-5ce6abfdfe43</RequirementGroupId>
    </Criterion>
-   <Criterion id="a34b70d6-c43d-4726-9a88-8e2b438424bf">
+   <Criterion id="a34b70d6-c43d-4726-9a88-8e2b438424bf" required="false">
       <Type>CRITERION.EXCLUSION.SOCIAL.LABOUR_LAW</Type>
       <Name>
          <Source>Breaching of obligations in the fields of labour law</Source>
@@ -261,7 +261,7 @@
       <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
       <RequirementGroupId>976b5acb-c00f-46ca-8f83-5ce6abfdfe43</RequirementGroupId>
    </Criterion>
-   <Criterion id="d3732c09-7d62-4edc-a172-241da6636e7c">
+   <Criterion id="d3732c09-7d62-4edc-a172-241da6636e7c" required="false">
       <Type>CRITERION.EXCLUSION.BUSINESS.BANKRUPTCY</Type>
       <Name>
          <Source>Bankruptcy</Source>
@@ -285,7 +285,7 @@
       <RequirementGroupId>d91c11a1-f19e-4b83-8ade-c4be2bf00555</RequirementGroupId>
       <RequirementGroupId>7458d42a-e581-4640-9283-34ceb3ad4345</RequirementGroupId>
    </Criterion>
-   <Criterion id="396f288a-e267-4c20-851a-ed4f7498f137">
+   <Criterion id="396f288a-e267-4c20-851a-ed4f7498f137" required="false">
       <Type>CRITERION.EXCLUSION.BUSINESS.INSOLVENCY</Type>
       <Name>
          <Source>Insolvency</Source>
@@ -309,7 +309,7 @@
       <RequirementGroupId>d91c11a1-f19e-4b83-8ade-c4be2bf00555</RequirementGroupId>
       <RequirementGroupId>7458d42a-e581-4640-9283-34ceb3ad4345</RequirementGroupId>
    </Criterion>
-   <Criterion id="68918c7a-f5bc-4a1a-a62f-ad8983600d48">
+   <Criterion id="68918c7a-f5bc-4a1a-a62f-ad8983600d48" required="false">
       <Type>CRITERION.EXCLUSION.BUSINESS.CREDITORS_ARRANGEMENT</Type>
       <Name>
          <Source>Arrangement with creditors</Source>
@@ -333,7 +333,7 @@
       <RequirementGroupId>d91c11a1-f19e-4b83-8ade-c4be2bf00555</RequirementGroupId>
       <RequirementGroupId>7458d42a-e581-4640-9283-34ceb3ad4345</RequirementGroupId>
    </Criterion>
-   <Criterion id="daffa2a9-9f8f-4568-8be8-7b8bf306d096">
+   <Criterion id="daffa2a9-9f8f-4568-8be8-7b8bf306d096" required="false">
       <Type>CRITERION.EXCLUSION.BUSINESS.BANKRUPTCY_ANALOGOUS</Type>
       <Name>
          <Source>Analogous situation like bankruptcy under national law</Source>
@@ -357,7 +357,7 @@
       <RequirementGroupId>d91c11a1-f19e-4b83-8ade-c4be2bf00555</RequirementGroupId>
       <RequirementGroupId>7458d42a-e581-4640-9283-34ceb3ad4345</RequirementGroupId>
    </Criterion>
-   <Criterion id="8fda202a-0c37-41bb-9d7d-de3f49edbfcb">
+   <Criterion id="8fda202a-0c37-41bb-9d7d-de3f49edbfcb" required="false">
       <Type>CRITERION.EXCLUSION.BUSINESS.LIQUIDATOR_ADMINISTERED</Type>
       <Name>
          <Source>Assets being administered by liquidator</Source>
@@ -381,7 +381,7 @@
       <RequirementGroupId>d91c11a1-f19e-4b83-8ade-c4be2bf00555</RequirementGroupId>
       <RequirementGroupId>7458d42a-e581-4640-9283-34ceb3ad4345</RequirementGroupId>
    </Criterion>
-   <Criterion id="166536e2-77f7-455c-b018-70582474e4f6">
+   <Criterion id="166536e2-77f7-455c-b018-70582474e4f6" required="false">
       <Type>CRITERION.EXCLUSION.BUSINESS.ACTIVITIES_SUSPENDED</Type>
       <Name>
          <Source>Business activities are suspended</Source>
@@ -405,7 +405,7 @@
       <RequirementGroupId>d91c11a1-f19e-4b83-8ade-c4be2bf00555</RequirementGroupId>
       <RequirementGroupId>7458d42a-e581-4640-9283-34ceb3ad4345</RequirementGroupId>
    </Criterion>
-   <Criterion id="514d3fde-1e3e-4dcd-b02a-9f984d5bbda3">
+   <Criterion id="514d3fde-1e3e-4dcd-b02a-9f984d5bbda3" required="false">
       <Type>CRITERION.EXCLUSION.MISCONDUCT.MC_PROFESSIONAL</Type>
       <Name>
          <Source>Guilty of grave professional misconduct</Source>
@@ -428,7 +428,7 @@
       <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
       <RequirementGroupId>67362ec7-cec3-4cb8-a38e-5d7a2a31e6d8</RequirementGroupId>
    </Criterion>
-   <Criterion id="56d13e3d-76e8-4f23-8af6-13e60a2ee356">
+   <Criterion id="56d13e3d-76e8-4f23-8af6-13e60a2ee356" required="false">
       <Type>CRITERION.EXCLUSION.MISCONDUCT.MARKET_DISTORTION</Type>
       <Name>
          <Source>Agreements with other economic operators aimed at distorting competition</Source>
@@ -451,7 +451,7 @@
       <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
       <RequirementGroupId>67362ec7-cec3-4cb8-a38e-5d7a2a31e6d8</RequirementGroupId>
    </Criterion>
-   <Criterion id="b1b5ac18-f393-4280-9659-1367943c1a2e">
+   <Criterion id="b1b5ac18-f393-4280-9659-1367943c1a2e" required="false">
       <Type>CRITERION.EXCLUSION.CONFLICT_OF_INTEREST.PROCEDURE_PARTICIPATION</Type>
       <Name>
          <Source>Conflict of interest due to its participation in the procurement procedure</Source>
@@ -474,7 +474,7 @@
       <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
       <RequirementGroupId>30450436-f559-4dfa-98ba-f0842ed9d2a0</RequirementGroupId>
    </Criterion>
-   <Criterion id="61874050-5130-4f1c-a174-720939c7b483">
+   <Criterion id="61874050-5130-4f1c-a174-720939c7b483" required="false">
       <Type>CRITERION.EXCLUSION.CONFLICT_OF_INTEREST.PROCEDURE_PREPARATION</Type>
       <Name>
          <Source>Direct or indirect involvement in the preparation of this procurement procedure</Source>
@@ -497,7 +497,7 @@
       <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
       <RequirementGroupId>77ae3f29-7c5f-4afa-af97-24afec48c5bf</RequirementGroupId>
    </Criterion>
-   <Criterion id="3293e92b-7f3e-42f1-bee6-a7641bb04251">
+   <Criterion id="3293e92b-7f3e-42f1-bee6-a7641bb04251" required="false">
       <Type>CRITERION.EXCLUSION.CONFLICT_OF_INTEREST.EARLY_TERMINATION</Type>
       <Name>
          <Source>Early termination, damages or other comparable sanctions</Source>
@@ -520,7 +520,7 @@
       <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
       <RequirementGroupId>67362ec7-cec3-4cb8-a38e-5d7a2a31e6d8</RequirementGroupId>
    </Criterion>
-   <Criterion id="696a75b2-6107-428f-8b74-82affb67e184">
+   <Criterion id="696a75b2-6107-428f-8b74-82affb67e184" required="false">
       <Type>CRITERION.EXCLUSION.CONFLICT_OF_INTEREST.MISINTERPRETATION</Type>
       <Name>
          <Source>Guilty of misinterpretation, withheld information, unable to provide required documents and obtained confidential information of this procedure</Source>
@@ -543,7 +543,7 @@
       <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
       <RequirementGroupId>30450436-f559-4dfa-98ba-f0842ed9d2a0</RequirementGroupId>
    </Criterion>
-   <Criterion id="6ee55a59-6adb-4c3a-b89f-e62a7ad7be7f">
+   <Criterion id="6ee55a59-6adb-4c3a-b89f-e62a7ad7be7f" required="false">
       <Type>CRITERION.SELECTION.SUITABILITY.PROFESSIONAL_REGISTER_ENROLMENT</Type>
       <Name>
          <Source>Enrolment in a relevant professional register</Source>
@@ -567,7 +567,7 @@
       <RequirementGroupId>1768de86-a6c8-48e4-bd8e-de2f2f7424d0</RequirementGroupId>
       <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
    </Criterion>
-   <Criterion id="87b3fa26-3549-4f92-b8e0-3fd8f04bf5c7">
+   <Criterion id="87b3fa26-3549-4f92-b8e0-3fd8f04bf5c7" required="false">
       <Type>CRITERION.SELECTION.SUITABILITY.TRADE_REGISTER_ENROLMENT</Type>
       <Name>
          <Source>Enrolment in a trade register</Source>
@@ -591,7 +591,7 @@
       <RequirementGroupId>1768de86-a6c8-48e4-bd8e-de2f2f7424d0</RequirementGroupId>
       <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
    </Criterion>
-   <Criterion id="9eeb6d5c-0eb8-48e8-a4c5-5087a7c095a4">
+   <Criterion id="9eeb6d5c-0eb8-48e8-a4c5-5087a7c095a4" required="false">
       <Type>CRITERION.SELECTION.SUITABILITY.AUTHORISATION</Type>
       <Name>
          <Source>For service contracts: authorisation of particular organisation needed</Source>
@@ -615,7 +615,7 @@
       <RequirementGroupId>a109e144-f65e-469d-bcda-220f1af34b6c</RequirementGroupId>
       <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
    </Criterion>
-   <Criterion id="73f10e36-ed7a-412e-995c-aa76463e3776">
+   <Criterion id="73f10e36-ed7a-412e-995c-aa76463e3776" required="false">
       <Type>CRITERION.SELECTION.SUITABILITY.MEMBERSHIP</Type>
       <Name>
          <Source>For service contracts: membership of particular organisation needed</Source>
@@ -639,7 +639,7 @@
       <RequirementGroupId>a109e144-f65e-469d-bcda-220f1af34b6c</RequirementGroupId>
       <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
    </Criterion>
-   <Criterion id="499efc97-2ac1-4af2-9e84-323c2ca67747">
+   <Criterion id="499efc97-2ac1-4af2-9e84-323c2ca67747" required="false">
       <Type>CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.TURNOVER.GENERAL_YEARLY</Type>
       <Name>
          <Source>General yearly turnover</Source>
@@ -667,7 +667,7 @@
       <RequirementGroupId>c0cd9c1c-e90a-4ff9-bce3-ac0fe31abf16</RequirementGroupId>
       <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
    </Criterion>
-   <Criterion id="b16cb9fc-6cb7-4585-9302-9533b415cf48">
+   <Criterion id="b16cb9fc-6cb7-4585-9302-9533b415cf48" required="false">
       <Type>CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.TURNOVER.AVERAGE_YEARLY</Type>
       <Name>
          <Source>Average yearly turnover</Source>
@@ -691,7 +691,7 @@
       <RequirementGroupId>e1886054-ada4-473c-9afc-2fde82c24cf4</RequirementGroupId>
       <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
    </Criterion>
-   <Criterion id="074f6031-55f9-4e99-b9a4-c4363e8bc315">
+   <Criterion id="074f6031-55f9-4e99-b9a4-c4363e8bc315" required="false">
       <Type>CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.TURNOVER.SPECIFIC_YEARLY</Type>
       <Name>
          <Source>Specific yearly turnover</Source>
@@ -719,7 +719,7 @@
       <RequirementGroupId>c0cd9c1c-e90a-4ff9-bce3-ac0fe31abf16</RequirementGroupId>
       <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
    </Criterion>
-   <Criterion id="d3dfb714-f558-4512-bbc5-e456fa2339de">
+   <Criterion id="d3dfb714-f558-4512-bbc5-e456fa2339de" required="false">
       <Type>CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.TURNOVER.SPECIFIC_AVERAGE</Type>
       <Name>
          <Source>Specific average turnover</Source>
@@ -743,7 +743,7 @@
       <RequirementGroupId>e1886054-ada4-473c-9afc-2fde82c24cf4</RequirementGroupId>
       <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
    </Criterion>
-   <Criterion id="77f481ce-ffb6-483f-8e2b-c78db5e68292">
+   <Criterion id="77f481ce-ffb6-483f-8e2b-c78db5e68292" required="false">
       <Type>CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.TURNOVER.SET_UP</Type>
       <Name>
          <Source>Set up of economic operator</Source>
@@ -766,7 +766,7 @@
       <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
       <RequirementGroupId>e9aa7763-c167-4352-8060-1a3d7d3e2662</RequirementGroupId>
    </Criterion>
-   <Criterion id="e4d37adc-08cd-4f4d-a8d8-32b62b0a1f46">
+   <Criterion id="e4d37adc-08cd-4f4d-a8d8-32b62b0a1f46" required="false">
       <Type>CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.FINANCIAL_RATIO</Type>
       <Name>
          <Source>Financial ratio</Source>
@@ -790,7 +790,7 @@
       <RequirementGroupId>096686e1-82ca-4de0-8710-d74d90da0f0c</RequirementGroupId>
       <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
    </Criterion>
-   <Criterion id="7604bd40-4462-4086-8763-a50da51a869c">
+   <Criterion id="7604bd40-4462-4086-8763-a50da51a869c" required="false">
       <Type>CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.RISK_INDEMNITY_INSURANCE</Type>
       <Name>
          <Source>Professional risk indemnity insurance</Source>
@@ -814,7 +814,7 @@
       <RequirementGroupId>42dc8062-974d-4201-91ba-7f2ea90338fd</RequirementGroupId>
       <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
    </Criterion>
-   <Criterion id="cdd3bb3e-34a5-43d5-b668-2aab86a73822">
+   <Criterion id="cdd3bb3e-34a5-43d5-b668-2aab86a73822" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.REFERENCES.WORKS_PERFORMANCE</Type>
       <Name>
          <Source>For works contracts: performance of works of the specified type</Source>
@@ -838,7 +838,7 @@
       <RequirementGroupId>96f00020-0a25-402e-b850-2378e83b5695</RequirementGroupId>
       <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
    </Criterion>
-   <Criterion id="3a18a175-1863-4b1d-baef-588ce61960ca">
+   <Criterion id="3a18a175-1863-4b1d-baef-588ce61960ca" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.REFERENCES.SUPPLIES_DELIVERY_PERFORMANCE</Type>
       <Name>
          <Source>For supply contracts: performance of deliveries of the specified type</Source>
@@ -862,7 +862,7 @@
       <RequirementGroupId>96f00020-0a25-402e-b850-2378e83b5695</RequirementGroupId>
       <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
    </Criterion>
-   <Criterion id="5e506c16-26ab-4e32-bb78-b27f87dc0565">
+   <Criterion id="5e506c16-26ab-4e32-bb78-b27f87dc0565" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.REFERENCES.SERVICES_DELIVERY_PERFORMANCE</Type>
       <Name>
          <Source>For service contracts: performance of services of the specified type</Source>
@@ -886,7 +886,7 @@
       <RequirementGroupId>96f00020-0a25-402e-b850-2378e83b5695</RequirementGroupId>
       <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
    </Criterion>
-   <Criterion id="3aaca389-4a7b-406b-a4b9-080845d127e7">
+   <Criterion id="3aaca389-4a7b-406b-a4b9-080845d127e7" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.TECHNICIANS_FOR_QUALITY_CONTROL</Type>
       <Name>
          <Source>Technicians or technical bodies for quality control</Source>
@@ -910,7 +910,7 @@
       <RequirementGroupId>488ca189-bcdb-4bf4-80c7-3ad507fd89fb</RequirementGroupId>
       <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
    </Criterion>
-   <Criterion id="c599c130-b29f-461e-a187-4e16c7d40db7">
+   <Criterion id="c599c130-b29f-461e-a187-4e16c7d40db7" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.TECHNICIANS_FOR_CARRYING_WORKS</Type>
       <Name>
          <Source>For works contracts: technicians or technical bodies to carry out the work</Source>
@@ -934,7 +934,7 @@
       <RequirementGroupId>488ca189-bcdb-4bf4-80c7-3ad507fd89fb</RequirementGroupId>
       <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
    </Criterion>
-   <Criterion id="4bf996d9-439c-40c6-9ab9-980a48cb55a1">
+   <Criterion id="4bf996d9-439c-40c6-9ab9-980a48cb55a1" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.FACILITIES_FOR_QUALITY_ENSURING</Type>
       <Name>
          <Source>Technical facilities and measures for ensuring quality</Source>
@@ -958,7 +958,7 @@
       <RequirementGroupId>488ca189-bcdb-4bf4-80c7-3ad507fd89fb</RequirementGroupId>
       <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
    </Criterion>
-   <Criterion id="90a2e100-44cc-45d3-9970-69d6714f1596">
+   <Criterion id="90a2e100-44cc-45d3-9970-69d6714f1596" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.FACILITIES_FOR_STUDY_RESEARCH</Type>
       <Name>
          <Source>Study and research facilities</Source>
@@ -982,7 +982,7 @@
       <RequirementGroupId>488ca189-bcdb-4bf4-80c7-3ad507fd89fb</RequirementGroupId>
       <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
    </Criterion>
-   <Criterion id="dc12a151-7fdf-4733-a8f0-30f667292e66">
+   <Criterion id="dc12a151-7fdf-4733-a8f0-30f667292e66" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.SUPPLY_CHAIN_MANAGEMENT</Type>
       <Name>
          <Source>Supply chain management</Source>
@@ -1006,7 +1006,7 @@
       <RequirementGroupId>488ca189-bcdb-4bf4-80c7-3ad507fd89fb</RequirementGroupId>
       <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
    </Criterion>
-   <Criterion id="c8809aa1-29b6-4f27-ae2f-27e612e394db">
+   <Criterion id="c8809aa1-29b6-4f27-ae2f-27e612e394db" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.CHECKS.ALLOWANCE_OF_CHECKS</Type>
       <Name>
          <Source>Allowance of checks</Source>
@@ -1029,7 +1029,7 @@
       <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
       <RequirementGroupId>d7721546-9106-43a7-8d31-2fe08a862b00</RequirementGroupId>
    </Criterion>
-   <Criterion id="07301031-2270-41af-8e7e-66fe0c777107">
+   <Criterion id="07301031-2270-41af-8e7e-66fe0c777107" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.PROFESSIONAL_QUALIFICATIONS</Type>
       <Name>
          <Source>Educational and professional qualifications</Source>
@@ -1053,7 +1053,7 @@
       <RequirementGroupId>488ca189-bcdb-4bf4-80c7-3ad507fd89fb</RequirementGroupId>
       <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
    </Criterion>
-   <Criterion id="9460457e-b43d-48a9-acd1-615de6ddd33e">
+   <Criterion id="9460457e-b43d-48a9-acd1-615de6ddd33e" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.ENVIRONMENTAL_MANAGEMENT_MEASURES</Type>
       <Name>
          <Source>Environmental management measures</Source>
@@ -1077,7 +1077,7 @@
       <RequirementGroupId>488ca189-bcdb-4bf4-80c7-3ad507fd89fb</RequirementGroupId>
       <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
    </Criterion>
-   <Criterion id="6346959b-e097-4ea1-89cd-d1b4c131ea4d">
+   <Criterion id="6346959b-e097-4ea1-89cd-d1b4c131ea4d" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.MANAGERIAL_STAFF</Type>
       <Name>
          <Source>Number of managerial staff</Source>
@@ -1103,7 +1103,7 @@
       <RequirementGroupId>96defecc-7d32-4957-82e9-aad5f3c5b736</RequirementGroupId>
       <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
    </Criterion>
-   <Criterion id="1f49b3f0-d50f-43f6-8b30-4bafab108b9b">
+   <Criterion id="1f49b3f0-d50f-43f6-8b30-4bafab108b9b" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.AVERAGE_ANNUAL_MANPOWER</Type>
       <Name>
          <Source>Average annual manpower</Source>
@@ -1129,7 +1129,7 @@
       <RequirementGroupId>96defecc-7d32-4957-82e9-aad5f3c5b736</RequirementGroupId>
       <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
    </Criterion>
-   <Criterion id="cc18c023-211d-484d-a32e-52f3f970285f">
+   <Criterion id="cc18c023-211d-484d-a32e-52f3f970285f" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.EQUIPMENT</Type>
       <Name>
          <Source>Tools, plant or technical equipment</Source>
@@ -1153,7 +1153,7 @@
       <RequirementGroupId>488ca189-bcdb-4bf4-80c7-3ad507fd89fb</RequirementGroupId>
       <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
    </Criterion>
-   <Criterion id="612a1625-118d-4ea4-a6db-413184e7c0a8">
+   <Criterion id="612a1625-118d-4ea4-a6db-413184e7c0a8" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.SUBCONTRACTING_PROPORTION</Type>
       <Name>
          <Source>Subcontracting proportion</Source>
@@ -1176,7 +1176,7 @@
       <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
       <RequirementGroupId>575f7550-8a2d-4bad-b9d8-be07ab570076</RequirementGroupId>
    </Criterion>
-   <Criterion id="bdf0601d-2480-4250-b870-658d0ee95be6">
+   <Criterion id="bdf0601d-2480-4250-b870-658d0ee95be6" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.ARTEFACTS.NO_AUTHENTICATED_ARTEFACTS</Type>
       <Name>
          <Source>For supply contracts: samples, descriptions or photographs without certification of authenticity</Source>
@@ -1200,7 +1200,7 @@
       <RequirementGroupId>cb73544d-e8bb-4cc6-819b-b8e04f1e240e</RequirementGroupId>
       <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
    </Criterion>
-   <Criterion id="7662b7a9-bcb8-4763-a0a7-7505d8e8470d">
+   <Criterion id="7662b7a9-bcb8-4763-a0a7-7505d8e8470d" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.ARTEFACTS.AUTHENTICATED_ARTEFACTS</Type>
       <Name>
          <Source>For supply contracts: samples, descriptions or photographs with certification of authenticity</Source>
@@ -1224,7 +1224,7 @@
       <RequirementGroupId>cb73544d-e8bb-4cc6-819b-b8e04f1e240e</RequirementGroupId>
       <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
    </Criterion>
-   <Criterion id="a7669d7d-9297-43e1-9d10-691a1660187c">
+   <Criterion id="a7669d7d-9297-43e1-9d10-691a1660187c" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.CERTIFICATES.QUALITY_ASSURANCE.QA_INSTITUTES_CERTIFICATE</Type>
       <Name>
          <Source>For supply contracts: certificates by quality control institutes</Source>
@@ -1248,7 +1248,7 @@
       <RequirementGroupId>4887c3d7-05fc-4e3e-b066-f338910f0c4c</RequirementGroupId>
       <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
    </Criterion>
-   <Criterion id="d726bac9-e153-4e75-bfca-c5385587766d">
+   <Criterion id="d726bac9-e153-4e75-bfca-c5385587766d" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.CERTIFICATES.QUALITY_ASSURANCE.QA_INDEPENDENT_CERTIFICATE</Type>
       <Name>
          <Source>Certificates by independent bodies about quality assurance standards</Source>
@@ -1272,7 +1272,7 @@
       <RequirementGroupId>0e88f63c-5642-4a17-833b-ae5800e1750a</RequirementGroupId>
       <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
    </Criterion>
-   <Criterion id="8ed65e48-fd0d-444f-97bd-4f58da632999">
+   <Criterion id="8ed65e48-fd0d-444f-97bd-4f58da632999" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.CERTIFICATES.ENVIRONMENTAL_MANAGEMENT.ENV_INDEPENDENT_CERTIFICATE</Type>
       <Name>
          <Source>Certificates by independent bodies about environmental management systems or standards</Source>
@@ -1296,7 +1296,7 @@
       <RequirementGroupId>82a59ce2-9c59-4075-af08-843ad89a45ec</RequirementGroupId>
       <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
    </Criterion>
-   <Criterion id="2043338f-a38a-490b-b3ec-2607cb25a017">
+   <Criterion id="2043338f-a38a-490b-b3ec-2607cb25a017" required="false">
       <Type>CRITERION.OTHER.EO_DATA.SHELTERED_WORKSHOP</Type>
       <Name>
          <Source>Procurement reserved</Source>
@@ -1308,7 +1308,7 @@
       </Description>
       <RequirementGroupId>6febbe4a-e715-427c-a2b1-19cfabadaef0</RequirementGroupId>
    </Criterion>
-   <Criterion id="9b19e869-6c89-4cc4-bd6c-ac9ca8602165">
+   <Criterion id="9b19e869-6c89-4cc4-bd6c-ac9ca8602165" required="false">
       <Type>CRITERION.OTHER.EO_DATA.REGISTERED_IN_OFFICIAL_LIST</Type>
       <Name>
          <Source>EO registered</Source>
@@ -1320,7 +1320,7 @@
       </Description>
       <RequirementGroupId>64162276-7014-408f-a9af-080426bfe1fd</RequirementGroupId>
    </Criterion>
-   <Criterion id="ee51100f-8e3e-40c9-8f8b-57d5a15be1f2">
+   <Criterion id="ee51100f-8e3e-40c9-8f8b-57d5a15be1f2" required="false">
       <Type>CRITERION.OTHER.EO_DATA.TOGETHER_WITH_OTHERS</Type>
       <Name>
          <Source>EO participating in procurement procedure</Source>
@@ -1332,7 +1332,7 @@
       </Description>
       <RequirementGroupId>d939f2c6-ba25-4dc4-889c-11d1853add19</RequirementGroupId>
    </Criterion>
-   <Criterion id="0d62c6ed-f074-4fcf-8e9f-f691351d52ad">
+   <Criterion id="0d62c6ed-f074-4fcf-8e9f-f691351d52ad" required="false">
       <Type>CRITERION.OTHER.EO_DATA.RELIES_ON_OTHER_CAPACITIES</Type>
       <Name>
          <Source>EO relies capacities</Source>
@@ -1344,7 +1344,7 @@
       </Description>
       <RequirementGroupId>e688f7d6-dcef-4726-bc61-052e63ead60f</RequirementGroupId>
    </Criterion>
-   <Criterion id="72c0c4b1-ca50-4667-9487-461f3eed4ed7">
+   <Criterion id="72c0c4b1-ca50-4667-9487-461f3eed4ed7" required="false">
       <Type>CRITERION.OTHER.EO_DATA.SUBCONTRACTS_WITH_THIRD_PARTIES</Type>
       <Name>
          <Source>Subcontracting third parties</Source>
@@ -1356,7 +1356,7 @@
       </Description>
       <RequirementGroupId>d5fe5a71-7fd3-4910-b6f4-5cd2a4d23524</RequirementGroupId>
    </Criterion>
-   <Criterion id="9c70375e-1264-407e-8b50-b9736bc08901">
+   <Criterion id="9c70375e-1264-407e-8b50-b9736bc08901" required="false">
       <Type>CRITERION.OTHER.EO_DATA.MEETS_THE_OBJECTIVE</Type>
       <Name>
          <Source>It meets the objective and non discriminatory criteria or rules to be applied in order to limit the number of candidates in the following way: In case certain certificates or other forms of documentary evidence are required, please indicate for each whether the economic operator has the required documents:</Source>
