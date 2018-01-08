@@ -2,19 +2,19 @@
 <CriteriaTaxonomy xmlns="urn:fdc:difi.no:2017:vefa:espd:CriteriaTaxonomy-1">
    <Criterion id="005eb9ed-1347-4ca3-bb29-9bc0db64e1ab" required="false">
       <Type>CRITERION.EXCLUSION.CONVICTIONS.PARTICIPATION_IN_CRIMINAL_ORGANISATION</Type>
-      <Name>
+      <Name code="...">
          <Source>Participation in a criminal organisation</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for participation in a criminal organisation, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Article 2 of Council Framework Decision 2008/841/JHA of 24 October 2008 on the fight against organised crime (OJ L 300, 11.11.2008, p. 42).</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>Directive 2014/24/EU</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -26,19 +26,19 @@
    </Criterion>
    <Criterion id="c27b7c4e-c837-4529-b867-ed55ce639db5" required="false">
       <Type>CRITERION.EXCLUSION.CONVICTIONS.CORRUPTION</Type>
-      <Name>
+      <Name code="...">
          <Source>Corruption</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for corruption, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Article 3 of the Convention on the fight against corruption involving officials of the European Communities or officials of Member States of the European Union, OJ C 195, 25.6.1997, p. 1, and in Article 2(1) of Council Framework Decision 2003/568/JHA of 22 July 2003 on combating corruption in the private sector (OJ L 192, 31.7.2003, p. 54). This exclusion ground also includes corruption as defined in the national law of the contracting authority (contracting entity) or the economic operator.</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>Directive 2014/24/EU</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -50,19 +50,19 @@
    </Criterion>
    <Criterion id="297d2323-3ede-424e-94bc-a91561e6f320" required="false">
       <Type>CRITERION.EXCLUSION.CONVICTIONS.FRAUD</Type>
-      <Name>
+      <Name code="...">
          <Source>Fraud</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for fraud, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? Within the meaning of Article 1 of the Convention on the protection of the European Communities' financial interests (OJ C 316, 27.11.1995, p. 48).</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>Directive 2014/24/EU</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -74,19 +74,19 @@
    </Criterion>
    <Criterion id="d486fb70-86b3-4e75-97f2-0d71b5697c7d" required="false">
       <Type>CRITERION.EXCLUSION.CONVICTIONS.TERRORIST_OFFENCES</Type>
-      <Name>
+      <Name code="...">
          <Source>Terrorist offences or offences linked to terrorist activities</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for terrorist offences or offences linked to terrorist activities, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Articles 1 and 3 of Council Framework Decision of 13 June 2002 on combating terrorism (OJ L 164, 22.6.2002, p. 3). This exclusion ground also includes inciting or aiding or abetting or attempting to commit an offence, as referred to in Article 4 of that Framework Decision.</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>Directive 2014/24/EU</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -98,19 +98,19 @@
    </Criterion>
    <Criterion id="47112079-6fec-47a3-988f-e561668c3aef" required="false">
       <Type>CRITERION.EXCLUSION.CONVICTIONS.MONEY_LAUNDERING</Type>
-      <Name>
+      <Name code="...">
          <Source>Money laundering or terrorist financing</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for money laundering or terrorist financing, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Article 1 of Directive 2005/60/EC of the European Parliament and of the Council of 26 October 2005 on the prevention of the use of the financial system for the purpose of money laundering and terrorist financing (OJ L 309, 25.11.2005, p. 15).</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>Directive 2014/24/EU</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -122,19 +122,19 @@
    </Criterion>
    <Criterion id="d789d01a-fe03-4ccd-9898-73f9cfa080d1" required="false">
       <Type>CRITERION.EXCLUSION.CONVICTIONS.CHILD_LABOUR-HUMAN_TRAFFICKING</Type>
-      <Name>
+      <Name code="...">
          <Source>Child labour and other forms of trafficking in human beings</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for child labour and other forms of trafficking in human beings, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Article 2 of Directive 2011/36/EU of the European Parliament and of the Council of 5 April 2011 on preventing and combating trafficking in human beings and protecting its victims, and replacing Council Framework Decision 2002/629/JHA (OJ L 101, 15.4.2011, p. 1).</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>Directive 2014/24/EU</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -146,19 +146,19 @@
    </Criterion>
    <Criterion id="b61bbeb7-690e-4a40-bc68-d6d4ecfaa3d4" required="false">
       <Type>CRITERION.EXCLUSION.CONTRIBUTIONS.PAYMENT_OF_TAXES</Type>
-      <Name>
+      <Name code="...">
          <Source>Payment of taxes</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Has the economic operator breached its obligations relating to the payment of taxes, both in the country in which it is established and in Member State of the contracting authority or contracting entity if other than the country of establishment?</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>Directive 2014/24/EU</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -170,19 +170,19 @@
    </Criterion>
    <Criterion id="7d85e333-bbab-49c0-be8d-c36d71a72f5e" required="false">
       <Type>CRITERION.EXCLUSION.CONTRIBUTIONS.PAYMENT_OF_SOCIAL_SECURITY</Type>
-      <Name>
+      <Name code="...">
          <Source>Payment of social security contributions</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Has the economic operator breached its obligations relating to the payment social security contributions, both in the country in which it is established and in Member State of the contracting authority or contracting entity if other than the country of establishment?</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>Directive 2014/24/EU</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -194,19 +194,19 @@
    </Criterion>
    <Criterion id="a80ddb62-d25b-4e4e-ae22-3968460dc0a9" required="false">
       <Type>CRITERION.EXCLUSION.SOCIAL.ENVIRONMENTAL_LAW</Type>
-      <Name>
+      <Name code="...">
          <Source>Breaching of obligations in the fields of environmental law</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Has the economic operator, to its knowledge, breached its obligations in the fields of environmental law? As referred to for the purposes of this procurement in national law, in the relevant notice or the procurement documents or in Article 18(2) of Directive 2014/24/EU.</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>Directive 2014/24/EU</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -217,19 +217,19 @@
    </Criterion>
    <Criterion id="a261a395-ed17-4939-9c75-b9ff1109ca6e" required="false">
       <Type>CRITERION.EXCLUSION.SOCIAL.SOCIAL_LAW</Type>
-      <Name>
+      <Name code="...">
          <Source>Breaching of obligations in the fields of social law</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Has the economic operator, to its knowledge, breached its obligations in the fields of social law? As referred to for the purposes of this procurement in national law, in the relevant notice or the procurement documents or in Article 18(2) of Directive 2014/24/EU.</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>Directive 2014/24/EU</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -240,19 +240,19 @@
    </Criterion>
    <Criterion id="a34b70d6-c43d-4726-9a88-8e2b438424bf" required="false">
       <Type>CRITERION.EXCLUSION.SOCIAL.LABOUR_LAW</Type>
-      <Name>
+      <Name code="...">
          <Source>Breaching of obligations in the fields of labour law</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Has the economic operator, to its knowledge, breached its obligations in the fields of labour law? As referred to for the purposes of this procurement in national law, in the relevant notice or the procurement documents or in Article 18(2) of Directive 2014/24/EU.</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>Directive 2014/24/EU</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -263,19 +263,19 @@
    </Criterion>
    <Criterion id="d3732c09-7d62-4edc-a172-241da6636e7c" required="false">
       <Type>CRITERION.EXCLUSION.BUSINESS.BANKRUPTCY</Type>
-      <Name>
+      <Name code="...">
          <Source>Bankruptcy</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Is the economic operator bankrupt? This information needs not be given if exclusion of economic operators in this case has been made mandatory under the applicable national law without any possibility of derogation where the economic operator is nevertheless able to perform the contract.</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>Directive 2014/24/EU</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -287,19 +287,19 @@
    </Criterion>
    <Criterion id="396f288a-e267-4c20-851a-ed4f7498f137" required="false">
       <Type>CRITERION.EXCLUSION.BUSINESS.INSOLVENCY</Type>
-      <Name>
+      <Name code="...">
          <Source>Insolvency</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Is the economic operator the subject of insolvency or winding-up? This information needs not be given if exclusion of economic operators in this case has been made mandatory under the applicable national law without any possibility of derogation where the economic operator is nevertheless able to perform the contract.</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>Directive 2014/24/EU</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -311,19 +311,19 @@
    </Criterion>
    <Criterion id="68918c7a-f5bc-4a1a-a62f-ad8983600d48" required="false">
       <Type>CRITERION.EXCLUSION.BUSINESS.CREDITORS_ARRANGEMENT</Type>
-      <Name>
+      <Name code="...">
          <Source>Arrangement with creditors</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Is the economic operator in arrangement with creditors? This information needs not be given if exclusion of economic operators in this case has been made mandatory under the applicable national law without any possibility of derogation where the economic operator is nevertheless able to perform the contract.</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>Directive 2014/24/EU</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -335,19 +335,19 @@
    </Criterion>
    <Criterion id="daffa2a9-9f8f-4568-8be8-7b8bf306d096" required="false">
       <Type>CRITERION.EXCLUSION.BUSINESS.BANKRUPTCY_ANALOGOUS</Type>
-      <Name>
+      <Name code="...">
          <Source>Analogous situation like bankruptcy under national law</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Is the economic operator in any analogous situation like bankruptcy arising from a similar procedure under national laws and regulations? This information needs not be given if exclusion of economic operators in this case has been made mandatory under the applicable national law without any possibility of derogation where the economic operator is nevertheless able to perform the contract.</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>Directive 2014/24/EU</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -359,19 +359,19 @@
    </Criterion>
    <Criterion id="8fda202a-0c37-41bb-9d7d-de3f49edbfcb" required="false">
       <Type>CRITERION.EXCLUSION.BUSINESS.LIQUIDATOR_ADMINISTERED</Type>
-      <Name>
+      <Name code="...">
          <Source>Assets being administered by liquidator</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Are the assets of the economic operator being administered by a liquidator or by the court?  This information needs not be given if exclusion of economic operators in this case has been made mandatory under the applicable national law without any possibility of derogation where the economic operator is nevertheless able to perform the contract.</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>Directive 2014/24/EU</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -383,19 +383,19 @@
    </Criterion>
    <Criterion id="166536e2-77f7-455c-b018-70582474e4f6" required="false">
       <Type>CRITERION.EXCLUSION.BUSINESS.ACTIVITIES_SUSPENDED</Type>
-      <Name>
+      <Name code="...">
          <Source>Business activities are suspended</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Are the business activities of the economic operator suspended?  This information needs not be given if exclusion of economic operators in this case has been made mandatory under the applicable national law without any possibility of derogation where the economic operator is nevertheless able to perform the contract.</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>Directive 2014/24/EU</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -407,19 +407,19 @@
    </Criterion>
    <Criterion id="514d3fde-1e3e-4dcd-b02a-9f984d5bbda3" required="false">
       <Type>CRITERION.EXCLUSION.MISCONDUCT.MC_PROFESSIONAL</Type>
-      <Name>
+      <Name code="...">
          <Source>Guilty of grave professional misconduct</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Is the economic operator  guilty of grave professional misconduct? Where applicable, see definitions in national law, the relevant notice or the procurement documents.</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>Directive 2014/24/EU</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -430,19 +430,19 @@
    </Criterion>
    <Criterion id="56d13e3d-76e8-4f23-8af6-13e60a2ee356" required="false">
       <Type>CRITERION.EXCLUSION.MISCONDUCT.MARKET_DISTORTION</Type>
-      <Name>
+      <Name code="...">
          <Source>Agreements with other economic operators aimed at distorting competition</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Has the economic operator entered into agreements with other economic operators aimed at distorting competition?</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>Directive 2014/24/EU</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -453,19 +453,19 @@
    </Criterion>
    <Criterion id="b1b5ac18-f393-4280-9659-1367943c1a2e" required="false">
       <Type>CRITERION.EXCLUSION.CONFLICT_OF_INTEREST.PROCEDURE_PARTICIPATION</Type>
-      <Name>
+      <Name code="...">
          <Source>Conflict of interest due to its participation in the procurement procedure</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Is the economic operator aware of any conflict of interest, as indicated in national law, the relevant notice or the procurement documents due to its participation in the procurement procedure?</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>Directive 2014/24/EU</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -476,19 +476,19 @@
    </Criterion>
    <Criterion id="61874050-5130-4f1c-a174-720939c7b483" required="false">
       <Type>CRITERION.EXCLUSION.CONFLICT_OF_INTEREST.PROCEDURE_PREPARATION</Type>
-      <Name>
+      <Name code="...">
          <Source>Direct or indirect involvement in the preparation of this procurement procedure</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Has the economic operator or an undertaking related to it advised the contracting authority or contracting entity or otherwise been involved in the preparation of the procurement procedure?</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>Directive 2014/24/EU</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -499,19 +499,19 @@
    </Criterion>
    <Criterion id="3293e92b-7f3e-42f1-bee6-a7641bb04251" required="false">
       <Type>CRITERION.EXCLUSION.CONFLICT_OF_INTEREST.EARLY_TERMINATION</Type>
-      <Name>
+      <Name code="...">
          <Source>Early termination, damages or other comparable sanctions</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Has the economic operator experienced that a prior public contract, a prior contract with a contracting entity or a prior concession contract was terminated early, or that damages or other comparable sanctions were imposed in connection with that prior contract?</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>Directive 2014/24/EU</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -522,19 +522,19 @@
    </Criterion>
    <Criterion id="696a75b2-6107-428f-8b74-82affb67e184" required="false">
       <Type>CRITERION.EXCLUSION.CONFLICT_OF_INTEREST.MISINTERPRETATION</Type>
-      <Name>
+      <Name code="...">
          <Source>Guilty of misinterpretation, withheld information, unable to provide required documents and obtained confidential information of this procedure</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Can the economic operator confirm the four exclusion grounds, that it has not been guilty of serious misrepresentation in supplying the information required for the verification of the absence of grounds for exclusion or the fulfilment of the selection criteria, that it has not withheld such information, it has been able, without delay, to submit the supporting documents required by a contracting authority or contracting entity, and it has not undertaken to unduly influence the decision making process of the contracting authority or contracting entity, to obtain confidential information that may confer upon it undue advantages in the procurement procedure or to negligently provide misleading information that may have a material influence on decisions concerning exclusion, selection or award?</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>Directive 2014/24/EU</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -545,19 +545,19 @@
    </Criterion>
    <Criterion id="6ee55a59-6adb-4c3a-b89f-e62a7ad7be7f" required="false">
       <Type>CRITERION.SELECTION.SUITABILITY.PROFESSIONAL_REGISTER_ENROLMENT</Type>
-      <Name>
+      <Name code="...">
          <Source>Enrolment in a relevant professional register</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>It is enrolled in relevant professional registers kept in the Member State of its establishment as described in Annex XI of Directive 2014/24/EU; economic operators from certain Member States may have to comply with other requirements set out in that Annex.</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>Directive 2014/24/EU</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -569,19 +569,19 @@
    </Criterion>
    <Criterion id="87b3fa26-3549-4f92-b8e0-3fd8f04bf5c7" required="false">
       <Type>CRITERION.SELECTION.SUITABILITY.TRADE_REGISTER_ENROLMENT</Type>
-      <Name>
+      <Name code="...">
          <Source>Enrolment in a trade register</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>It is enrolled in trade registers kept in the Member State of its establishment as described in Annex XI of Directive 2014/24/EU; economic operators from certain Member States may have to comply with other requirements set out in that Annex.</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>Directive 2014/24/EU</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -593,19 +593,19 @@
    </Criterion>
    <Criterion id="9eeb6d5c-0eb8-48e8-a4c5-5087a7c095a4" required="false">
       <Type>CRITERION.SELECTION.SUITABILITY.AUTHORISATION</Type>
-      <Name>
+      <Name code="...">
          <Source>For service contracts: authorisation of particular organisation needed</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Is a particular membership of a particular organisation needed in order to be able to perform the service in question in the country of establishment of the economic operator?</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>Directive 2014/24/EU</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -617,19 +617,19 @@
    </Criterion>
    <Criterion id="73f10e36-ed7a-412e-995c-aa76463e3776" required="false">
       <Type>CRITERION.SELECTION.SUITABILITY.MEMBERSHIP</Type>
-      <Name>
+      <Name code="...">
          <Source>For service contracts: membership of particular organisation needed</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Is a particular membership of a particular organisation needed in order to be able to perform the service in question in the country of establishment of the economic operator?</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>Directive 2014/24/EU</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -641,19 +641,19 @@
    </Criterion>
    <Criterion id="499efc97-2ac1-4af2-9e84-323c2ca67747" required="false">
       <Type>CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.TURNOVER.GENERAL_YEARLY</Type>
-      <Name>
+      <Name code="...">
          <Source>General yearly turnover</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Its general yearly turnover for the number of financial years required in the relevant notice, the procurement documents or the ESPD is as follows:</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>On public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -669,19 +669,19 @@
    </Criterion>
    <Criterion id="b16cb9fc-6cb7-4585-9302-9533b415cf48" required="false">
       <Type>CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.TURNOVER.AVERAGE_YEARLY</Type>
-      <Name>
+      <Name code="...">
          <Source>Average yearly turnover</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Its average yearly turnover for the number of years required in the relevant notice, the procurement documents or the ESPD is as follows:</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>On public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -693,19 +693,19 @@
    </Criterion>
    <Criterion id="074f6031-55f9-4e99-b9a4-c4363e8bc315" required="false">
       <Type>CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.TURNOVER.SPECIFIC_YEARLY</Type>
-      <Name>
+      <Name code="...">
          <Source>Specific yearly turnover</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Its specific yearly turnover in the business area covered by the contract for the number of financial years required in the relevant notice, the procurement documents or the ESPD is as follows:</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>On public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -721,19 +721,19 @@
    </Criterion>
    <Criterion id="d3dfb714-f558-4512-bbc5-e456fa2339de" required="false">
       <Type>CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.TURNOVER.SPECIFIC_AVERAGE</Type>
-      <Name>
+      <Name code="...">
          <Source>Specific average turnover</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Its specific average yearly turnover in the business area covered by the contract for the number of years required in the relevant notice, the procurement documents or the ESPD is as follows:</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>On public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -745,19 +745,19 @@
    </Criterion>
    <Criterion id="77f481ce-ffb6-483f-8e2b-c78db5e68292" required="false">
       <Type>CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.TURNOVER.SET_UP</Type>
-      <Name>
+      <Name code="...">
          <Source>Set up of economic operator</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>In case the information concerning turnover (general or specific) is not available for the entire period required, please state the date on which the economic operator was set up or started trading:</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>On public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -768,19 +768,19 @@
    </Criterion>
    <Criterion id="e4d37adc-08cd-4f4d-a8d8-32b62b0a1f46" required="false">
       <Type>CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.FINANCIAL_RATIO</Type>
-      <Name>
+      <Name code="...">
          <Source>Financial ratio</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Concerning the financial ratios  specified in the relevant notice, the procurement documents or the ESPD, the economic operator declares that the actual values for the required ratios are as follows:</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>On public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -792,19 +792,19 @@
    </Criterion>
    <Criterion id="7604bd40-4462-4086-8763-a50da51a869c" required="false">
       <Type>CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.RISK_INDEMNITY_INSURANCE</Type>
-      <Name>
+      <Name code="...">
          <Source>Professional risk indemnity insurance</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>The insured amount in its professional risk indemnity insurance is the following:</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>On public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -816,19 +816,19 @@
    </Criterion>
    <Criterion id="cdd3bb3e-34a5-43d5-b668-2aab86a73822" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.REFERENCES.WORKS_PERFORMANCE</Type>
-      <Name>
+      <Name code="...">
          <Source>For works contracts: performance of works of the specified type</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>For public works contracts only: During the reference period, the economic operator has performed the following works of the specified type. Contracting authorities may require up to five years and allow experience dating from more than five years.</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>On public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -840,19 +840,19 @@
    </Criterion>
    <Criterion id="3a18a175-1863-4b1d-baef-588ce61960ca" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.REFERENCES.SUPPLIES_DELIVERY_PERFORMANCE</Type>
-      <Name>
+      <Name code="...">
          <Source>For supply contracts: performance of deliveries of the specified type</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>For public supply contracts only: During the reference period, the economic operator has delivered the following principal deliveries of the type specified. Contracting authorities may require up to three years and allow experience dating from more than three years.</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>On public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -864,19 +864,19 @@
    </Criterion>
    <Criterion id="5e506c16-26ab-4e32-bb78-b27f87dc0565" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.REFERENCES.SERVICES_DELIVERY_PERFORMANCE</Type>
-      <Name>
+      <Name code="...">
          <Source>For service contracts: performance of services of the specified type</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>For public service contracts only: During the reference period, the economic operator has provided the following main services of the type specified. Contracting authorities may require up to three years and allow experience dating from more than three years.</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>On public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -888,19 +888,19 @@
    </Criterion>
    <Criterion id="3aaca389-4a7b-406b-a4b9-080845d127e7" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.TECHNICIANS_FOR_QUALITY_CONTROL</Type>
-      <Name>
+      <Name code="...">
          <Source>Technicians or technical bodies for quality control</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>It can call upon the following technicians or technical bodies, especially those responsible for quality control. For technicians or technical bodies not belonging directly to the economic operator's undertaking but on whose capacities the economic operator relies as set out under Part II, Section C, separate ESPD forms must be filled in.</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>On public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -912,19 +912,19 @@
    </Criterion>
    <Criterion id="c599c130-b29f-461e-a187-4e16c7d40db7" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.TECHNICIANS_FOR_CARRYING_WORKS</Type>
-      <Name>
+      <Name code="...">
          <Source>For works contracts: technicians or technical bodies to carry out the work</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>In the case of public works contracts, the economic operator will be able to call on the following technicians or technical bodies to carry out the work:</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>On public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -936,19 +936,19 @@
    </Criterion>
    <Criterion id="4bf996d9-439c-40c6-9ab9-980a48cb55a1" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.FACILITIES_FOR_QUALITY_ENSURING</Type>
-      <Name>
+      <Name code="...">
          <Source>Technical facilities and measures for ensuring quality</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>It uses the following technical facilities and measures for ensuring quality and its study and research facilities are as follows:</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>On public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -960,19 +960,19 @@
    </Criterion>
    <Criterion id="90a2e100-44cc-45d3-9970-69d6714f1596" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.FACILITIES_FOR_STUDY_RESEARCH</Type>
-      <Name>
+      <Name code="...">
          <Source>Study and research facilities</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>It uses the following study and research facilities are as follows:</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>On public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -984,19 +984,19 @@
    </Criterion>
    <Criterion id="dc12a151-7fdf-4733-a8f0-30f667292e66" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.SUPPLY_CHAIN_MANAGEMENT</Type>
-      <Name>
+      <Name code="...">
          <Source>Supply chain management</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>It will be able to apply the following supply chain management and tracking systems when performing the contract:</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>On public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -1008,19 +1008,19 @@
    </Criterion>
    <Criterion id="c8809aa1-29b6-4f27-ae2f-27e612e394db" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.CHECKS.ALLOWANCE_OF_CHECKS</Type>
-      <Name>
+      <Name code="...">
          <Source>Allowance of checks</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>For complex products or services to be supplied or, exceptionally, for products or services which are required for a special purpose: The economic operator will allow checks  to be conducted on the production capacities or the technical capacity of the economic operator and, where necessary, on the means of study and research which are available to it and on the quality control measures? The check is to be performed by the contracting authority or, in case the latter consents to this, on its behalf by a competent official body of the country in which the supplier or service provider is established.</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>On public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -1031,19 +1031,19 @@
    </Criterion>
    <Criterion id="07301031-2270-41af-8e7e-66fe0c777107" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.PROFESSIONAL_QUALIFICATIONS</Type>
-      <Name>
+      <Name code="...">
          <Source>Educational and professional qualifications</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>The following educational and professional qualifications are held by the service provider or the contractor itself, and/or (depending on the requirements set out in the relevant notice or the procurement documents by its managerial staff.</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>On public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -1055,19 +1055,19 @@
    </Criterion>
    <Criterion id="9460457e-b43d-48a9-acd1-615de6ddd33e" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.ENVIRONMENTAL_MANAGEMENT_MEASURES</Type>
-      <Name>
+      <Name code="...">
          <Source>Environmental management measures</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>The economic operator will be able to apply the following environmental management measures when performing the contract:</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>On public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -1079,19 +1079,19 @@
    </Criterion>
    <Criterion id="6346959b-e097-4ea1-89cd-d1b4c131ea4d" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.MANAGERIAL_STAFF</Type>
-      <Name>
+      <Name code="...">
          <Source>Number of managerial staff</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>The economic operator’s number of managerial staff for the last three years were as follows:</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>On public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -1105,19 +1105,19 @@
    </Criterion>
    <Criterion id="1f49b3f0-d50f-43f6-8b30-4bafab108b9b" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.AVERAGE_ANNUAL_MANPOWER</Type>
-      <Name>
+      <Name code="...">
          <Source>Average annual manpower</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>The economic operator’s average annual manpower for the last three years were as follows:</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>On public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -1131,19 +1131,19 @@
    </Criterion>
    <Criterion id="cc18c023-211d-484d-a32e-52f3f970285f" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.EQUIPMENT</Type>
-      <Name>
+      <Name code="...">
          <Source>Tools, plant or technical equipment</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>The following tools, plant or technical equipment will be available to it for performing the contract:</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>On public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -1155,19 +1155,19 @@
    </Criterion>
    <Criterion id="612a1625-118d-4ea4-a6db-413184e7c0a8" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.SUBCONTRACTING_PROPORTION</Type>
-      <Name>
+      <Name code="...">
          <Source>Subcontracting proportion</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>The economic operator intends possibly to subcontract  the following proportion (i.e. percentage) of the contract. Please note that if the economic operator has decided to subcontract a part of the contract and relies on the subcontractor’s capacities to perform that part, then please fill in a separate ESPD for such subcontractors, see Part II, Section C above.</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>On public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -1178,19 +1178,19 @@
    </Criterion>
    <Criterion id="bdf0601d-2480-4250-b870-658d0ee95be6" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.ARTEFACTS.NO_AUTHENTICATED_ARTEFACTS</Type>
-      <Name>
+      <Name code="...">
          <Source>For supply contracts: samples, descriptions or photographs without certification of authenticity</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>For public supply contracts: The economic operator will supply the required samples, descriptions or photographs of the products to be supplied, which do not need to be accompanied by certifications of authenticity.</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>On public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -1202,19 +1202,19 @@
    </Criterion>
    <Criterion id="7662b7a9-bcb8-4763-a0a7-7505d8e8470d" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.ARTEFACTS.AUTHENTICATED_ARTEFACTS</Type>
-      <Name>
+      <Name code="...">
          <Source>For supply contracts: samples, descriptions or photographs with certification of authenticity</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>For public supply contracts: The economic operator will supply the required samples, descriptions or photographs of the products to be supplied and will provide certifications of authenticity where applicable.</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>On public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -1226,19 +1226,19 @@
    </Criterion>
    <Criterion id="a7669d7d-9297-43e1-9d10-691a1660187c" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.CERTIFICATES.QUALITY_ASSURANCE.QA_INSTITUTES_CERTIFICATE</Type>
-      <Name>
+      <Name code="...">
          <Source>For supply contracts: certificates by quality control institutes</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Can the economic operator provide the required certificates drawn up by official quality control institutes or agencies of recognised competence attesting the conformity of products clearly identified by references to the technical specifications or standards, which are set out in the relevant notice or the procurement documents?</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>On public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -1250,19 +1250,19 @@
    </Criterion>
    <Criterion id="d726bac9-e153-4e75-bfca-c5385587766d" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.CERTIFICATES.QUALITY_ASSURANCE.QA_INDEPENDENT_CERTIFICATE</Type>
-      <Name>
+      <Name code="...">
          <Source>Certificates by independent bodies about quality assurance standards</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Will the economic operator be able to produce certificates drawn up by independent bodies attesting that the economic operator complies with the required quality assurance standards, including accessibility for disabled persons?</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>On public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -1274,19 +1274,19 @@
    </Criterion>
    <Criterion id="8ed65e48-fd0d-444f-97bd-4f58da632999" required="false">
       <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.CERTIFICATES.ENVIRONMENTAL_MANAGEMENT.ENV_INDEPENDENT_CERTIFICATE</Type>
-      <Name>
+      <Name code="...">
          <Source>Certificates by independent bodies about environmental management systems or standards</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Will the economic operator be able to produce certificates drawn up by independent bodies attesting that the economic operator complies with the required environmental management systems or standards?</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
-      <LegislationTitle>
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
-      <LegislationDescription>
+      <LegislationDescription code="...">
          <Source>On public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationDescription>
@@ -1298,11 +1298,11 @@
    </Criterion>
    <Criterion id="2043338f-a38a-490b-b3ec-2607cb25a017" required="false">
       <Type>CRITERION.OTHER.EO_DATA.SHELTERED_WORKSHOP</Type>
-      <Name>
+      <Name code="...">
          <Source>Procurement reserved</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Only in case the procurement is reserved: is the economic operator a sheltered workshop, a 'social business' or will it provide for the performance of the contract in the context of sheltered employment programmes?</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
@@ -1310,11 +1310,11 @@
    </Criterion>
    <Criterion id="9b19e869-6c89-4cc4-bd6c-ac9ca8602165" required="false">
       <Type>CRITERION.OTHER.EO_DATA.REGISTERED_IN_OFFICIAL_LIST</Type>
-      <Name>
+      <Name code="...">
          <Source>EO registered</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>If applicable, is the economic operator registered on an official list of approved economic operators or does it have an equivalent certificate (e.g. under a national (pre)qualification system)?</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
@@ -1322,11 +1322,11 @@
    </Criterion>
    <Criterion id="ee51100f-8e3e-40c9-8f8b-57d5a15be1f2" required="false">
       <Type>CRITERION.OTHER.EO_DATA.TOGETHER_WITH_OTHERS</Type>
-      <Name>
+      <Name code="...">
          <Source>EO participating in procurement procedure</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Is the economic operator participating in the procurement procedure together with others?</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
@@ -1334,11 +1334,11 @@
    </Criterion>
    <Criterion id="0d62c6ed-f074-4fcf-8e9f-f691351d52ad" required="false">
       <Type>CRITERION.OTHER.EO_DATA.RELIES_ON_OTHER_CAPACITIES</Type>
-      <Name>
+      <Name code="...">
          <Source>EO relies capacities</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Does the economic operator rely on the capacities of other entities in order to meet the selection criteria set out under Part IV and the criteria and rules (if any) set out under Part V below?</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
@@ -1346,11 +1346,11 @@
    </Criterion>
    <Criterion id="72c0c4b1-ca50-4667-9487-461f3eed4ed7" required="false">
       <Type>CRITERION.OTHER.EO_DATA.SUBCONTRACTS_WITH_THIRD_PARTIES</Type>
-      <Name>
+      <Name code="...">
          <Source>Subcontracting third parties</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>Does the economic operator intend to subcontract any share of the contract to third parties?</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
@@ -1358,11 +1358,11 @@
    </Criterion>
    <Criterion id="9c70375e-1264-407e-8b50-b9736bc08901" required="false">
       <Type>CRITERION.OTHER.EO_DATA.MEETS_THE_OBJECTIVE</Type>
-      <Name>
+      <Name code="...">
          <Source>It meets the objective and non discriminatory criteria or rules to be applied in order to limit the number of candidates in the following way: In case certain certificates or other forms of documentary evidence are required, please indicate for each whether the economic operator has the required documents:</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Name>
-      <Description>
+      <Description code="...">
          <Source>If some of these certificates or forms of documentary evidence are available electronically, please indicate for each:</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
@@ -1635,420 +1635,420 @@
       <RequirementId>d8e1e818-d67b-4bb9-9aeb-4c10943a8342</RequirementId>
    </RequirementGroup>
    <Requirement id="974c8196-9d1c-419c-9ca9-45bb9f5fd59a">
-      <Description>
+      <Description code="...">
          <Source>Your answer?</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>INDICATOR</Response>
    </Requirement>
    <Requirement id="ecf40999-7b64-4e10-b960-7f8ff8674cf6">
-      <Description>
+      <Description code="...">
          <Source>Date of conviction</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>DATE</Response>
    </Requirement>
    <Requirement id="7d35fb7c-da5b-4830-b598-4f347a04dceb">
-      <Description>
+      <Description code="...">
          <Source>Reason</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>DESCRIPTION</Response>
    </Requirement>
    <Requirement id="c5012430-14da-454c-9d01-34cedc6a7ded">
-      <Description>
+      <Description code="...">
          <Source>Who has been convicted</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>DESCRIPTION</Response>
    </Requirement>
    <Requirement id="9ca9096f-edd2-4f19-b6b1-b55c83a2d5c8">
-      <Description>
+      <Description code="...">
          <Source>Length of the period of exclusion</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>PERIOD</Response>
    </Requirement>
    <Requirement id="20c5361b-7599-4ee6-b030-7f8323174d1e">
-      <Description>
+      <Description code="...">
          <Source>Have you taken measures to demonstrate your reliability ("Self-Cleaning")?</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>INDICATOR</Response>
    </Requirement>
    <Requirement id="7b07904f-e080-401a-a3a1-9a3efeeda54b">
-      <Description>
+      <Description code="...">
          <Source>Please describe them</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>DESCRIPTION</Response>
    </Requirement>
    <Requirement id="c1347b74-1872-4060-a6db-f4044edcd7c4">
-      <Description>
+      <Description code="...">
          <Source>Is this information available electronically?</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>INDICATOR</Response>
    </Requirement>
    <Requirement id="f4313bb6-21b6-499e-bdff-debe10e11d2c">
-      <Description>
+      <Description code="...">
          <Source>URL</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>EVIDENCE_URL</Response>
    </Requirement>
    <Requirement id="1f1cd18e-3e01-4ca2-af4c-e2981924ba8d">
-      <Description>
+      <Description code="...">
          <Source>Code</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>CODE</Response>
    </Requirement>
    <Requirement id="c3ccfa31-0c5e-4e3a-a3fd-db9fb83d78d4">
-      <Description>
+      <Description code="...">
          <Source>Issuer</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>DESCRIPTION</Response>
    </Requirement>
    <Requirement id="6c87d3d4-e8eb-4253-b385-6373020ab886">
-      <Description>
+      <Description code="...">
          <Source>Country or member state concerned</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>CODE_COUNTRY</Response>
    </Requirement>
    <Requirement id="9052cc59-cfe5-41c6-a314-02a7f378ffe8">
-      <Description>
+      <Description code="...">
          <Source>Amount concerned</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>AMOUNT</Response>
    </Requirement>
    <Requirement id="9b4497e6-a166-46f9-8581-7fc39ff975c4">
-      <Description>
+      <Description code="...">
          <Source>Has this breach of obligations been established by means other than a judicial or administrative decision?</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>INDICATOR</Response>
    </Requirement>
    <Requirement id="201f11c3-1fa2-4464-acc0-f021266fd881">
-      <Description>
+      <Description code="...">
          <Source>Please describe which means were used</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>DESCRIPTION</Response>
    </Requirement>
    <Requirement id="08b0c984-c5e6-4143-8493-868c39745637">
-      <Description>
+      <Description code="...">
          <Source>If this breach of obligations was established through a judicial or administrative decision, was this decision final and binding?</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>INDICATOR</Response>
    </Requirement>
    <Requirement id="70f8697b-8953-411a-a489-4ff62e5250d2">
-      <Description>
+      <Description code="...">
          <Source>Has the economic operator fulfilled its obligations by paying or entering into a binding arrangement with a view to paying the taxes or social security contributions due, including, where applicable, any interest accrued or fines?</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>INDICATOR</Response>
    </Requirement>
    <Requirement id="55905dd0-38f0-4f93-8c74-5ae05a21afc5">
-      <Description>
+      <Description code="...">
          <Source>Please describe them</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>DESCRIPTION</Response>
    </Requirement>
    <Requirement id="e098da8e-4717-4500-965f-f882d5b4e1ad">
-      <Description>
+      <Description code="...">
          <Source>Please describe them</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>DESCRIPTION</Response>
    </Requirement>
    <Requirement id="4e3f468a-86c4-4c99-bd15-c8b221229348">
-      <Description>
+      <Description code="...">
          <Source>Indicate reasons for being nevertheless to perform the contract</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>DESCRIPTION</Response>
    </Requirement>
    <Requirement id="15335c12-ad77-4728-b5ad-3c06a60d65a4">
-      <Description>
+      <Description code="...">
          <Source>Your answer?</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>INDICATOR</Response>
    </Requirement>
    <Requirement id="9dae5670-cb75-4c97-901b-96ddac5a633a">
-      <Description>
+      <Description code="...">
          <Source>Is this information available electronically?</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>INDICATOR</Response>
    </Requirement>
    <Requirement id="03bb1954-13ae-47d8-8ef8-b7fe0f22d700">
-      <Description>
+      <Description code="...">
          <Source>URL</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>EVIDENCE_URL</Response>
    </Requirement>
    <Requirement id="e2d863a0-60cb-4e58-8c14-4c1595af48b7">
-      <Description>
+      <Description code="...">
          <Source>Code</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>CODE</Response>
    </Requirement>
    <Requirement id="5cbf74d9-a1e2-4233-921d-8b298842ee7d">
-      <Description>
+      <Description code="...">
          <Source>Issuer</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>DESCRIPTION</Response>
    </Requirement>
    <Requirement id="51391308-0bf6-423c-95e2-d5a54aa31fb8">
-      <Description>
+      <Description code="...">
          <Source>Please describe them</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>DESCRIPTION</Response>
    </Requirement>
    <Requirement id="42ec8116-31a7-4118-8612-5b04f5c8bde7">
-      <Description>
+      <Description code="...">
          <Source>Start Date</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>DATE</Response>
    </Requirement>
    <Requirement id="3641b897-f9f0-4d90-909a-b6d4c4b1d645">
-      <Description>
+      <Description code="...">
          <Source>End Date</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>DATE</Response>
    </Requirement>
    <Requirement id="42db0eaa-d2dd-48cb-83ac-38d73cab9b50">
-      <Description>
+      <Description code="...">
          <Source>Amount</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>AMOUNT</Response>
    </Requirement>
    <Requirement id="b98ffd05-6572-4b07-a521-693a1754ed46">
-      <Description>
+      <Description code="...">
          <Source>Number of years</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>QUANTITY_INTEGER</Response>
    </Requirement>
    <Requirement id="217637ba-6bdb-4c73-a38f-27fe0e71d9be">
-      <Description>
+      <Description code="...">
          <Source>Average turnover</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>AMOUNT</Response>
    </Requirement>
    <Requirement id="a18b2c98-8552-45ca-9751-d4c94c05847a">
-      <Description>
+      <Description code="...">
          <Source>Please specify</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>QUANTITY_YEAR</Response>
    </Requirement>
    <Requirement id="ab05ff3b-f3e1-4441-9b43-ee9912e29e92">
-      <Description>
+      <Description code="...">
          <Source>Description</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>DESCRIPTION</Response>
    </Requirement>
    <Requirement id="5461b973-7067-457e-93cc-8338da2c3eef">
-      <Description>
+      <Description code="...">
          <Source>Ratio</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>QUANTITY</Response>
    </Requirement>
    <Requirement id="a92536ab-6783-40bb-a037-5d31f421fd85">
-      <Description>
+      <Description code="...">
          <Source>Recipients</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>DESCRIPTION</Response>
    </Requirement>
    <Requirement id="23a27c0e-c4f7-42cd-b0fd-a7cedfbf77a7">
-      <Description>
+      <Description code="...">
          <Source>Do you allow checks?</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>INDICATOR</Response>
    </Requirement>
    <Requirement id="5aacceb3-280e-42f1-b2da-3d8ac7877fe9">
-      <Description>
+      <Description code="...">
          <Source>Year</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>QUANTITY_YEAR</Response>
    </Requirement>
    <Requirement id="42037f41-53af-44df-b6b8-2395cee98087">
-      <Description>
+      <Description code="...">
          <Source>Number</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>QUANTITY_INTEGER</Response>
    </Requirement>
    <Requirement id="15778db8-0d84-42ba-931b-774c1b3d3f9f">
-      <Description>
+      <Description code="...">
          <Source>Please specify</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>DESCRIPTION</Response>
    </Requirement>
    <Requirement id="b9dec4cb-2f6f-47d7-a023-e9099b19b338">
-      <Description>
+      <Description code="...">
          <Source>If not, please explain why and state which other means of proof can be provided:</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>DESCRIPTION</Response>
    </Requirement>
    <Requirement id="8c5d1e13-54f7-4895-a65c-b8e09253130c">
-      <Description>
+      <Description code="...">
          <Source>If not, please explain why and specify which other means of proof concerning the quality assurance scheme can be provided:</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>DESCRIPTION</Response>
    </Requirement>
    <Requirement id="b0aace10-fd73-46d1-ae78-289ee5cd42ca">
-      <Description>
+      <Description code="...">
          <Source>If not, please explain why and specify which other means of proof concerning the environmental management systems or standards can be provided:</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>DESCRIPTION</Response>
    </Requirement>
    <Requirement id="7f18c64e-ae09-4646-9400-f3666d50af51">
-      <Description>
+      <Description code="...">
          <Source>Your answer</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>INDICATOR</Response>
    </Requirement>
    <Requirement id="4e552658-d532-4770-943b-b90efcc9788d">
-      <Description>
+      <Description code="...">
          <Source>What is the corresponding percentage of disabled or disadvantaged workers?</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>PERCENTAGE</Response>
    </Requirement>
    <Requirement id="e01d0929-c7a9-455a-aaf9-e1f7cd966336">
-      <Description>
+      <Description code="...">
          <Source>If required, please provide details on whether the employees concerned belong to a specific category of disabled or disadvantaged workers?</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>DESCRIPTION</Response>
    </Requirement>
    <Requirement id="30064ad3-fc11-4579-8528-fdd0b9a5ba75">
-      <Description>
+      <Description code="...">
          <Source>a) Please provide the relevant registration or certification number, if applicable:</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>DESCRIPTION</Response>
    </Requirement>
    <Requirement id="b3403349-cbc0-4d84-879e-fc0f2d90ecbd">
-      <Description>
+      <Description code="...">
          <Source>b) If the certificate of registration or certification is available electronically, please state:</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>DESCRIPTION</Response>
    </Requirement>
    <Requirement id="792ff522-6f3f-4a62-ab6e-a8b272bc290e">
-      <Description>
+      <Description code="...">
          <Source>c) Please state the references on which the registration or certification is based, and, where applicable, the classification obtained in the official list:</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>DESCRIPTION</Response>
    </Requirement>
    <Requirement id="d9996ef5-49f9-4cf8-a2f5-31c9f4efd894">
-      <Description>
+      <Description code="...">
          <Source>d) Does the registration or certification cover all of the required selection criteria?</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>INDICATOR</Response>
    </Requirement>
    <Requirement id="0e71abd3-198e-49c5-8128-5708617bb191">
-      <Description>
+      <Description code="...">
          <Source>e) Will the economic operator be able to provide a certificate with regard to the payment of social security contributions and taxes or provide information enabling the contracting authority or contracting entity to obtaining it directly by accessing a national database in any Member State that is available free of charge?</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>INDICATOR</Response>
    </Requirement>
    <Requirement id="caa72cea-5443-49fb-84ba-ab6c64427f77">
-      <Description>
+      <Description code="...">
          <Source>If the relevant documentation is available electronically, please indicate:</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>DESCRIPTION</Response>
    </Requirement>
    <Requirement id="907fd62b-02f1-452c-81a8-785bedb0c536">
-      <Description>
+      <Description code="...">
          <Source>a) Please indicate the role of the economic operator in the group (leader, responsible for specific tasks...):</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>DESCRIPTION</Response>
    </Requirement>
    <Requirement id="7c267f95-a3a7-49ef-abd9-e121dcd641a9">
-      <Description>
+      <Description code="...">
          <Source>b) Please identify the other economic operators participating in the procurement procedure together:</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>DESCRIPTION</Response>
    </Requirement>
    <Requirement id="96f38793-4469-4153-aba6-c613282cdbdc">
-      <Description>
+      <Description code="...">
          <Source>c) Where applicable, name of the participating group:</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>DESCRIPTION</Response>
    </Requirement>
    <Requirement id="999c7fe2-61cd-4e86-b76f-e280304dc8c9">
-      <Description>
+      <Description code="...">
          <Source>If yes and in so far as known, please list the proposed subcontractors:</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>DESCRIPTION</Response>
    </Requirement>
    <Requirement id="323f19b5-3308-4873-b2d1-767963cc81e9">
-      <Description>
+      <Description code="...">
          <Source>Please describe them</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>DESCRIPTION</Response>
    </Requirement>
    <Requirement id="0622bbd1-7378-45e1-8fb9-25429740ac22">
-      <Description>
+      <Description code="...">
          <Source>Is this information available electronically?</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>INDICATOR</Response>
    </Requirement>
    <Requirement id="ee1ee1cd-3791-4855-8b8b-28d4f4c5c007">
-      <Description>
+      <Description code="...">
          <Source>URL</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>EVIDENCE_URL</Response>
    </Requirement>
    <Requirement id="1e55ff14-c643-4abc-91d7-2f4dfcdf2409">
-      <Description>
+      <Description code="...">
          <Source>Code</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>
       <Response>CODE</Response>
    </Requirement>
    <Requirement id="d8e1e818-d67b-4bb9-9aeb-4c10943a8342">
-      <Description>
+      <Description code="...">
          <Source>Issuer</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </Description>

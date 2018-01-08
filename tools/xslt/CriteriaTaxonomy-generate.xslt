@@ -40,11 +40,11 @@
     <xsl:template match="ccv:Criterion">
         <Criterion id="{cbc:ID/text()}" required="false">
             <Type><xsl:value-of select="cbc:TypeCode/text()"/></Type>
-            <Name>
+            <Name code="...">
                 <Source><xsl:value-of select="cbc:Name/text()"/></Source>
                 <Translation lang="nb"><xsl:comment select="' ... '"/></Translation>
             </Name>
-            <Description>
+            <Description code="...">
                 <Source><xsl:value-of select="cbc:Description/text()"/></Source>
                 <Translation lang="nb"><xsl:comment select="' ... '"/></Translation>
             </Description>
@@ -58,11 +58,11 @@
     </xsl:template>
 
     <xsl:template match="ccv:LegislationReference">
-        <LegislationTitle>
+        <LegislationTitle code="...">
             <Source><xsl:value-of select="ccv-cbc:Title/text()"/></Source>
             <Translation lang="nb"><xsl:comment select="' ... '"/></Translation>
         </LegislationTitle>
-        <LegislationDescription>
+        <LegislationDescription code="...">
             <Source><xsl:value-of select="cbc:Description/text()"/></Source>
             <Translation lang="nb"><xsl:comment select="' ... '"/></Translation>
         </LegislationDescription>
@@ -87,7 +87,7 @@
 
     <xsl:template match="ccv:Requirement">
         <Requirement id="{cbc:ID/text()}">
-            <Description>
+            <Description code="...">
                 <Source><xsl:value-of select="cbc:Description"/></Source>
                 <Translation lang="nb"><xsl:comment select="' ... '"/></Translation>
             </Description>
