@@ -1,6 +1,6 @@
 #!/bin/sh
 
-FOLDER=$(dirname $(readlink -f "$0"))/../..
+FOLDER=$(echo $(dirname $(readlink -f "$0")) | sed "s:/tools/bin::")
 
 if [ $(command -v docker-compose | wc -l) = "1" ]; then
     docker-compose \

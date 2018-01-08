@@ -1,9 +1,9 @@
 #!/bin/sh
 
-FOLDER=$(dirname $(readlink -f "$0"))/../..
+FOLDER=$(echo $(dirname $(readlink -f "$0")) | sed "s:/tools/bin::")
 
 info() {
-    echo "\n  *** $1 ***\n"
+    echo "\n *** $1 ***\n"
 }
 
 dc () {
