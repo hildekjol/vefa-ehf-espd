@@ -918,7 +918,7 @@
                                 <Description>The name of an evidence</Description>
                             </Element>
 
-                            <Element>
+                            <Element cardinality="0..1">
                                 <Term>cev-cbc:EmbeddedEvidenceIndicator</Term>
                                 <Value type="FIXED">false</Value>
                             </Element>
@@ -999,7 +999,7 @@
 
                 <Attribute>
                     <Term>schemeID</Term>
-                    <Value type="FIXED">COM-GROW-TEMPORARY-ID</Value>
+                    <Value type="EXAMPLE">COM-GROW-TEMPORARY-ID</Value>
                 </Attribute>
 
                 <Attribute>
