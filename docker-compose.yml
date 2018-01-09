@@ -53,14 +53,14 @@ services:
     command: prepare rules/sch/EHF-ESPD-REQUEST.sch /target/EHF-ESPD-REQUEST.sch
     volumes:
      - .:/src
-     - ./target/generated:/target
+     - ./target/site/files:/target
 
   schematron-response:
     image: "klakegg/schematron"
     command: prepare rules/sch/EHF-ESPD-RESPONSE.sch /target/EHF-ESPD-RESPONSE.sch
     volumes:
      - .:/src
-     - ./target/generated:/target
+     - ./target/site/files:/target
 
   structure:
     image: "difi/vefa-structure:0.5"

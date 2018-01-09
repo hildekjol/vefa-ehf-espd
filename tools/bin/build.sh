@@ -48,6 +48,11 @@ info "Prepare zip containing XSD files"
 dc schema-zip
 
 
+info "Run vefa-structure"
+
+dc structure
+
+
 info "Prepare Schematron"
 
 echo " * Request"
@@ -55,11 +60,6 @@ dc schematron-request
 
 echo " * Response"
 dc schematron-response
-
-
-info "Run vefa-structure"
-
-dc structure
 
 
 info "Build and verify validation artifacts"

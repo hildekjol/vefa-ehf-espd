@@ -155,17 +155,21 @@
     </Resource>
     <Resource>
         <Type>native:File</Type>
-        <Path>target/generated/EHF-ESPD-REQUEST.sch</Path>
-        <Title>Schematron for EHF ESPD 1.0 Request (TODO)</Title>
+        <Path>rules/sch/EHF-ESPD-REQUEST.sch</Path>
+        <Title>Schematron for EHF ESPD 1.0 Request</Title>
         <Description>Schematron file containing rules according to ISO Schematron.</Description>
         <Property key="download">EHF-ESPD-REQUEST.sch</Property>
+        <!-- <Property key="filter">schematron</Property>
+        <Property key="step">POST_ARTIFACTS</Property> -->
     </Resource>
     <Resource>
         <Type>native:File</Type>
-        <Path>target/generated/EHF-ESPD-RESPONSE.sch</Path>
-        <Title>Schematron for EHF ESPD 1.0 Response (TODO)</Title>
+        <Path>rules/sch/EHF-ESPD-RESPONSE.sch</Path>
+        <Title>Schematron for EHF ESPD 1.0 Response</Title>
         <Description>Schematron file containing rules according to ISO Schematron.</Description>
         <Property key="download">EHF-ESPD-RESPONSE.sch</Property>
+        <!-- <Property key="filter">schematron</Property>
+        <Property key="step">POST_ARTIFACTS</Property> -->
     </Resource>
 
     <!-- Namespace -->
