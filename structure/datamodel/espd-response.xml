@@ -150,7 +150,7 @@
             </Attribute>
         </Element>
 
-        <Element>
+        <Element cardinality="0..1">
             <Term>espd-cbc:EconomicOperatorGroupName</Term>
             <Name>Consortium group name</Name>
             <Description>The name of the Consortium or group to which the Economic Operator belongs for a specific procurement project</Description>
@@ -486,7 +486,7 @@
                     </Element>
                 </Element>
 
-                <Element>
+                <Element cardinality="0..1">
                     <Term>cac:PostalAddress</Term>
                     <Name>Economic operator postal address</Name>
                     <Description>he address of the Economic Operator, as registered in a Business Register</Description>
@@ -503,13 +503,13 @@
                         <Description>The main address line in an address. Usually the street name and number or post office box.</Description>
                     </Element>
 
-                    <Element>
+                    <Element cardinality="0..1">
                         <Term>cbc:CityName</Term>
                         <Name>City</Name>
                         <Description>The common name of a city where the address is located.</Description>
                     </Element>
 
-                    <Element>
+                    <Element cardinality="0..1">
                         <Term>cbc:PostalZone</Term>
                         <Name>Post code</Name>
                         <Description>The identifier for an addressable group of properties according to the relevant postal service, such as a ZIP code or Post Code.</Description>
@@ -912,7 +912,7 @@
                                 to demonstrate that one stated response does actually fulfill the Requirement from a Criterion</Description>
 
 
-                            <Element>
+                            <Element cardinality="0..1">
                                 <Term>cev-cbc:EvidenceName</Term>
                                 <Name>Evidence name</Name>
                                 <Description>The name of an evidence</Description>
@@ -938,11 +938,11 @@
                                 </Element>
                             </Element>
 
-                            <Element>
+                            <Element cardinality="0..1">
                                 <Term>cev-cac:EvidenceDocumentReference</Term>
                                 <Description>Evidence document</Description>
 
-                                <Element>
+                                <Element cardinality="0..1">
                                     <Term>cbc:ID</Term>
                                     <Name>Evidence identifier</Name>
                                     <Description>The ID for this document. Must be a UUID of version 4 (random generated UUID); this value is used internally to identify this document reference.</Description>
