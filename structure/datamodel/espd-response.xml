@@ -442,7 +442,13 @@
             <Element>
                 <Term>cac:Party</Term>
                 <Name>Party</Name>
-
+                
+                <Element cardinality="0..1">
+                    <Term>cbc:WebsiteURI</Term>
+                    <Name>Contracting body website</Name>
+                    <Value type="EXAMPLE">https://www.difi.no/</Value>
+                </Element>
+                
                 <Element>
                     <Term>cbc:EndpointID</Term>
                     <Name>Economic operator electronic address identifier</Name>
@@ -1044,7 +1050,7 @@
                 <Value type="EXAMPLE">TED_CN</Value>
             </Element>
 
-            <Element>
+            <Element cardinality="0..1">
                 <Term>cac:Attachment</Term>
                 <Name>Attachment</Name>
 

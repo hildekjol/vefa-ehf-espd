@@ -564,7 +564,7 @@
                 <Value type="EXAMPLE">TED_CN</Value>
             </Element>
 
-            <Element>
+            <Element cardinality="0..1">
                 <Term>cac:Attachment</Term>
                 <Name>Attachment</Name>
 
