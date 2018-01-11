@@ -2,13 +2,13 @@
 <CriteriaTaxonomy xmlns="urn:fdc:difi.no:2017:vefa:espd:CriteriaTaxonomy-1">
    <Criterion id="005eb9ed-1347-4ca3-bb29-9bc0db64e1ab" required="false">
       <Type>CRITERION.EXCLUSION.CONVICTIONS.PARTICIPATION_IN_CRIMINAL_ORGANISATION</Type>
-      <Name code="...">
+      <Name code="crit_eu_title_grounds_criminal_conv">
          <Source>Participation in a criminal organisation</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Deltakelse i en kriminell organisasjon></Translation>
       </Name>
-      <Description code="...">
+      <Description code="crit_eu_text_grounds_criminal_conv">
          <Source>Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for participation in a criminal organisation, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Article 2 of Council Framework Decision 2008/841/JHA of 24 October 2008 on the fight against organised crime (OJ L 300, 11.11.2008, p. 42).</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Er leverandøren selv eller en person, som er medlem av leverandørens administrasjons-, ledelses- eller kontrollorgan eller har kompetanse til å representere eller kontrollere eller treffe beslutninger i slike organer, ved rettskraftig dom blitt dømt for deltakelse i en kriminell organisasjon ved en dom avsagt for ikke mer enn fem år siden, eller en avvisningsperiode fastsatt direkte i dommen som fortsatt gjelder?<p> Deltakelse i en kriminell organisasjon som definert i artikkel 2 i Rådets rammeavgjørelse 2008/841/RIA av 24. oktober 2008 om bekjempelse av organisert kriminalitet (EUT L 300 av 11.11.2008, s. 42)></Translation>
       </Description>
       <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
@@ -26,13 +26,13 @@
    </Criterion>
    <Criterion id="c27b7c4e-c837-4529-b867-ed55ce639db5" required="false">
       <Type>CRITERION.EXCLUSION.CONVICTIONS.CORRUPTION</Type>
-      <Name code="...">
+      <Name code="crit_eu_title_corruption">
          <Source>Corruption</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Korrupsjon></Translation>
       </Name>
-      <Description code="...">
+      <Description code="crit_eu_text_corruption">
          <Source>Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for corruption, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Article 3 of the Convention on the fight against corruption involving officials of the European Communities or officials of Member States of the European Union, OJ C 195, 25.6.1997, p. 1, and in Article 2(1) of Council Framework Decision 2003/568/JHA of 22 July 2003 on combating corruption in the private sector (OJ L 192, 31.7.2003, p. 54). This exclusion ground also includes corruption as defined in the national law of the contracting authority (contracting entity) or the economic operator.</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Er leverandøren selv eller en person, som er medlem av leverandørens administrasjons-, ledelses- eller kontrollorgan eller har kompetanse til å representere eller kontrollere eller treffe beslutninger i slike organer, ved rettskraftig dom blitt dømt for korrupsjon ved en dom avsagt for ikke mer enn fem år siden, eller en avvisningsperiode fastsatt direkte i dommen som fortsatt gjelder?<p>Korrupsjon som definert i artikkel 3 i konvensjonen om bekjempelse av korrupsjon, som involverer tjenestemenn i De Europeiske Fellesskapene eller i Den Europeiske Unions medlemsstater (EUT C 195 av 25.6.1997, s. 1), og i artikkel 2, stk. 1, i Rådets rammeavgjørelse 2003/568/RIA av 22. juli 2003 om bekjempelse av korrupsjon i den private sektor (EUT L 192 av 31.7.2003, s. 54). Denne avvisningsgrunnen omfatter også korrupsjon som definert i nasjonal rett for oppdragsgiveren eller leverandøren.></Translation>
       </Description>
       <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
@@ -50,13 +50,13 @@
    </Criterion>
    <Criterion id="297d2323-3ede-424e-94bc-a91561e6f320" required="false">
       <Type>CRITERION.EXCLUSION.CONVICTIONS.FRAUD</Type>
-      <Name code="...">
+      <Name code="crit_eu_title_fraud">
          <Source>Fraud</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Bedrageri></Translation>
       </Name>
-      <Description code="...">
+      <Description code="crit_eu_text_fraud">
          <Source>Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for fraud, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? Within the meaning of Article 1 of the Convention on the protection of the European Communities' financial interests (OJ C 316, 27.11.1995, p. 48).</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Er leverandøren selv eller en person, som er medlem av leverandørens administrasjons-, ledelses- eller kontrollorgan eller har kompetanse til å representere eller kontrollere eller treffe beslutninger i slike organer, ved rettskraftig dom blitt dømt for bedrageri ved en dom avsagt for ikke mer enn fem år siden, eller en avvisningsperiode fastsatt direkte i dommen som fortsatt gjelder?></Translation>
       </Description>
       <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
@@ -74,13 +74,13 @@
    </Criterion>
    <Criterion id="d486fb70-86b3-4e75-97f2-0d71b5697c7d" required="false">
       <Type>CRITERION.EXCLUSION.CONVICTIONS.TERRORIST_OFFENCES</Type>
-      <Name code="...">
+      <Name code="crit_eu_title_terrorist">
          <Source>Terrorist offences or offences linked to terrorist activities</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Terrorhandlinger eller straffbare handlinger med forbindelse til terroraktivitet></Translation>
       </Name>
-      <Description code="...">
+      <Description code="crit_eu_text_terrorist">
          <Source>Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for terrorist offences or offences linked to terrorist activities, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Articles 1 and 3 of Council Framework Decision of 13 June 2002 on combating terrorism (OJ L 164, 22.6.2002, p. 3). This exclusion ground also includes inciting or aiding or abetting or attempting to commit an offence, as referred to in Article 4 of that Framework Decision.</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Er leverandøren selv eller en person, som er medlem av leverandørens administrasjons-, ledelses- eller kontrollorgan eller har kompetanse til å representere eller kontrollere eller treffe beslutninger i slike organer, ved rettskraftig dom blitt dømt for terrorhandlinger eller straffbare handlinger med forbindelse til terroraktivitetved en dom avsagt for ikke mer enn fem år siden, eller en avvisningsperiode fastsatt direkte i dommen som fortsatt gjelder?<p> Terrorhandlinger eller straffbare handlinger med forbindelse til terroraktivitet som definert i artikkel 1 og 3 i Rådets rammeavgjørelse 2002/475/RIA av 13. juni 2002 om bekjempelse av terrorisme (EFT L 164 af 22.6.2002, s. 3). Denne avvisningsgrunnen omfatter også oppfordring til, medvirkning til eller forsøk på å begå slike handlinger som omhandlet i artikkel 4 i nevnte rammeavgjørelse.></Translation>
       </Description>
       <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
@@ -98,13 +98,13 @@
    </Criterion>
    <Criterion id="47112079-6fec-47a3-988f-e561668c3aef" required="false">
       <Type>CRITERION.EXCLUSION.CONVICTIONS.MONEY_LAUNDERING</Type>
-      <Name code="...">
+      <Name code="crit_eu_title_money_laundering">
          <Source>Money laundering or terrorist financing</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Hvitvasking av penger eller finansiering av terrorisme></Translation>
       </Name>
-      <Description code="...">
+      <Description code="crit_eu_text_money_laundering">
          <Source>Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for money laundering or terrorist financing, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Article 1 of Directive 2005/60/EC of the European Parliament and of the Council of 26 October 2005 on the prevention of the use of the financial system for the purpose of money laundering and terrorist financing (OJ L 309, 25.11.2005, p. 15).</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Er leverandøren selv eller en person, som er medlem av leverandørens administrasjons-, ledelses- eller kontrollorgan eller har kompetanse til å representere eller kontrollere eller treffe beslutninger i slike organer, ved rettskraftig dom blitt dømt for hvitvasking av penger eller finansiering av terrorisme ved en dom avsagt for ikke mer enn fem år siden, eller en avvisningsperiode fastsatt direkte i dommen som fortsatt gjelder?></Translation>
       </Description>
       <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
@@ -122,13 +122,13 @@
    </Criterion>
    <Criterion id="d789d01a-fe03-4ccd-9898-73f9cfa080d1" required="false">
       <Type>CRITERION.EXCLUSION.CONVICTIONS.CHILD_LABOUR-HUMAN_TRAFFICKING</Type>
-      <Name code="...">
+      <Name code="crit_eu_title_child_labour">
          <Source>Child labour and other forms of trafficking in human beings</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Barnearbeid og andre former for menneskehandel></Translation>
       </Name>
-      <Description code="...">
+      <Description code="crit_eu_text_child_labour">
          <Source>Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for child labour and other forms of trafficking in human beings, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Article 2 of Directive 2011/36/EU of the European Parliament and of the Council of 5 April 2011 on preventing and combating trafficking in human beings and protecting its victims, and replacing Council Framework Decision 2002/629/JHA (OJ L 101, 15.4.2011, p. 1).</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Er leverandøren selv eller en person, som er medlem av leverandørens administrasjons-, ledelses- eller kontrollorgan eller har kompetanse til å representere eller kontrollere eller treffe beslutninger i slike organer, ved rettskraftig dom blitt dømt for barnearbeid og andre former for menneskehandel ved en dom avsagt for ikke mer enn fem år siden, eller en avvisningsperiode fastsatt direkte i dommen som fortsatt gjelder?<p>Barnearbeid og andre former for menneskehandel som definert i artikkel 2 i Europaparlamentets og Rådets direktiv 2011/36/EU av 5. april 2011 om forebygging og bekjempelse av menneskehandel og beskyttelse av dets ofre, og om erstatning av Rådets rammeavgjørelse 2002/629/RIA (EUT L 101 av 15.4.2011, s. 1).></Translation>
       </Description>
       <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
@@ -146,13 +146,13 @@
    </Criterion>
    <Criterion id="b61bbeb7-690e-4a40-bc68-d6d4ecfaa3d4" required="false">
       <Type>CRITERION.EXCLUSION.CONTRIBUTIONS.PAYMENT_OF_TAXES</Type>
-      <Name code="...">
+      <Name code="crit_eu_title_payment_taxes">
          <Source>Payment of taxes</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Betaling av skatter og avgifter></Translation>
       </Name>
-      <Description code="...">
+      <Description code="crit_eu_text_payment_taxes">
          <Source>Has the economic operator breached its obligations relating to the payment of taxes, both in the country in which it is established and in Member State of the contracting authority or contracting entity if other than the country of establishment?</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Har leverandøren unnlatt å oppfylle alle sine forpliktelser til å betale skatter og avgifter både i det land han er etablert i, og i oppdragsgivers medlemsstat, hvis dette er et annet land enn det han er etablert i?></Translation>
       </Description>
       <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
@@ -170,13 +170,13 @@
    </Criterion>
    <Criterion id="7d85e333-bbab-49c0-be8d-c36d71a72f5e" required="false">
       <Type>CRITERION.EXCLUSION.CONTRIBUTIONS.PAYMENT_OF_SOCIAL_SECURITY</Type>
-      <Name code="...">
+      <Name code="crit_eu_title_payment_social_security">
          <Source>Payment of social security contributions</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Betaling av trygdeavgifter></Translation>
       </Name>
-      <Description code="...">
+      <Description code="crit_eu_text_payment_social_security">
          <Source>Has the economic operator breached its obligations relating to the payment social security contributions, both in the country in which it is established and in Member State of the contracting authority or contracting entity if other than the country of establishment?</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Har leverandør unnlatt å oppfylle alle sine forpliktelser til å betale trygdeavgifter både i det land han er etablert i, og i oppdragsgivers medlemsstat, hvis dette er et annet land enn det han er etablert i?></Translation>
       </Description>
       <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
@@ -194,13 +194,13 @@
    </Criterion>
    <Criterion id="a80ddb62-d25b-4e4e-ae22-3968460dc0a9" required="false">
       <Type>CRITERION.EXCLUSION.SOCIAL.ENVIRONMENTAL_LAW</Type>
-      <Name code="...">
+      <Name code="crit_eu_title_breaching_obligations_environmental">
          <Source>Breaching of obligations in the fields of environmental law</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Brudd på bestemmelsene om miljø></Translation>
       </Name>
-      <Description code="...">
+      <Description code="crit_eu_text_breaching_obligations_environmental">
          <Source>Has the economic operator, to its knowledge, breached its obligations in the fields of environmental law? As referred to for the purposes of this procurement in national law, in the relevant notice or the procurement documents or in Article 18(2) of Directive 2014/24/EU.</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Er leverandøren kjent med å ha begått brudd på bestemmelser om miljø slik som de fremgår av nasjonal rett, den relevante kunngjøringen eller anskaffelsesdokumentene eller artikkel 18 (2) i direktiv 2014/24/EU.></Translation>
       </Description>
       <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
@@ -217,13 +217,13 @@
    </Criterion>
    <Criterion id="a261a395-ed17-4939-9c75-b9ff1109ca6e" required="false">
       <Type>CRITERION.EXCLUSION.SOCIAL.SOCIAL_LAW</Type>
-      <Name code="...">
+      <Name code="crit_eu_title_breaching_obligations_social">
          <Source>Breaching of obligations in the fields of social law</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Brudd på bestemmelsene om sosiale forhold></Translation>
       </Name>
-      <Description code="...">
+      <Description code="crit_eu_text_breaching_obligations_social">
          <Source>Has the economic operator, to its knowledge, breached its obligations in the fields of social law? As referred to for the purposes of this procurement in national law, in the relevant notice or the procurement documents or in Article 18(2) of Directive 2014/24/EU.</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Er leverandøren kjent med å ha begått brudd på bestemmelser om sosiale forhold slik som de fremgår av nasjonal rett, den relevante kunngjøringen eller anskaffelsesdokumentene eller artikkel 18 (2) i direktiv 2014/24/EU.></Translation>
       </Description>
       <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
@@ -240,13 +240,13 @@
    </Criterion>
    <Criterion id="a34b70d6-c43d-4726-9a88-8e2b438424bf" required="false">
       <Type>CRITERION.EXCLUSION.SOCIAL.LABOUR_LAW</Type>
-      <Name code="...">
+      <Name code="crit_eu_title_breaching_obligations_labour">
          <Source>Breaching of obligations in the fields of labour law</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Brudd på bestemmelsene om arbeidsforhold></Translation>
       </Name>
-      <Description code="...">
+      <Description code="crit_eu_text_breaching_obligations_labour">
          <Source>Has the economic operator, to its knowledge, breached its obligations in the fields of labour law? As referred to for the purposes of this procurement in national law, in the relevant notice or the procurement documents or in Article 18(2) of Directive 2014/24/EU.</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Er leverandøren kjent med å ha begått brudd på bestemmelser om arbeidsforhold slik som de fremgår av nasjonal rett, den relevante kunngjøringen eller anskaffelsesdokumentene eller artikkel 18 (2) i direktiv 2014/24/EU.></Translation>
       </Description>
       <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
@@ -263,13 +263,13 @@
    </Criterion>
    <Criterion id="d3732c09-7d62-4edc-a172-241da6636e7c" required="false">
       <Type>CRITERION.EXCLUSION.BUSINESS.BANKRUPTCY</Type>
-      <Name code="...">
+      <Name code="crit_eu_title_bankrupt">
          <Source>Bankruptcy</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Konkurs></Translation>
       </Name>
-      <Description code="...">
+      <Description code="crit_eu_text_bankrupt">
          <Source>Is the economic operator bankrupt? This information needs not be given if exclusion of economic operators in this case has been made mandatory under the applicable national law without any possibility of derogation where the economic operator is nevertheless able to perform the contract.</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Er leverandøren i en konkurssituasjon? Angi hvorfor man under nevnte omstendigheter likevel er i stand til å utføre kontrakten, tatt i betraktning gjeldende nasjonale bestemmelser og tiltak vedrørende fortsettelse av forretningsaktivitetene? Det er ikke nødvendig å angi disse opplysningene hvis avvisning av leverandører, som befinner seg i en slik situasjon, er gjort obligatorisk i henhold til gjeldende nasjonal rett uten mulighet for unntak, når leverandør likevel er i stand til å utføre kontrakten.></Translation>
       </Description>
       <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
@@ -287,13 +287,13 @@
    </Criterion>
    <Criterion id="396f288a-e267-4c20-851a-ed4f7498f137" required="false">
       <Type>CRITERION.EXCLUSION.BUSINESS.INSOLVENCY</Type>
-      <Name code="...">
+      <Name code="crit_eu_title_insolvency">
          <Source>Insolvency</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Insolvens></Translation>
       </Name>
-      <Description code="...">
+      <Description code="crit_eu_text_insolvency">
          <Source>Is the economic operator the subject of insolvency or winding-up? This information needs not be given if exclusion of economic operators in this case has been made mandatory under the applicable national law without any possibility of derogation where the economic operator is nevertheless able to perform the contract.</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Er leverandøren i en insolvenssituasjon? Angi hvorfor man under nevnte omstendigheter likevel er i stand til å utføre kontrakten, tatt i betraktning gjeldende nasjonale bestemmelser og tiltak vedrørende fortsettelse av forretningsaktivitetene? Det er ikke nødvendig å angi disse opplysningene hvis avvisning av leverandører, som befinner seg i en slik situasjon, er gjort obligatorisk i henhold til gjeldende nasjonal rett uten mulighet for unntak, når leverandør likevel er i stand til å utføre kontrakten.></Translation>
       </Description>
       <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
@@ -311,13 +311,13 @@
    </Criterion>
    <Criterion id="68918c7a-f5bc-4a1a-a62f-ad8983600d48" required="false">
       <Type>CRITERION.EXCLUSION.BUSINESS.CREDITORS_ARRANGEMENT</Type>
-      <Name code="...">
+      <Name code="crit_eu_title_arrangement_creditors">
          <Source>Arrangement with creditors</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Tvungen gjeldsordning></Translation>
       </Name>
-      <Description code="...">
+      <Description code="crit_eu_text_arrangement_creditors">
          <Source>Is the economic operator in arrangement with creditors? This information needs not be given if exclusion of economic operators in this case has been made mandatory under the applicable national law without any possibility of derogation where the economic operator is nevertheless able to perform the contract.</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Er leverandøren i en situasjon hvor han har fått tvungen gjeldsordning?  Angi hvorfor man under nevnte omstendigheter likevel er i stand til å utføre kontrakten, tatt i betraktning gjeldende nasjonale bestemmelser og tiltak vedrørende fortsettelse av forretningsaktivitetene? Det er ikke nødvendig å angi disse opplysningene hvis avvisning av leverandører, som befinner seg i en slik situasjon, er gjort obligatorisk i henhold til gjeldende nasjonal rett uten mulighet for unntak, når leverandør likevel er i stand til å utføre kontrakten.></Translation>
       </Description>
       <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
@@ -359,13 +359,13 @@
    </Criterion>
    <Criterion id="8fda202a-0c37-41bb-9d7d-de3f49edbfcb" required="false">
       <Type>CRITERION.EXCLUSION.BUSINESS.LIQUIDATOR_ADMINISTERED</Type>
-      <Name code="...">
+      <Name code="crit_eu_title_liquidator">
          <Source>Assets being administered by liquidator</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Er leverandøren i en situasjon hvor han har sine aktiva forvaltet av en konkursforvalter eller av retten?></Translation>
       </Name>
-      <Description code="...">
+      <Description code="crit_eu_text_liquidator">
          <Source>Are the assets of the economic operator being administered by a liquidator or by the court?  This information needs not be given if exclusion of economic operators in this case has been made mandatory under the applicable national law without any possibility of derogation where the economic operator is nevertheless able to perform the contract.</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Angi hvorfor man under nevnte omstendigheter likevel er i stand til å utføre kontrakten, tatt i betraktning gjeldende nasjonale bestemmelser og tiltak vedrørende fortsettelse av forretningsaktivitetene? Det er ikke nødvendig å angi disse opplysningene hvis avvisning av leverandører, som befinner seg i en slik situasjon, er gjort obligatorisk i henhold til gjeldende nasjonal rett uten mulighet for unntak, når leverandør likevel er i stand til å utføre kontrakten.></Translation>
       </Description>
       <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
