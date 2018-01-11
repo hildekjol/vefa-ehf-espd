@@ -7,6 +7,11 @@ The table below lists the file names corresponding to each block, schema, namesp
 |===
 |Data Package |XSD file names |Namespace |Prefix
 
+|ESPDRequest
+|/xsd/maindoc/ESPDResponse-1.0.xsd
+|urn:grow:names:specification:ubl:schema:xsd:ESPDRequest-1
+|espd-req
+
 |ESPDResponse
 |/xsd/maindoc/ESPDResponse-1.0.xsd
 |urn:grow:names:specification:ubl:schema:xsd:ESPDResponse-1

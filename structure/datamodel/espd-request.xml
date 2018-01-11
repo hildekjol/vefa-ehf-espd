@@ -114,7 +114,7 @@
                 <Value type="FIXED">EU-COM-GROW</Value>
             </Attribute>
 
-            <Value type="FIXED">1.0.2</Value>
+            <Value type="FIXED">2016.04.2</Value>
         </Element>
 
         <!-- Element cbc:PreviousVersionID not in use. -->
