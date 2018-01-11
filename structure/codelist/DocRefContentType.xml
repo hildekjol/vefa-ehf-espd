@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeList xmlns="urn:fdc:difi.no:2017:vefa:structure:CodeList-1">
 
-    <Title>ADDITIONAL DOCUMENT REFERENCE CONTENT TYPE CODE</Title>
+    <Title>Document Reference Content Types</Title>
     <Identifier>DocRefContentType</Identifier>
     <Version>1.0.2</Version>
     <Agency>DG GROW (European Commission)</Agency>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeList xmlns="urn:fdc:difi.no:2017:vefa:structure:CodeList-1">
 
-    <Title>PERIOD TYPES</Title>
+    <Title>Period Types</Title>
     <Identifier>PeriodMeasureTypeCodes</Identifier>
     <Version>1.0.2</Version>
     <Agency>DG GROW (European Commission)</Agency>
