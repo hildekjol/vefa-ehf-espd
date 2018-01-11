@@ -27,7 +27,7 @@
 
         <!-- Element ext:UBLExtensions not in use. -->
 
-        <Element>
+        <Element cardinality="0..1">
             <Term>cbc:UBLVersionID</Term>
             <Name>UBL Version identifier</Name>
             <Description>Identifies the earliest version of the UBL 2 schema for this document type
@@ -478,6 +478,7 @@
 
         <Element cardinality="1..n">
             <Term>cac:ProcurementProjectLot</Term>
+            <Name>Procurement Project Lot</Name>
             <Description>If there is a single procurement project lot, the ESPD refers to a project without lots.</Description>
 
             <Element>

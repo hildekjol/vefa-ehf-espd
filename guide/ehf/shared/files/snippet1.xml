@@ -43,7 +43,7 @@
     <!-- tag::criterion[] -->
     <ccv:Criterion>
         <cbc:ID schemeID="CriteriaID" schemeAgencyID="EU-COM-GROW" schemeVersionID="1.0"
-            >61874050-5130-4f1c-a174-720939c7b483</cbc:ID>
+            >61874050-5130-4f1c-a174-720939c7b483</cbc:ID><!--1-->
         <cbc:TypeCode listID="CriteriaTypeCode" listAgencyID="EU-COM-GROW" listVersionID="1.0.2"
             >CRITERION.EXCLUSION.CONFLICT_OF_INTEREST.PROCEDURE_PREPARATION</cbc:TypeCode>
         <cbc:Name>Direct or indirect involvement in the preparation of this procurement
@@ -51,7 +51,7 @@
         <cbc:Description>Has the economic operator or an undertaking related to it advised the
             contracting authority or contracting entity or otherwise been involved in the preparation
             of the procurement procedure?</cbc:Description>
-        <ccv:LegislationReference>
+        <ccv:LegislationReference><!--2-->
             <ccv-cbc:Title>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26
                 February 2014 on public procurement and repealing Directive 2004/18/EC</ccv-cbc:Title>
             <cbc:Description>Directive 2014/24/EU</cbc:Description>
@@ -61,10 +61,10 @@
             <ccv-cbc:Article>57(4)</ccv-cbc:Article>
             <cbc:URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</cbc:URI>
         </ccv:LegislationReference>
-        <ccv:RequirementGroup>
+        <ccv:RequirementGroup><!--3-->
             <cbc:ID schemeAgencyID="EU-COM-GROW" schemeVersionID="1.0"
                 >77ae3f29-7c5f-4afa-af97-24afec48c5bf</cbc:ID>
-            <ccv:Requirement responseDataType="INDICATOR">
+            <ccv:Requirement responseDataType="INDICATOR"><!--4-->
                 <cbc:ID schemeID="CriterionRelatedIDs" schemeAgencyID="EU-COM-GROW"
                     schemeVersionID="1.0">974c8196-9d1c-419c-9ca9-45bb9f5fd59a</cbc:ID>
                 <cbc:Description>Your answer?</cbc:Description>
