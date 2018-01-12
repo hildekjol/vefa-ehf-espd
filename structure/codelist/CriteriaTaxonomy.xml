@@ -597,9 +597,9 @@
          <Source>For service contracts: authorisation of particular organisation needed</Source>
          <Translation lang="nb"><Autorisasjoner fra en bestemt organisasjon nødvendig></Translation>
       </Name>
-      <Description code="...">
+      <Description code="crit_selection_suitability_service_contracts_membership_description">
          <Source>Is a particular membership of a particular organisation needed in order to be able to perform the service in question in the country of establishment of the economic operator?</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Er det nødvendig med et bestemt medlemsskap i en bestemt organisasjon for å kunne utføre tjenesten i leverandørens hjemland?></Translation>
       </Description>
       <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
@@ -645,9 +645,9 @@
          <Source>General yearly turnover</Source>
          <Translation lang="nb"><"Totale" årsomsetning-></Translation>
       </Name>
-      <Description code="...">
+      <Description code="crit_selection_economic_general_yearly_turnover_description">
          <Source>Its general yearly turnover for the number of financial years required in the relevant notice, the procurement documents or the ESPD is as follows:</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Leverandørens ("totale") årsomsetning for det antall regnskapsår som det anmodes om i kunngjøringen eller i anskaffelsesdokumentene, er som følger:></Translation>
       </Description>
       <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
@@ -1059,11 +1059,11 @@
          <Source>Environmental management measures</Source>
          <Translation lang="nb"><Miljøledelsestiltak></Translation>
       </Name>
-      <Description code="...">
+      <Description code="crit_selection_technical_environment_management_features_description">
          <Source>The economic operator will be able to apply the following environmental management measures when performing the contract:</Source>
          <Translation lang="nb"><Leverandør kan anvende følgende miljøledelsestiltak i forbindelse med utførelsen av kontrakten:></Translation>
       </Description>
-      <LegislationTitle code="crit_selection_technical_environment_management_features_description">
+      <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
          <Translation lang="nb"><!-- ... --></Translation>
       </LegislationTitle>
@@ -1692,16 +1692,16 @@ createeo_first_name=Fornavn></Translation>
       <Response>INDICATOR</Response>
    </Requirement>
    <Requirement id="f4313bb6-21b6-499e-bdff-debe10e11d2c">
-      <Description code="...">
+      <Description code="crit_url">
          <Source>URL</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><URL/nettadresse></Translation>
       </Description>
       <Response>EVIDENCE_URL</Response>
    </Requirement>
    <Requirement id="1f1cd18e-3e01-4ca2-af4c-e2981924ba8d">
-      <Description code="...">
+      <Description code="crit_code">
          <Source>Code</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Kode></Translation>
       </Description>
       <Response>CODE</Response>
    </Requirement>
@@ -1720,9 +1720,9 @@ createeo_first_name=Fornavn></Translation>
       <Response>CODE_COUNTRY</Response>
    </Requirement>
    <Requirement id="9052cc59-cfe5-41c6-a314-02a7f378ffe8">
-      <Description code="...">
+      <Description code="crit_amount_concerned">
          <Source>Amount concerned</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Beløpets størrelse></Translation>
       </Description>
       <Response>AMOUNT</Response>
    </Requirement>
@@ -1860,9 +1860,9 @@ createeo_first_name=Fornavn></Translation>
       <Response>QUANTITY_YEAR</Response>
    </Requirement>
    <Requirement id="ab05ff3b-f3e1-4441-9b43-ee9912e29e92">
-      <Description code="...">
+      <Description code="crit_description">
          <Source>Description</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Beskrivelse></Translation>
       </Description>
       <Response>DESCRIPTION</Response>
    </Requirement>
@@ -1895,9 +1895,9 @@ createeo_first_name=Fornavn></Translation>
       <Response>QUANTITY_YEAR</Response>
    </Requirement>
    <Requirement id="42037f41-53af-44df-b6b8-2395cee98087">
-      <Description code="...">
+      <Description code="crit_number">
          <Source>Number</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Nummer></Translation>
       </Description>
       <Response>QUANTITY_INTEGER</Response>
    </Requirement>
@@ -2042,16 +2042,16 @@ createeo_first_name=Fornavn></Translation>
       <Response>EVIDENCE_URL</Response>
    </Requirement>
    <Requirement id="1e55ff14-c643-4abc-91d7-2f4dfcdf2409">
-      <Description code="...">
+      <Description code="crit_code">
          <Source>Code</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Kode></Translation>
       </Description>
       <Response>CODE</Response>
    </Requirement>
    <Requirement id="d8e1e818-d67b-4bb9-9aeb-4c10943a8342">
-      <Description code="crit_code">
+      <Description code="crit_issuer">
          <Source>Issuer</Source>
-         <Translation lang="nb"><Kode></Translation>
+         <Translation lang="nb"><Utsteder></Translation>
       </Description>
       <Response>DESCRIPTION</Response>
    </Requirement>
