@@ -12,11 +12,11 @@
       </Description>?
       <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Europaparlaments- og rådsdirektiv 2014/24/EU av 26. februar 2014 om offentlige anskaffelser som avløser direktiv 2004/18/EU.></Translation>
       </LegislationTitle>
       <LegislationDescription code="...">
          <Source>Directive 2014/24/EU</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Direktiv 2014/24/EU></Translation>
       </LegislationDescription>
       <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
       <Article>57(1)</Article>
@@ -36,7 +36,7 @@
       </Description>
       <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Europaparlaments- og rådsdirektiv 2014/24/EU av 26. februar 2014 om offentlige anskaffelser som avløser direktiv 2004/18/EU.></Translation>
       </LegislationTitle>
       <LegislationDescription code="...">
          <Source>Directive 2014/24/EU</Source>
@@ -597,9 +597,9 @@
          <Source>For service contracts: authorisation of particular organisation needed</Source>
          <Translation lang="nb"><Autorisasjoner fra en bestemt organisasjon nødvendig></Translation>
       </Name>
-      <Description code="crit_selection_suitability_service_contracts_membership_description">
-         <Source>Is a particular membership of a particular organisation needed in order to be able to perform the service in question in the country of establishment of the economic operator?</Source>
-         <Translation lang="nb"><Er det nødvendig med et bestemt medlemsskap i en bestemt organisasjon for å kunne utføre tjenesten i leverandørens hjemland?></Translation>
+      <Description code="crit_selection_suitability_service_contracts_auth_description">
+         <Source>Is a particular authorisation of a particular organisation needed in order to be able to perform the service in question in the country of establishment of the economic operator?</Source>
+         <Translation lang="nb"><Er det nødvendig med et bestemt autorisasjon fra en bestemt organisasjon for å kunne utføre tjenesten i leverandørens hjemland?></Translation>
       </Description>
       <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
@@ -621,9 +621,9 @@
          <Source>For service contracts: membership of particular organisation needed</Source>
          <Translation lang="nb"><Medlemskap i en bestemt organisasjon nødvendig></Translation>
       </Name>
-      <Description code="...">
+      <Description code="crit_selection_suitability_service_contracts_membership_description">
          <Source>Is a particular membership of a particular organisation needed in order to be able to perform the service in question in the country of establishment of the economic operator?</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Er det nødvendig med et bestemt medlemsskap i en bestemt organisasjon for å kunne utføre tjenesten i leverandørens hjemland?></Translation>
       </Description>
       <LegislationTitle code="...">
          <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
@@ -1300,7 +1300,7 @@
       <Type>CRITERION.OTHER.EO_DATA.SHELTERED_WORKSHOP</Type>
       <Name code="...">
          <Source>Procurement reserved</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Reservert anskaffelse></Translation>
       </Name>
       <Description code="createeo_if_proc_reserved">
          <Source>Only in case the procurement is reserved: is the economic operator a sheltered workshop, a 'social business' or will it provide for the performance of the contract in the context of sheltered employment programmes?</Source>
@@ -1312,7 +1312,7 @@
       <Type>CRITERION.OTHER.EO_DATA.REGISTERED_IN_OFFICIAL_LIST</Type>
       <Name code="...">
          <Source>EO registered</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Registrert leverandør></Translation>
       </Name>
       <Description code="createeo_eo_approved_cert">
          <Source>If applicable, is the economic operator registered on an official list of approved economic operators or does it have an equivalent certificate (e.g. under a national (pre)qualification system)?</Source>
@@ -1324,7 +1324,7 @@
       <Type>CRITERION.OTHER.EO_DATA.TOGETHER_WITH_OTHERS</Type>
       <Name code="...">
          <Source>EO participating in procurement procedure</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Leverandør som deltar i konkurransen></Translation>
       </Name>
       <Description code="createeo_is_eo_proc_together">
          <Source>Is the economic operator participating in the procurement procedure together with others?</Source>
@@ -1687,7 +1687,7 @@ createeo_first_name=Fornavn></Translation>
    <Requirement id="c1347b74-1872-4060-a6db-f4044edcd7c4">
       <Description code="...">
          <Source>Is this information available electronically?</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Er denne informasjonsn tilgjengelig elektronisk?></Translation>
       </Description>
       <Response>INDICATOR</Response>
    </Requirement>
@@ -1701,7 +1701,7 @@ createeo_first_name=Fornavn></Translation>
    <Requirement id="1f1cd18e-3e01-4ca2-af4c-e2981924ba8d">
       <Description code="crit_code">
          <Source>Code</Source>
-         <Translation lang="nb"><Kode></Translation>
+         <Translation lang="nb"><Kode eller identifikator></Translation>
       </Description>
       <Response>CODE</Response>
    </Requirement>
@@ -1771,7 +1771,7 @@ createeo_first_name=Fornavn></Translation>
    <Requirement id="4e3f468a-86c4-4c99-bd15-c8b221229348">
       <Description code="...">
          <Source>Indicate reasons for being nevertheless to perform the contract</Source>
-         <Translation lang="nb"><!-- ... --></Translation>
+         <Translation lang="nb"><Angi hvorfor man under nevnte omstendigheter likevel er i stand til å utføre kontrakten></Translation>
       </Description>
       <Response>DESCRIPTION</Response>
    </Requirement>
